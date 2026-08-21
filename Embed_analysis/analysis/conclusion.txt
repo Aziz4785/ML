@@ -1,0 +1,76 @@
+the goal is not just to understand hard_queries, but oto understand what make a query "hard"
+so we need to actively compare with easy_queries and see the distinctive features odf hard_queries
+so each action i take , will include systematically a comparaison with easy query
+
+1)by just looking at most commmon words we first highlight these words : 
+encyclopedic  54 (7.68%) [hard: 54 (88.52%), easy: 7 (11.48%)] [expected hard: 4.82 of 61 queries containing the word; hard odds with: 7.71, without: 0.08, odds ratio: odds of being hard is 97.42x higher when this word appears]
+
+beginning     72 (10.24%) [hard: 72 (88.89%), easy: 9 (11.11%)] [expected hard: 6.39 of 81 queries containing the word; hard odds with: 8.00, without: 0.08, odds ratio: odds of being hard is 103.89x higher when this word appears]
+
+factual       124 (17.64%) [hard: 124 (87.94%), easy: 17 (12.06%)] [expected hard: 11.13 of 141 queries containing the word; hard odds with: 7.29, without: 0.07, odds ratio: odds of being hard is 103.13x higher when this word appears]
+
+concise       117 (16.64%) [hard: 117 (86.67%), easy: 18 (13.33%)] [expected hard: 10.66 of 135 queries containing the word; hard odds with: 6.50, without: 0.07, odds ratio: odds of being hard is 90.79x higher when this word appears]
+
+2) two words : 
+
+then a          151 (21.48%) [hard: 151 (94.97%), easy: 8 (5.03%)] [expected hard: 12.55 of 159 queries containing the phrase; hard odds with: 18.88, without: 0.07, odds ratio: odds of being hard is 280.22x higher when this phrase appears]
+
+text beginning  72 (10.24%) [hard: 72 (98.63%), easy: 1 (1.37%)] [expected hard: 5.76 of 73 queries containing the phrase; hard odds with: 72.00, without: 0.08, odds ratio: odds of being hard is 935.89x higher when this phrase appears]
+
+beginning with  72 (10.24%) [hard: 72 (97.30%), easy: 2 (2.70%)] [expected hard: 5.84 of 74 queries containing the phrase; hard odds with: 36.00, without: 0.08, odds ratio: odds of being hard is 467.89x higher when this phrase appears]
+
+where a         77 (10.95%) [hard: 77 (92.77%), easy: 6 (7.23%)] [expected hard: 6.55 of 83 queries containing the phrase; hard odds with: 12.83, without: 0.08, odds ratio: odds of being hard is 168.04x higher when this phrase appears]
+
+
+-First interesting thing is that it seems like queries with 'text beginning with ..' are classfied as hard
+-then i emebdded all queries using open ai model, and without dimensionality reduction i performed an HDBSCAN clustreing.
+the output is in: analysis/hard_queries_by_cluster_maxd.json
+one interesting cluster is this one : 
+[
+      "text containing more than 150 words",
+      "text containing around 180 words",
+      "text with more than 250 words",
+      "a very short text",
+      "text containing 25 words",
+      "text containing 50 words",
+      "text containing 31 words",
+      "a text containing about 180 words",
+      "text with number of words between 22 and 30"
+    ]
+it regroups all queries about text size/length
+=> HYPOTHESIS: queries about text size/length
+
+Also in that clustering there was a cluster where the common point of its elemnt was : 
+"all queries are almost like this : 'Text beginning with a quote then an attribution tag'"
+so here i find what we found earlier about the 'text beginning with'
+=> HYPOTHESIS: queries that are a variation of this 'Text beginning with a quote then an attribution tag'
+
+Then i also projected embedding in a 2D map using UMAP and i notcied some very isolated clusters.
+For example there was a cluster about queries asking for short Greek mythology passages, but specified by style and format rather than by content.
+
+Another interesting cluster is this one : 
+[
+      "text formatted like an arxiv theoretical physics paper abstract with affiliations from the university of tokyo and kavli institute",
+      "text in lowercase academic style with hyphenated terms like spin-dependent and domain-wall",
+      "formal academic conference abstract or preprint in high-energy physics, technical and concise, objective and jargon-heavy, written to explain particle physics research",
+      "formal academic physics abstract with dense technical jargon, objective research style, and analytical results",
+      "formal technical academic abstract in dense mathematical-scientific style, objective and highly specialized, explaining a theorem and a computational method",
+      "formal scientific abstract in academic journal style, dense technical physics writing, objective and explanatory, focused on experimental results and quantitative analysis"
+    ]
+for each cluster in 2d, 50d and max dimension, i wrote a small description after seeing its 5 most significant element.
+Now let's extract all description :
+
+
+
+
+'encylpedic' and 'factual' keywords caught my attention.
+so i will look at queries having similar words (i call it : Formal writing style words)
+and i found this : 
+Formal writing style words
+  Hard queries containing at least one formal writing style word: 208
+  Easy queries containing at least one formal writing style word: 77
+  Total matching queries: 285
+  Among matching queries: hard 72.98%, easy 27.02%
+  Hard odds with a formal word: 2.70
+  Hard odds without a formal word: 0.06
+  Odds ratio : 44.34
