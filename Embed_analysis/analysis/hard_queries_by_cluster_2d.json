@@ -112,7 +112,7 @@
       "concise reference-note style linguistic glossary entry with bullet points, formal technical register, and terse explanatory definitions",
       "dictionary-style lexical entry with terse bullet-pointed definitions and etymology-like glosses, technical but concise, neutral reference tone"
     ],
-    "description": "bare noun phrases headed by a text-type (entry, note, explanation, prose), usually front-loaded with length and reference/linguistic modifiers. Template: [length] [dictionary/encyclopedic/technical/linguistic] TEXT-TYPE + ['with' examples/glosses/notation] + ['in a ___ style/tone/register'] + [', defining/explaining/comparing ___']; articles and finite verbs are rare."
+    "description": ""
   },
   "3": {
     "queries": [
@@ -167,7 +167,7 @@
       "informal explanatory grammar discussion with cautious, conversational tone and occasional self-referential asides, like a forum or blog comment about language usage",
       "informal explanatory grammar note with conversational tone, clarifying a usage example and correcting a common misunderstanding, technical but accessible"
     ],
-    "description": "mostly bare noun phrases headed by comment, note, discussion, explanation, or text, with 'informal', 'conversational', and 'explanatory' repeatedly stacked before the head. Template: [length] informal [domain] TEXT-TYPE + 'with' [hedges/asides/examples] + [tone/style phrase or 'like a forum/blog/Q&A'] + [', discussing/clarifying/analyzing ___']; occasional prompts instead use 'text containing/with the phrase ___'."
+    "description": ""
   },
   "4": {
     "queries": [
@@ -201,7 +201,7 @@
       "encyclopedic biographical prose in a factual, third-person, reference-book style, formal and information-dense with genealogical details",
       "formal, factual historical encyclopedia-style writing with a neutral, concise tone and dense informational sentence structure, explaining a historical event"
     ],
-    "description": "bare noun phrases headed by prose, narrative, writing, exposition, entry, or passage; modifiers nearly always stack formal/factual/encyclopedic with historical/biographical. Template: [length/density] [formal/factual] [historical/biographical/encyclopedic] TEXT-TYPE + 'in/with' [tone/style/detail] + [', summarizing/presenting/explaining ___']; no direct questions or hard lexical constraints."
+    "description": ""
   },
   "5": {
     "queries": [
@@ -239,7 +239,7 @@
       "encyclopedic reference entry, factual and neutral, formal academic-but-accessible prose, informative and concise",
       "encyclopedic factual definition entry with neutral, formal, concise explanatory tone"
     ],
-    "description": "bare noun phrases headed by prose, writing, entry, text, summary, or explanation; high repetition of encyclopedic/reference/factual/neutral modifiers and comma-separated adjective chains. Template: [length/density] encyclopedic [domain] TEXT-TYPE + 'in/with' [formal/objective/informational tone] + ['like a reference article/entry'] + [', defining/describing/summarizing ___']."
+    "description": ""
   },
   "6": {
     "queries": [
@@ -277,7 +277,7 @@
       "text with more than 250 words",
       "text containing the word 'Republicanism'"
     ],
-    "description": "elliptical noun-phrase constraints built around the literal heads 'text' or 'sentence'. Template: [length] text/sentence + 'containing/with/talking about/saying/describing' + [exact or approximate count | quoted required token | positional condition | topic/fact]; positional phrases include 'in the middle' and 'finishing by', while style and tone modifiers are mostly absent."
+    "description": ""
   },
   "7": {
     "queries": [
@@ -313,7 +313,7 @@
       "text answering directly or indirectly the question : what is dbz",
       "text containing the answer for : what does chito mean?"
     ],
-    "description": "formulaic answer-seeking noun phrases. Dominant templates: '[short] text containing the answer for : <wh-question>' and '[short] text answering directly or indirectly the question : <question>'; the embedded questions follow a spaced colon and are often lowercase. A smaller tail uses 'text that starts/finishes ___' or 'text where ___' structural constraints."
+    "description": ""
   },
   "8": {
     "queries": [
@@ -343,7 +343,7 @@
       "text beginning with a statement and then an attribution tag",
       "text where a quotation is followed by an attribution tag, then another quotation appears inside it"
     ],
-    "description": "relative-clause or participial constraint prompts headed by 'text', not style descriptions. Dominant templates: 'text beginning with <quote/statement/attribution>' and 'text where <quotation> is followed by <attribution>'; ordered components are chained with 'then', 'followed by', 'before', and 'later', often ending in another quote or aside."
+    "description": ""
   },
   "9": {
     "queries": [
@@ -374,7 +374,7 @@
       "text beginning with a list of specifications, then repeats the same facts in fuller prose",
       "text that opens with a plain heading, then an announcement, then a colon-led enumeration of proposed items"
     ],
-    "description": "document-structure prompts headed by 'text' or 'passage', followed by 'beginning/opening with', 'organized/structured as', 'signed with', or a 'where/that' relative clause. They enumerate ordered blocks such as headings, datelines, lists, tables, prose, and signatures, using repeated 'then', 'and', and 'ends with' transitions rather than tone adjectives."
+    "description": ""
   },
   "10": {
     "queries": [
@@ -417,7 +417,7 @@
       "text that opens with a common assumption, immediately contrasts it with a corrective reminder, then ends with a promotional website referral and advertisement tag",
       "text that opens by introducing a situation, then announces an upcoming event and finally shifts to a brief promotional closing with more information/contact details"
     ],
-    "description": "mostly long structural prompts headed by 'text' and a relative or participial clause: 'text where ___', 'text that opens/begins with ___', or 'text beginning with ___'. Each chains stages with 'then', 'turns/shifts to', 'returns to', and 'ends/closes with', typically moving from an announcement or setup through details to an invitation or call to action; only the first two use compact style-label noun phrases."
+    "description": ""
   },
   "-1": {
     "queries": [

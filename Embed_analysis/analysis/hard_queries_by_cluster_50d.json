@@ -39,7 +39,7 @@
       "technical academic physics abstract with dense jargon, formal impersonal tone, objective and explanatory, summarizing a model-based analysis and comparing results to recent calculations",
       "text formatted like an arxiv theoretical physics paper abstract with affiliations from the university of tokyo and kavli institute"
     ],
-    "description": "mostly bare noun phrases headed by a text type such as abstract, paper, passage, or prose; stacked length, register, and scientific-domain modifiers are followed by in-style, with, focused-on, or participial clauses"
+    "description": ""
   },
   "1": {
     "queries": [
@@ -94,7 +94,7 @@
       "concise encyclopedic reference-style prose with a factual, neutral tone explaining a mythological attribution distinction in a formal but accessible register",
       "concise encyclopedic mythological reference entry in a formal factual tone, describing a legendary figure with source citation and explanatory summary"
     ],
-    "description": "a mix of short text-about, text-mentioning, and text-containing noun phrases and longer bare noun phrases headed by note, reference, prose, summary, or writing, with mythology as the domain and trailing style, tone, citation, or purpose modifiers"
+    "description": ""
   },
   "3": {
     "queries": [
@@ -133,7 +133,7 @@
       "formal encyclopedic historical narrative with dense factual reporting and a neutral tone",
       "formal encyclopedic biographical prose with dense factual summary, chronological narrative, and objective historical tone"
     ],
-    "description": "mostly article-less noun phrases headed by prose, narrative, exposition, entry, or writing, with stacked encyclopedic, historical, factual, and formal modifiers followed by in, with, and participial clauses"
+    "description": ""
   },
   "4": {
     "queries": [
@@ -178,7 +178,7 @@
       "informal explanatory grammar discussion with cautious, conversational tone and occasional self-referential asides, like a forum or blog comment about language usage",
       "conversational explanatory comment on language use, informal but thoughtful, opinion-based and slightly persuasive, discussing word choice in a casual accessible style"
     ],
-    "description": "bare noun-phrase prompts headed by commentary, discussion, explanation, note, reply, or definition, heavily modified by informal, conversational, and explanatory labels plus chained with, like, about, and participial phrases"
+    "description": ""
   },
   "5": {
     "queries": [
@@ -198,7 +198,7 @@
       "journalistic news report in a formal, factual, quote-driven style with neutral tone and concise political reporting",
       "journalistic science news report with an explanatory, factual tone and concise quotations, written for a general audience"
     ],
-    "description": "bare noun phrases headed by news report, brief, paragraph, article, or interview, with journalistic modifiers and trailing in or with phrases that enumerate tone, quotations, density, audience, and purpose"
+    "description": ""
   },
   "6": {
     "queries": [
@@ -224,7 +224,7 @@
       "AP-style business news report with factual, concise, journalistic writing and a neutral tone",
       "straightforward AP-style news brief in a neutral, factual, journalistic register with concise inverted-pyramid reporting and minimal commentary"
     ],
-    "description": "formulaic bare noun phrases headed by AP-style report, brief, wire, list, or article; optional concise or subject modifiers precede the head, while with phrases list tone, inverted-pyramid structure, quotations, attribution, or other features"
+    "description": ""
   },
   "7": {
     "queries": [
@@ -247,7 +247,7 @@
       "short text about someone sleeping with a servant",
       "a text that contains a lot of names of existing people"
     ],
-    "description": "very short lower-case noun phrases headed by text, with an optional article or length modifier and one simple postmodifier: about, talking about, containing, or a that-clause expressing inclusion or exclusion"
+    "description": ""
   },
   "8": {
     "queries": [
@@ -280,7 +280,7 @@
       "a text containing about 180 words",
       "text with number of words between 22 and 30"
     ],
-    "description": "formulaic lower-case noun phrases headed by text or sentence, usually using containing followed by a numeric length or quoted token, with variants using with, finishing by, saying, or that has and comparators such as exactly, around, more than, less than, or between"
+    "description": ""
   },
   "9": {
     "queries": [
@@ -297,7 +297,7 @@
       "formal, concise reference-style explanation of language usage with grammatical notation, neutral technical register, and instructional tone",
       "technical grammar explanation in a concise instructional style, using linguistic notation and parenthetical clarifications, formal but accessible and explanatory"
     ],
-    "description": "five bare noun phrases headed by note, explanation, or writing, built from stacked dictionary, reference, technical, and instructional modifiers plus about, of, with, or using phrases and comma-separated tone and feature lists"
+    "description": ""
   },
   "10": {
     "queries": [
@@ -325,7 +325,7 @@
       "concise dictionary-style linguistic explanation with technical grammar terminology, factual and corrective tone, formal but compact reference-entry style",
       "concise dictionary-style linguistic note with glosses and etymological explanation, technical but informal, explanatory and factual"
     ],
-    "description": "bare noun phrases headed by entry, note, writing, text, or explanation, typically following the template concise plus dictionary-style, glossary-style, or encyclopedic modifiers, then with clauses or defining and explaining participles"
+    "description": ""
   },
   "11": {
     "queries": [
@@ -364,7 +364,7 @@
       "encyclopedic, factual demographic summary in a neutral formal reference style, concise and information-dense",
       "encyclopedic reference entry, factual and neutral, formal academic-but-accessible prose, informative and concise"
     ],
-    "description": "article-less noun phrases headed by prose, writing, text, entry, or list, with repeated encyclopedic, factual, neutral, and formal modifiers followed by with or like clauses and explaining, describing, presenting, or summarizing participles"
+    "description": ""
   },
   "12": {
     "queries": [
@@ -408,7 +408,7 @@
       "text containing the answer for : what does dwib mean",
       "short text containing the answer for : what chemical is found in water"
     ],
-    "description": "lower-case text noun phrases: the first group repeats short text containing the answer for or text answering directly or indirectly the question followed by a colon and wh-question; the rest use starts, begins, opens, or finishes clauses to impose exact question-and-answer ordering"
+    "description": ""
   },
   "13": {
     "queries": [
@@ -429,7 +429,7 @@
       "text beginning with an omitted opening, then a quoted phrase explained as the normal one, then a parenthetical correction, then a literal rephrasing",
       "text where a short explanation is followed by a replacement, then a parenthetical preference, then a closing example"
     ],
-    "description": "relational noun-phrase prompts beginning text beginning with or text where and specifying a rigid left-to-right sequence with then, followed by, later, and ending with; the slots name quotations, blanks, parentheses, symbols, corrections, replacements, and examples"
+    "description": ""
   },
   "14": {
     "queries": [
@@ -451,7 +451,7 @@
       "text where a statement announces a change of path, then an explanation of preference, then a return to the same change",
       "text that begins with an announcement of delay, then a limitation, then a reassurance and turn toward replacement"
     ],
-    "description": "uniform text where or text that begins relational prompts encoding an ordered sequence with then, and then, followed by, resumes, returns, or closes; each sequence starts from an announcement or change and explicitly tracks intervening turns"
+    "description": ""
   },
   "15": {
     "queries": [
@@ -485,7 +485,7 @@
       "text that opens with a pileup of promotional claims, then a brief biographical aside, then a practical note, then another sales pitch",
       "text that opens with a common assumption, immediately contrasts it with a corrective reminder, then ends with a promotional website referral and advertisement tag"
     ],
-    "description": "mostly text that begins or opens prompts specifying a multi-step sequence with then, shifts to, and ends or closes with; recurring structural slots include announcements, headings, lists, invitations, benefit claims, and calls to action"
+    "description": ""
   },
   "16": {
     "queries": [
@@ -505,7 +505,7 @@
       "text that opens with a tentative claim, then qualifies it with a speculative explanation",
       "text that opens with a tentative suggestion, adds a concessive qualification, then pivots to introduce a resource as a more useful corrective or supplement"
     ],
-    "description": "noun phrases headed by text, passage, or analysis and modified by relative clauses or with phrases; most use begins or opens, then, adds, and pivots to describe two- or three-step sequences marked by tentative, cautious, speculative, and qualifying language"
+    "description": ""
   },
   "17": {
     "queries": [
@@ -559,7 +559,7 @@
       "text that begins with a list, then a process of building something up, then another development",
       "Terse, fragmented list-style entries without full sentences"
     ],
-    "description": "noun-phrase prompts headed by text, passage, or entries and modified by that, where, beginning, or ending clauses; many follow begins or opens with a heading or list, then prose or another list, and ends with a final enumeration"
+    "description": ""
   },
   "19": {
     "queries": [
@@ -618,7 +618,7 @@
       "text that opens with a general claim, then qualifies it with a limitation, and finally gives examples of cases where the claim does not hold exactly",
       "text that opens with a denial or correction, then qualifies it with a general claim, and finally gives illustrative examples to support that claim"
     ],
-    "description": "lower-case relational prompts beginning text that opens, starts, or defines, or text where; they encode a mostly three-part rhetorical sequence linked by then, finally, and closes with, using abstract slots such as claim, correction, qualification, contrast, and example"
+    "description": ""
   },
   "21": {
     "queries": [
@@ -679,7 +679,7 @@
       "text where a first result is stated, then a crucial noncommutation is introduced, then the conclusion turns back to a critical remnant",
       "text where it starts with a contrastive aside, then shifts into a qualification about indirectness, then ends by explaining how a figure has to be calculated"
     ],
-    "description": "mostly lower-case text where prompts that encode three- or four-step discourse skeletons with then, contrast, qualification, correction, exception, concession, reversal, and return; a few shorter variants are headed by passage or writing or specify literal cues such as although and but"
+    "description": ""
   },
   "-1": {
     "queries": [

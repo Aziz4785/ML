@@ -21,10 +21,6 @@ beginning with  72 (10.24%) [hard: 72 (97.30%), easy: 2 (2.70%)] [expected hard:
 
 where a         77 (10.95%) [hard: 77 (92.77%), easy: 6 (7.23%)] [expected hard: 6.55 of 83 queries containing the phrase; hard odds with: 12.83, without: 0.08, odds ratio: odds of being hard is 168.04x higher when this phrase appears]
 
-is followed      26 (3.70%) [hard: 26 (96.30%), easy: 1 (3.70%)] [expected hard: 2.13 of 27 queries containing the phrase; hard odds with: 26.00, without: 0.08, odds ratio: odds of being hard is 315.00x higher when this phrase appears]
-
-tone and         36 (5.12%) [hard: 36 (94.74%), easy: 2 (5.26%)] [expected hard: 3.00 of 38 queries containing the phrase; hard odds with: 18.00, without: 0.08, odds ratio: odds of being hard is 221.32x higher when this phrase appears]
-
 
 -First interesting thing is that it seems like queries with 'text beginning with ..' are classfied as hard
 -then i emebdded all queries using open ai model, and without dimensionality reduction i performed an HDBSCAN clustreing.
@@ -62,32 +58,7 @@ Another interesting cluster is this one :
       "formal scientific abstract in academic journal style, dense technical physics writing, objective and explanatory, focused on experimental results and quantitative analysis"
     ]
 for each cluster in 2d, 50d and max dimension, i wrote a small description after seeing its 5 most significant element.
-Now let's extract all description  :
-i wrote about 40 descritption and i  put them into analysis/hard_query_descriptions.json
-and here are my conclusions:
-Users write output specifications, not requests. Each prompt is a bare noun phrase — no verb, no imperative, usually no article — whose head is a text-type (abstract, glossary entry, comment, biography) rather than a subject. Content is either absent or named only in broad strokes; what gets specified is form: length, register, domain, and style. The prompt describes the artifact to be produced, not an action to perform on a topic.
-the shared template:
-[LENGTH/DENSITY] [REGISTER] [DOMAIN] TEXT-TYPE
-    ( + "in a ___ style/tone/register"
-      | + "with ___"            (required content features)
-      | + ", ___-ing clause"    (rhetorical action)
-      | + "about / focused on ___" (broad topic) )*
-
-Only the head noun is obligatory. Everything before it is a stack of adjectival modifiers; everything after it is an optional, repeatable post-modifier.
-
-Also some queries are : 
-- Attributive — what kind of text it is.
-Stacked pre-modifiers (encyclopedic, journalistic, dictionary-style, informal, promotional, technical, formal, factual) plus in … style, with …, about …, focused on …, or participles (explaining, describing, summarizing). These groups specify register, genre, tone, domain, audience, and purpose.
-
-Other are : Structural/sequential — how the text unfolds.
-Relative clauses (text that begins…, text where…, passage which opens…) encoding an ordered discourse skeleton: opens with X, then Y, followed by Z, and ends with W. The slots are rhetorical moves — claim, qualification, correction, contrast, concession, reversal, example, call to action — or turn-taking events.
------
-some characteristics of many clusters: 
-Abstraction over content. The slots are functional roles, not topics. "A claim, then a correction, then an example" — the subject matter is almost always left unspecified. Only a handful of groups pin a domain (mythology, science, promotional/commercial), and even there the domain is a modifier, not the point.
-A consistent house dialect. Lowercase, article-less, telegraphic, comma-chained. Users have converged on something close to a domain-specific notation rather than natural request language.
-
-
-
+Now let's extract all description :
 
 
 

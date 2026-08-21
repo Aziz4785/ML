@@ -98,7 +98,7 @@
       "formal academic astrophysics abstract style, dense technical jargon, objective results summary with cautious conclusions",
       "formal academic physics abstract style, highly technical and objective, concise experimental-theoretical summary explaining results and significance"
     ],
-    "description": "adjective-dense noun-phrase queries naming an academic abstract or journal style, followed by technical-domain, tone, density, and explanatory-purpose modifiers"
+    "description": ""
   },
   "3": {
     "queries": [
@@ -132,7 +132,7 @@
       "text where a general claim is qualified, then turned by an exception, and ends with a brief return to the opening",
       "text where a claim is softened by a qualification, then a corrective turn restores doubt, and the passage closes by introducing examples"
     ],
-    "description": "queries beginning with 'text where' or 'text that', then specifying a sequential rhetorical template through chained 'then' clauses involving claims, qualifications, corrections, contrasts, concessions, examples, and exceptions"
+    "description": ""
   },
   "4": {
     "queries": [
@@ -209,7 +209,7 @@
       "encyclopedic, objective explanatory prose in a formal historical-biographical style, presenting a disputed claim with evidentiary support in a neutral, information-dense tone",
       "formal encyclopedic factual prose with dense historical details, objective tone, and concise biographical examples"
     ],
-    "description": "modifier-heavy noun-phrase queries naming an encyclopedic, dictionary, or reference-entry style, followed by factuality, tone, formality, density, subject-area, and explanatory-purpose constraints"
+    "description": ""
   },
   "6": {
     "queries": [
