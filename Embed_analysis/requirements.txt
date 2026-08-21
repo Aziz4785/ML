@@ -1,0 +1,10 @@
+openai
+python-dotenv
+numpy
+scipy
+matplotlib
+nltk
+wordcloud
+scikit-learn>=1.6,<2
+shap>=0.45
+lightgbm>=4.0,<5

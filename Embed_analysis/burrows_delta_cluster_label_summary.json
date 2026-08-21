@@ -1,0 +1,108 @@
+{
+  "note": "After any optional label-balanced sampling, labels did not participate in Burrows' Delta, MDS, or average-linkage clustering.",
+  "overall": {
+    "queries": 1406,
+    "label_0": 703,
+    "label_1": 703,
+    "label_1_percentage": 50.0,
+    "majority_class_baseline": 0.5,
+    "cluster_purity": 0.5199146514935988,
+    "adjusted_rand_index": 0.0009436448580919202,
+    "normalized_mutual_information": 0.033934516259398965,
+    "homogeneity": 0.02020656618759692,
+    "completeness": 0.10584051232297771,
+    "v_measure": 0.03393451625939897
+  },
+  "clusters": [
+    {
+      "group": 1,
+      "size": 1378,
+      "label_0": 703,
+      "label_1": 675,
+      "label_1_percentage": 48.984034833091435,
+      "dominant_label": 0,
+      "purity": 0.5101596516690856
+    },
+    {
+      "group": 2,
+      "size": 13,
+      "label_0": 0,
+      "label_1": 13,
+      "label_1_percentage": 100.0,
+      "dominant_label": 1,
+      "purity": 1.0
+    },
+    {
+      "group": 3,
+      "size": 3,
+      "label_0": 0,
+      "label_1": 3,
+      "label_1_percentage": 100.0,
+      "dominant_label": 1,
+      "purity": 1.0
+    },
+    {
+      "group": 4,
+      "size": 3,
+      "label_0": 0,
+      "label_1": 3,
+      "label_1_percentage": 100.0,
+      "dominant_label": 1,
+      "purity": 1.0
+    },
+    {
+      "group": 5,
+      "size": 3,
+      "label_0": 0,
+      "label_1": 3,
+      "label_1_percentage": 100.0,
+      "dominant_label": 1,
+      "purity": 1.0
+    },
+    {
+      "group": 6,
+      "size": 2,
+      "label_0": 0,
+      "label_1": 2,
+      "label_1_percentage": 100.0,
+      "dominant_label": 1,
+      "purity": 1.0
+    },
+    {
+      "group": 7,
+      "size": 1,
+      "label_0": 0,
+      "label_1": 1,
+      "label_1_percentage": 100.0,
+      "dominant_label": 1,
+      "purity": 1.0
+    },
+    {
+      "group": 8,
+      "size": 1,
+      "label_0": 0,
+      "label_1": 1,
+      "label_1_percentage": 100.0,
+      "dominant_label": 1,
+      "purity": 1.0
+    },
+    {
+      "group": 9,
+      "size": 1,
+      "label_0": 0,
+      "label_1": 1,
+      "label_1_percentage": 100.0,
+      "dominant_label": 1,
+      "purity": 1.0
+    },
+    {
+      "group": 10,
+      "size": 1,
+      "label_0": 0,
+      "label_1": 1,
+      "label_1_percentage": 100.0,
+      "dominant_label": 1,
+      "purity": 1.0
+    }
+  ]
+}

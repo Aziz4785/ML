@@ -1,0 +1,9645 @@
+{
+  "metadata": {
+    "inputs": [
+      "/Users/aziz/Embed_analysis/hard_queries.json",
+      "/Users/aziz/Embed_analysis/easy_queries.json"
+    ],
+    "query_count": 8906,
+    "candidate_count": 16575,
+    "grouped_candidate_count": 2011,
+    "group_count": 799,
+    "model": "all-mpnet-base-v2",
+    "cosine_similarity_threshold": 0.9,
+    "semantic_prefix": "Meaning of the replacement expression: ",
+    "grammar_filter": "surface substitution signature",
+    "stop_words": [
+      "a",
+      "an",
+      "in",
+      "is",
+      "of",
+      "text",
+      "that",
+      "the",
+      "to",
+      "with"
+    ]
+  },
+  "groups": [
+    {
+      "id": "cluster1",
+      "words": [
+        "a general claim",
+        "a definition",
+        "a speculative explanation",
+        "a report",
+        "a study",
+        "a brief explanatory aside",
+        "a concept",
+        "a description",
+        "a self-description",
+        "a tentative claim",
+        "a bibliography",
+        "a brief account",
+        "a brief aside",
+        "a brief attribution",
+        "a brief evaluative comment",
+        "a brief explanatory narrative",
+        "a brief explanatory summary",
+        "a brief factual summary",
+        "a brief historical-",
+        "a broad investigation",
+        "a causal explanation",
+        "a cautious interpretation",
+        "a clarifying definition",
+        "a clarifying side note",
+        "a common misunderstanding",
+        "a conventional view",
+        "a critique",
+        "a cross-reference",
+        "a discussion",
+        "a distinction",
+        "a factual breakdown",
+        "a final proposal",
+        "a finer distinction",
+        "a fragmentary",
+        "a general definition",
+        "a general distinction",
+        "a general limitation",
+        "a guiding phrase",
+        "a lexical gloss",
+        "a myth",
+        "a new model",
+        "a newer primary sense",
+        "a personal observation",
+        "a possible reconciliation",
+        "a practical explanation",
+        "a practical note",
+        "a recently proposed theory",
+        "a recurring explanation",
+        "a reflective paper",
+        "a reformulation",
+        "a review",
+        "a second practical suggestion",
+        "a tentative suggestion",
+        "an abstract",
+        "an academic explanation",
+        "an analysis",
+        "an esoteric interpretation",
+        "an evaluative",
+        "an expert explanation",
+        "an explanatory",
+        "an explanatory inference",
+        "an explanatory interpretation",
+        "an investigation"
+      ],
+      "occurrences": {
+        "a general claim": 9,
+        "a definition": 6,
+        "a speculative explanation": 4,
+        "a report": 3,
+        "a study": 3,
+        "a brief explanatory aside": 2,
+        "a concept": 2,
+        "a description": 2,
+        "a self-description": 2,
+        "a tentative claim": 2,
+        "a bibliography": 1,
+        "a brief account": 1,
+        "a brief aside": 1,
+        "a brief attribution": 1,
+        "a brief evaluative comment": 1,
+        "a brief explanatory narrative": 1,
+        "a brief explanatory summary": 1,
+        "a brief factual summary": 1,
+        "a brief historical-": 1,
+        "a broad investigation": 1,
+        "a causal explanation": 1,
+        "a cautious interpretation": 1,
+        "a clarifying definition": 1,
+        "a clarifying side note": 1,
+        "a common misunderstanding": 1,
+        "a conventional view": 1,
+        "a critique": 1,
+        "a cross-reference": 1,
+        "a discussion": 1,
+        "a distinction": 1,
+        "a factual breakdown": 1,
+        "a final proposal": 1,
+        "a finer distinction": 1,
+        "a fragmentary": 1,
+        "a general definition": 1,
+        "a general distinction": 1,
+        "a general limitation": 1,
+        "a guiding phrase": 1,
+        "a lexical gloss": 1,
+        "a myth": 1,
+        "a new model": 1,
+        "a newer primary sense": 1,
+        "a personal observation": 1,
+        "a possible reconciliation": 1,
+        "a practical explanation": 1,
+        "a practical note": 1,
+        "a recently proposed theory": 1,
+        "a recurring explanation": 1,
+        "a reflective paper": 1,
+        "a reformulation": 1,
+        "a review": 1,
+        "a second practical suggestion": 1,
+        "a tentative suggestion": 1,
+        "an abstract": 1,
+        "an academic explanation": 1,
+        "an analysis": 1,
+        "an esoteric interpretation": 1,
+        "an evaluative": 1,
+        "an expert explanation": 1,
+        "an explanatory": 1,
+        "an explanatory inference": 1,
+        "an explanatory interpretation": 1,
+        "an investigation": 1
+      }
+    },
+    {
+      "id": "cluster2",
+      "words": [
+        "a parenthetical aside",
+        "an aside",
+        "a brief concession",
+        "a closing aside",
+        "a comparative aside",
+        "a correction",
+        "a caution",
+        "a caveat",
+        "a comment",
+        "a contrastive aside",
+        "a correcting restatement",
+        "a corrective aside",
+        "a corrective explanation",
+        "a corrective restatement",
+        "a disagreement",
+        "a final aside",
+        "a final implication",
+        "a final question",
+        "a functional aside",
+        "a further contrast",
+        "a later special case",
+        "a literal rephrasing",
+        "a misunderstanding",
+        "a parenthetical clarification",
+        "a parenthetical clarifying aside",
+        "a parenthetical explanation",
+        "a possible misunderstanding",
+        "a proposition",
+        "a qualifying aside",
+        "a restatement",
+        "a sharp qualification",
+        "a special case",
+        "an interpretation",
+        "an issue"
+      ],
+      "occurrences": {
+        "a parenthetical aside": 5,
+        "an aside": 4,
+        "a brief concession": 3,
+        "a closing aside": 2,
+        "a comparative aside": 2,
+        "a correction": 2,
+        "a caution": 1,
+        "a caveat": 1,
+        "a comment": 1,
+        "a contrastive aside": 1,
+        "a correcting restatement": 1,
+        "a corrective aside": 1,
+        "a corrective explanation": 1,
+        "a corrective restatement": 1,
+        "a disagreement": 1,
+        "a final aside": 1,
+        "a final implication": 1,
+        "a final question": 1,
+        "a functional aside": 1,
+        "a further contrast": 1,
+        "a later special case": 1,
+        "a literal rephrasing": 1,
+        "a misunderstanding": 1,
+        "a parenthetical clarification": 1,
+        "a parenthetical clarifying aside": 1,
+        "a parenthetical explanation": 1,
+        "a possible misunderstanding": 1,
+        "a proposition": 1,
+        "a qualifying aside": 1,
+        "a restatement": 1,
+        "a sharp qualification": 1,
+        "a special case": 1,
+        "an interpretation": 1,
+        "an issue": 1
+      }
+    },
+    {
+      "id": "cluster3",
+      "words": [
+        "what",
+        "question",
+        "how",
+        "why",
+        "definition",
+        "explanation",
+        "usage",
+        "help",
+        "replacement",
+        "source",
+        "replace",
+        "terminology",
+        "discussion",
+        "wikipedia",
+        "below",
+        "dictionary",
+        "textbook",
+        "vocabulary",
+        "interpretation",
+        "recap",
+        "significance",
+        "clarification",
+        "explain",
+        "introduction",
+        "quizlet",
+        "overview",
+        "substitute",
+        "unclear",
+        "wiki",
+        "clarify",
+        "confusion",
+        "explication",
+        "tricky",
+        "unsure"
+      ],
+      "occurrences": {
+        "what": 3987,
+        "question": 3118,
+        "how": 1462,
+        "why": 216,
+        "definition": 91,
+        "explanation": 68,
+        "usage": 41,
+        "help": 24,
+        "replacement": 14,
+        "source": 14,
+        "replace": 13,
+        "terminology": 13,
+        "discussion": 12,
+        "wikipedia": 10,
+        "below": 9,
+        "dictionary": 9,
+        "textbook": 9,
+        "vocabulary": 9,
+        "interpretation": 8,
+        "recap": 7,
+        "significance": 7,
+        "clarification": 6,
+        "explain": 6,
+        "introduction": 6,
+        "quizlet": 6,
+        "overview": 5,
+        "substitute": 3,
+        "unclear": 2,
+        "wiki": 2,
+        "clarify": 1,
+        "confusion": 1,
+        "explication": 1,
+        "tricky": 1,
+        "unsure": 1
+      }
+    },
+    {
+      "id": "cluster4",
+      "words": [
+        "a contrast",
+        "a concise",
+        "a comparative statement",
+        "a brief practical aside",
+        "a clarification",
+        "a corrective clarification",
+        "a general comparison",
+        "a gloss",
+        "a misconception",
+        "a plain guiding comparison",
+        "a preview",
+        "a relationship",
+        "a rule",
+        "a short overview",
+        "a standard",
+        "a test",
+        "an extension",
+        "an informative"
+      ],
+      "occurrences": {
+        "a contrast": 10,
+        "a concise": 3,
+        "a comparative statement": 2,
+        "a brief practical aside": 1,
+        "a clarification": 1,
+        "a corrective clarification": 1,
+        "a general comparison": 1,
+        "a gloss": 1,
+        "a misconception": 1,
+        "a plain guiding comparison": 1,
+        "a preview": 1,
+        "a relationship": 1,
+        "a rule": 1,
+        "a short overview": 1,
+        "a standard": 1,
+        "a test": 1,
+        "an extension": 1,
+        "an informative": 1
+      }
+    },
+    {
+      "id": "cluster5",
+      "words": [
+        "explains",
+        "sources",
+        "questions",
+        "definitions",
+        "expressions",
+        "helps",
+        "meanings",
+        "clarifies",
+        "clarifications",
+        "dictionaries",
+        "explanations",
+        "guides",
+        "interpretations",
+        "is explaining",
+        "textbooks"
+      ],
+      "occurrences": {
+        "explains": 36,
+        "sources": 14,
+        "questions": 12,
+        "definitions": 8,
+        "expressions": 7,
+        "helps": 6,
+        "meanings": 6,
+        "clarifies": 5,
+        "clarifications": 3,
+        "dictionaries": 2,
+        "explanations": 2,
+        "guides": 1,
+        "interpretations": 1,
+        "is explaining": 1,
+        "textbooks": 1
+      }
+    },
+    {
+      "id": "cluster6",
+      "words": [
+        "a factual",
+        "a story",
+        "a long explanation",
+        "a conversation",
+        "a fragmentary explanatory sentence",
+        "a malformed explanation",
+        "a topic",
+        "an early use",
+        "an explanatory announcement",
+        "an illustrative example",
+        "an informative narrative focus"
+      ],
+      "occurrences": {
+        "a factual": 14,
+        "a story": 4,
+        "a long explanation": 2,
+        "a conversation": 1,
+        "a fragmentary explanatory sentence": 1,
+        "a malformed explanation": 1,
+        "a topic": 1,
+        "an early use": 1,
+        "an explanatory announcement": 1,
+        "an illustrative example": 1,
+        "an informative narrative focus": 1
+      }
+    },
+    {
+      "id": "cluster7",
+      "words": [
+        "a brief explanatory sentence",
+        "a broader complaint",
+        "a first exploratory study",
+        "a general caution",
+        "a logistical aside",
+        "a retrospective comparison",
+        "a skeptical qualification",
+        "an english gloss",
+        "an interview"
+      ],
+      "occurrences": {
+        "a brief explanatory sentence": 1,
+        "a broader complaint": 1,
+        "a first exploratory study": 1,
+        "a general caution": 1,
+        "a logistical aside": 1,
+        "a retrospective comparison": 1,
+        "a skeptical qualification": 1,
+        "an english gloss": 1,
+        "an interview": 1
+      }
+    },
+    {
+      "id": "cluster8",
+      "words": [
+        "biology",
+        "genetic",
+        "biological",
+        "gene",
+        "molecular",
+        "bio",
+        "biochemistry",
+        "biologist",
+        "biomedical"
+      ],
+      "occurrences": {
+        "biology": 13,
+        "genetic": 10,
+        "biological": 7,
+        "gene": 5,
+        "molecular": 3,
+        "bio": 2,
+        "biochemistry": 2,
+        "biologist": 1,
+        "biomedical": 1
+      }
+    },
+    {
+      "id": "cluster9",
+      "words": [
+        "an example",
+        "a closing example",
+        "a quoted example",
+        "a simple example sentence",
+        "a specific application example",
+        "a specific example",
+        "a usage example",
+        "an explicit-use case"
+      ],
+      "occurrences": {
+        "an example": 12,
+        "a closing example": 1,
+        "a quoted example": 1,
+        "a simple example sentence": 1,
+        "a specific application example": 1,
+        "a specific example": 1,
+        "a usage example": 1,
+        "an explicit-use case": 1
+      }
+    },
+    {
+      "id": "cluster10",
+      "words": [
+        "a common assumption",
+        "a definite claim",
+        "a second claim",
+        "a theorem",
+        "a uniqueness claim",
+        "an inference from it",
+        "an opening generalization"
+      ],
+      "occurrences": {
+        "a common assumption": 1,
+        "a definite claim": 1,
+        "a second claim": 1,
+        "a theorem": 1,
+        "a uniqueness claim": 1,
+        "an inference from it": 1,
+        "an opening generalization": 1
+      }
+    },
+    {
+      "id": "cluster11",
+      "words": [
+        "a model",
+        "a colorful introduction",
+        "a complicated model",
+        "a model-based analysis",
+        "a model-independent analysis",
+        "a survey-like explanation"
+      ],
+      "occurrences": {
+        "a model": 2,
+        "a colorful introduction": 1,
+        "a complicated model": 1,
+        "a model-based analysis": 1,
+        "a model-independent analysis": 1,
+        "a survey-like explanation": 1
+      }
+    },
+    {
+      "id": "cluster12",
+      "words": [
+        "a parenthetical concession",
+        "a parenthetical correction",
+        "a parenthetical hedge",
+        "a parenthetical marker",
+        "a parenthetical preference",
+        "a short parenthetical label"
+      ],
+      "occurrences": {
+        "a parenthetical concession": 3,
+        "a parenthetical correction": 1,
+        "a parenthetical hedge": 1,
+        "a parenthetical marker": 1,
+        "a parenthetical preference": 1,
+        "a short parenthetical label": 1
+      }
+    },
+    {
+      "id": "cluster13",
+      "words": [
+        "a qualified reversal",
+        "a qualifying reversal",
+        "a quoted reversal",
+        "a reversal",
+        "a time-stamped reversal",
+        "an inverse"
+      ],
+      "occurrences": {
+        "a qualified reversal": 1,
+        "a qualifying reversal": 1,
+        "a quoted reversal": 1,
+        "a reversal": 1,
+        "a time-stamped reversal": 1,
+        "an inverse": 1
+      }
+    },
+    {
+      "id": "cluster14",
+      "words": [
+        "review",
+        "correction",
+        "issue",
+        "correct",
+        "wrong",
+        "critique"
+      ],
+      "occurrences": {
+        "review": 27,
+        "correction": 19,
+        "issue": 7,
+        "correct": 5,
+        "wrong": 3,
+        "critique": 1
+      }
+    },
+    {
+      "id": "cluster15",
+      "words": [
+        "largest",
+        "maximum",
+        "highest",
+        "greatest",
+        "max",
+        "second-highest"
+      ],
+      "occurrences": {
+        "largest": 12,
+        "maximum": 9,
+        "highest": 6,
+        "greatest": 2,
+        "max": 2,
+        "second-highest": 1
+      }
+    },
+    {
+      "id": "cluster16",
+      "words": [
+        "a similar reason",
+        "a broad contrast",
+        "a contrastive second way",
+        "a similar case",
+        "a turn to contrast"
+      ],
+      "occurrences": {
+        "a similar reason": 3,
+        "a broad contrast": 1,
+        "a contrastive second way": 1,
+        "a similar case": 1,
+        "a turn to contrast": 1
+      }
+    },
+    {
+      "id": "cluster17",
+      "words": [
+        "a concessive qualification",
+        "a formal definition sentence",
+        "a parenthetical qualification",
+        "a qualification in parentheses",
+        "an added qualification"
+      ],
+      "occurrences": {
+        "a concessive qualification": 1,
+        "a formal definition sentence": 1,
+        "a parenthetical qualification": 1,
+        "a qualification in parentheses": 1,
+        "an added qualification": 1
+      }
+    },
+    {
+      "id": "cluster18",
+      "words": [
+        "a concise reference style",
+        "a final list",
+        "a good source",
+        "a web search",
+        "an example list follows"
+      ],
+      "occurrences": {
+        "a concise reference style": 1,
+        "a final list": 1,
+        "a good source": 1,
+        "a web search": 1,
+        "an example list follows": 1
+      }
+    },
+    {
+      "id": "cluster19",
+      "words": [
+        "a sentence",
+        "a fragmentary sentence structure",
+        "a grammatical usage",
+        "a quoted fragment",
+        "a very short text"
+      ],
+      "occurrences": {
+        "a sentence": 2,
+        "a fragmentary sentence structure": 1,
+        "a grammatical usage": 1,
+        "a quoted fragment": 1,
+        "a very short text": 1
+      }
+    },
+    {
+      "id": "cluster20",
+      "words": [
+        "a neutral tone",
+        "a neutral explanatory tone",
+        "a neutral factual tone",
+        "a neutral informative tone",
+        "a neutral way"
+      ],
+      "occurrences": {
+        "a neutral tone": 6,
+        "a neutral explanatory tone": 2,
+        "a neutral factual tone": 1,
+        "a neutral informative tone": 1,
+        "a neutral way": 1
+      }
+    },
+    {
+      "id": "cluster21",
+      "words": [
+        "a new website",
+        "a simple web page",
+        "a web page",
+        "a website",
+        "a website mention"
+      ],
+      "occurrences": {
+        "a new website": 1,
+        "a simple web page": 1,
+        "a web page": 1,
+        "a website": 1,
+        "a website mention": 1
+      }
+    },
+    {
+      "id": "cluster22",
+      "words": [
+        "problems",
+        "calculations",
+        "equations",
+        "formulas",
+        "mathematics"
+      ],
+      "occurrences": {
+        "problems": 8,
+        "calculations": 3,
+        "equations": 2,
+        "formulas": 1,
+        "mathematics": 1
+      }
+    },
+    {
+      "id": "cluster23",
+      "words": [
+        "equivalent",
+        "equal",
+        "identical",
+        "equivalence",
+        "equality"
+      ],
+      "occurrences": {
+        "equivalent": 5,
+        "equal": 4,
+        "identical": 4,
+        "equivalence": 3,
+        "equality": 1
+      }
+    },
+    {
+      "id": "cluster24",
+      "words": [
+        "fast",
+        "quick",
+        "quickly",
+        "slow",
+        "rapid"
+      ],
+      "occurrences": {
+        "fast": 25,
+        "quick": 4,
+        "quickly": 4,
+        "slow": 3,
+        "rapid": 2
+      }
+    },
+    {
+      "id": "cluster25",
+      "words": [
+        "reference",
+        "mathematical",
+        "ii",
+        "math",
+        "guide"
+      ],
+      "occurrences": {
+        "reference": 39,
+        "mathematical": 6,
+        "ii": 4,
+        "math": 4,
+        "guide": 3
+      }
+    },
+    {
+      "id": "cluster26",
+      "words": [
+        "minimum",
+        "minimal",
+        "smallest",
+        "least",
+        "lowest"
+      ],
+      "occurrences": {
+        "minimum": 7,
+        "minimal": 5,
+        "smallest": 3,
+        "least": 2,
+        "lowest": 1
+      }
+    },
+    {
+      "id": "cluster27",
+      "words": [
+        "a casual",
+        "a more colloquial usage",
+        "a more informal",
+        "an informal"
+      ],
+      "occurrences": {
+        "a casual": 1,
+        "a more colloquial usage": 1,
+        "a more informal": 1,
+        "an informal": 1
+      }
+    },
+    {
+      "id": "cluster28",
+      "words": [
+        "an imperative",
+        "a casual imperative",
+        "a second imperative",
+        "a sudden imperative"
+      ],
+      "occurrences": {
+        "an imperative": 4,
+        "a casual imperative": 1,
+        "a second imperative": 1,
+        "a sudden imperative": 1
+      }
+    },
+    {
+      "id": "cluster29",
+      "words": [
+        "a change",
+        "a replacement",
+        "a reported change",
+        "a shift"
+      ],
+      "occurrences": {
+        "a change": 2,
+        "a replacement": 1,
+        "a reported change": 1,
+        "a shift": 1
+      }
+    },
+    {
+      "id": "cluster30",
+      "words": [
+        "an explanation",
+        "a common method",
+        "a detailed list",
+        "a method"
+      ],
+      "occurrences": {
+        "an explanation": 4,
+        "a common method": 1,
+        "a detailed list": 1,
+        "a method": 1
+      }
+    },
+    {
+      "id": "cluster31",
+      "words": [
+        "a comparative improvement",
+        "a general recommendation",
+        "a literature review",
+        "a tentative recommendation"
+      ],
+      "occurrences": {
+        "a comparative improvement": 1,
+        "a general recommendation": 1,
+        "a literature review": 1,
+        "a tentative recommendation": 1
+      }
+    },
+    {
+      "id": "cluster32",
+      "words": [
+        "a conversational",
+        "a conversational style",
+        "a conversational tone",
+        "a spoken description"
+      ],
+      "occurrences": {
+        "a conversational": 6,
+        "a conversational style": 2,
+        "a conversational tone": 1,
+        "a spoken description": 1
+      }
+    },
+    {
+      "id": "cluster33",
+      "words": [
+        "a factual statement",
+        "a formal factual tone",
+        "a simple factual statement",
+        "a situation"
+      ],
+      "occurrences": {
+        "a factual statement": 1,
+        "a formal factual tone": 1,
+        "a simple factual statement": 1,
+        "a situation": 1
+      }
+    },
+    {
+      "id": "cluster34",
+      "words": [
+        "an exception",
+        "a final exception",
+        "a qualifying exception",
+        "a sharp exception"
+      ],
+      "occurrences": {
+        "an exception": 3,
+        "a final exception": 1,
+        "a qualifying exception": 1,
+        "a sharp exception": 1
+      }
+    },
+    {
+      "id": "cluster35",
+      "words": [
+        "a headline",
+        "a headline claim",
+        "a headline-like claim",
+        "a headline-like opening"
+      ],
+      "occurrences": {
+        "a headline": 2,
+        "a headline claim": 1,
+        "a headline-like claim": 1,
+        "a headline-like opening": 1
+      }
+    },
+    {
+      "id": "cluster36",
+      "words": [
+        "a humorous",
+        "a humorous critical tone",
+        "a mildly humorous",
+        "a playful pun"
+      ],
+      "occurrences": {
+        "a humorous": 2,
+        "a humorous critical tone": 1,
+        "a mildly humorous": 1,
+        "a playful pun": 1
+      }
+    },
+    {
+      "id": "cluster37",
+      "words": [
+        "a literal translation",
+        "a retrospective concession",
+        "a single elaborating claim",
+        "an earlier claim"
+      ],
+      "occurrences": {
+        "a literal translation": 1,
+        "a retrospective concession": 1,
+        "a single elaborating claim": 1,
+        "an earlier claim": 1
+      }
+    },
+    {
+      "id": "cluster38",
+      "words": [
+        "a noun phrase",
+        "a phrase like",
+        "a quoted phrase",
+        "a word"
+      ],
+      "occurrences": {
+        "a noun phrase": 1,
+        "a phrase like": 1,
+        "a quoted phrase": 1,
+        "a word": 1
+      }
+    },
+    {
+      "id": "cluster39",
+      "words": [
+        "a quote",
+        "a quoted paraphrase",
+        "a quoted question",
+        "a text"
+      ],
+      "occurrences": {
+        "a quote": 4,
+        "a quoted paraphrase": 1,
+        "a quoted question": 1,
+        "a text": 1
+      }
+    },
+    {
+      "id": "cluster40",
+      "words": [
+        "an attribution",
+        "a quoted definition",
+        "a reference article",
+        "an attribution-like aside"
+      ],
+      "occurrences": {
+        "an attribution": 2,
+        "a quoted definition": 1,
+        "a reference article": 1,
+        "an attribution-like aside": 1
+      }
+    },
+    {
+      "id": "cluster41",
+      "words": [
+        "change",
+        "modification",
+        "alteration",
+        "modify"
+      ],
+      "occurrences": {
+        "change": 46,
+        "modification": 4,
+        "alteration": 2,
+        "modify": 2
+      }
+    },
+    {
+      "id": "cluster42",
+      "words": [
+        "changes",
+        "modifies",
+        "alterations",
+        "modifications"
+      ],
+      "occurrences": {
+        "changes": 12,
+        "modifies": 2,
+        "alterations": 1,
+        "modifications": 1
+      }
+    },
+    {
+      "id": "cluster43",
+      "words": [
+        "applications",
+        "issues",
+        "corrects",
+        "reviews"
+      ],
+      "occurrences": {
+        "applications": 4,
+        "issues": 3,
+        "corrects": 2,
+        "reviews": 2
+      }
+    },
+    {
+      "id": "cluster44",
+      "words": [
+        "bacteria",
+        "bacterial",
+        "bacterium",
+        "microbial"
+      ],
+      "occurrences": {
+        "bacteria": 15,
+        "bacterial": 5,
+        "bacterium": 1,
+        "microbial": 1
+      }
+    },
+    {
+      "id": "cluster45",
+      "words": [
+        "british",
+        "uk",
+        "britain",
+        "england"
+      ],
+      "occurrences": {
+        "british": 5,
+        "uk": 4,
+        "britain": 2,
+        "england": 1
+      }
+    },
+    {
+      "id": "cluster46",
+      "words": [
+        "choose",
+        "choice",
+        "chose",
+        "chosen"
+      ],
+      "occurrences": {
+        "choose": 5,
+        "choice": 4,
+        "chose": 1,
+        "chosen": 1
+      }
+    },
+    {
+      "id": "cluster47",
+      "words": [
+        "clarifying",
+        "helping",
+        "correcting",
+        "reviewing"
+      ],
+      "occurrences": {
+        "clarifying": 11,
+        "helping": 11,
+        "correcting": 5,
+        "reviewing": 2
+      }
+    },
+    {
+      "id": "cluster48",
+      "words": [
+        "difference",
+        "different",
+        "differ",
+        "differently"
+      ],
+      "occurrences": {
+        "difference": 43,
+        "different": 42,
+        "differ": 3,
+        "differently": 1
+      }
+    },
+    {
+      "id": "cluster49",
+      "words": [
+        "origin",
+        "etymology",
+        "etymological",
+        "etymology-style"
+      ],
+      "occurrences": {
+        "origin": 14,
+        "etymology": 10,
+        "etymological": 5,
+        "etymology-style": 1
+      }
+    },
+    {
+      "id": "cluster50",
+      "words": [
+        "often",
+        "usually",
+        "rarely",
+        "frequently"
+      ],
+      "occurrences": {
+        "often": 18,
+        "usually": 9,
+        "rarely": 3,
+        "frequently": 2
+      }
+    },
+    {
+      "id": "cluster51",
+      "words": [
+        "hematological",
+        "hematologist",
+        "hematoma",
+        "hematopoietic"
+      ],
+      "occurrences": {
+        "hematological": 1,
+        "hematologist": 1,
+        "hematoma": 1,
+        "hematopoietic": 1
+      }
+    },
+    {
+      "id": "cluster52",
+      "words": [
+        "reversal",
+        "opposite",
+        "reverse",
+        "inverse"
+      ],
+      "occurrences": {
+        "reversal": 9,
+        "opposite": 3,
+        "reverse": 2,
+        "inverse": 1
+      }
+    },
+    {
+      "id": "cluster53",
+      "words": [
+        "local",
+        "locally",
+        "non-local",
+        "nonlocal"
+      ],
+      "occurrences": {
+        "local": 12,
+        "locally": 1,
+        "non-local": 1,
+        "nonlocal": 1
+      }
+    },
+    {
+      "id": "cluster54",
+      "words": [
+        "magnetic",
+        "magnetism",
+        "magnet",
+        "magnetotactic"
+      ],
+      "occurrences": {
+        "magnetic": 9,
+        "magnetism": 5,
+        "magnet": 1,
+        "magnetotactic": 1
+      }
+    },
+    {
+      "id": "cluster55",
+      "words": [
+        "mystery",
+        "non-strange",
+        "strange",
+        "unexpectedly"
+      ],
+      "occurrences": {
+        "mystery": 1,
+        "non-strange": 1,
+        "strange": 1,
+        "unexpectedly": 1
+      }
+    },
+    {
+      "id": "cluster56",
+      "words": [
+        "research",
+        "survey",
+        "research-report",
+        "research-summary"
+      ],
+      "occurrences": {
+        "research": 32,
+        "survey": 5,
+        "research-report": 1,
+        "research-summary": 1
+      }
+    },
+    {
+      "id": "cluster57",
+      "words": [
+        "safety",
+        "safely",
+        "safe",
+        "unsafe"
+      ],
+      "occurrences": {
+        "safety": 6,
+        "safely": 3,
+        "safe": 1,
+        "unsafe": 1
+      }
+    },
+    {
+      "id": "cluster58",
+      "words": [
+        "sentence",
+        "statement",
+        "single-sentence",
+        "two-sentence"
+      ],
+      "occurrences": {
+        "sentence": 69,
+        "statement": 25,
+        "single-sentence": 1,
+        "two-sentence": 1
+      }
+    },
+    {
+      "id": "cluster59",
+      "words": [
+        "statistical",
+        "statistic",
+        "stat",
+        "statistically"
+      ],
+      "occurrences": {
+        "statistical": 8,
+        "statistic": 2,
+        "stat": 1,
+        "statistically": 1
+      }
+    },
+    {
+      "id": "cluster60",
+      "words": [
+        "a brief historical aside",
+        "a historical",
+        "a historical example"
+      ],
+      "occurrences": {
+        "a brief historical aside": 1,
+        "a historical": 1,
+        "a historical example": 1
+      }
+    },
+    {
+      "id": "cluster61",
+      "words": [
+        "a calculational use",
+        "a mathematical method",
+        "a recipe"
+      ],
+      "occurrences": {
+        "a calculational use": 1,
+        "a mathematical method": 1,
+        "a recipe": 1
+      }
+    },
+    {
+      "id": "cluster62",
+      "words": [
+        "a phrase",
+        "a call for ideas",
+        "a curated"
+      ],
+      "occurrences": {
+        "a phrase": 3,
+        "a call for ideas": 1,
+        "a curated": 1
+      }
+    },
+    {
+      "id": "cluster63",
+      "words": [
+        "a casual aside",
+        "a further consequence",
+        "a later update"
+      ],
+      "occurrences": {
+        "a casual aside": 1,
+        "a further consequence": 1,
+        "a later update": 1
+      }
+    },
+    {
+      "id": "cluster64",
+      "words": [
+        "a claim",
+        "a disputed claim",
+        "a further supporting claim"
+      ],
+      "occurrences": {
+        "a claim": 11,
+        "a disputed claim": 1,
+        "a further supporting claim": 1
+      }
+    },
+    {
+      "id": "cluster65",
+      "words": [
+        "an invitation",
+        "a closing invitation",
+        "a final invitation"
+      ],
+      "occurrences": {
+        "an invitation": 4,
+        "a closing invitation": 2,
+        "a final invitation": 1
+      }
+    },
+    {
+      "id": "cluster66",
+      "words": [
+        "a company",
+        "a company b",
+        "a corporation"
+      ],
+      "occurrences": {
+        "a company": 2,
+        "a company b": 2,
+        "a corporation": 1
+      }
+    },
+    {
+      "id": "cluster67",
+      "words": [
+        "a concise academic style",
+        "a concise research-summary style",
+        "a paper-style format"
+      ],
+      "occurrences": {
+        "a concise academic style": 1,
+        "a concise research-summary style": 1,
+        "a paper-style format": 1
+      }
+    },
+    {
+      "id": "cluster68",
+      "words": [
+        "a correction to wikipedia",
+        "a formal citation",
+        "a second source"
+      ],
+      "occurrences": {
+        "a correction to wikipedia": 1,
+        "a formal citation": 1,
+        "a second source": 1
+      }
+    },
+    {
+      "id": "cluster69",
+      "words": [
+        "a criminal",
+        "a criminal now",
+        "a criminal'"
+      ],
+      "occurrences": {
+        "a criminal": 1,
+        "a criminal now": 1,
+        "a criminal'": 1
+      }
+    },
+    {
+      "id": "cluster70",
+      "words": [
+        "a state",
+        "a different state",
+        "a state issue"
+      ],
+      "occurrences": {
+        "a state": 2,
+        "a different state": 1,
+        "a state issue": 1
+      }
+    },
+    {
+      "id": "cluster71",
+      "words": [
+        "a limitation",
+        "a difficulty",
+        "a major drawback"
+      ],
+      "occurrences": {
+        "a limitation": 2,
+        "a difficulty": 1,
+        "a major drawback": 1
+      }
+    },
+    {
+      "id": "cluster72",
+      "words": [
+        "a few idioms",
+        "a more colloquial equivalent",
+        "an idiom"
+      ],
+      "occurrences": {
+        "a few idioms": 1,
+        "a more colloquial equivalent": 1,
+        "an idiom": 1
+      }
+    },
+    {
+      "id": "cluster73",
+      "words": [
+        "a formal informational style",
+        "a formal reformulation",
+        "a natural way"
+      ],
+      "occurrences": {
+        "a formal informational style": 1,
+        "a formal reformulation": 1,
+        "a natural way": 1
+      }
+    },
+    {
+      "id": "cluster74",
+      "words": [
+        "a grammatically technical tone",
+        "a language usage point",
+        "a spoken grammar lesson"
+      ],
+      "occurrences": {
+        "a grammatically technical tone": 1,
+        "a language usage point": 1,
+        "a spoken grammar lesson": 1
+      }
+    },
+    {
+      "id": "cluster75",
+      "words": [
+        "a question",
+        "a qualification",
+        "a later qualification"
+      ],
+      "occurrences": {
+        "a question": 7,
+        "a qualification": 6,
+        "a later qualification": 1
+      }
+    },
+    {
+      "id": "cluster76",
+      "words": [
+        "an enumeration",
+        "a long enumeration",
+        "an unusually long enumeration"
+      ],
+      "occurrences": {
+        "an enumeration": 2,
+        "a long enumeration": 1,
+        "an unusually long enumeration": 1
+      }
+    },
+    {
+      "id": "cluster77",
+      "words": [
+        "a message",
+        "a procedural announcement",
+        "a short explanation is"
+      ],
+      "occurrences": {
+        "a message": 1,
+        "a procedural announcement": 1,
+        "a short explanation is": 1
+      }
+    },
+    {
+      "id": "cluster78",
+      "words": [
+        "a misquote-like reading",
+        "a quoted response",
+        "an attributed quotation"
+      ],
+      "occurrences": {
+        "a misquote-like reading": 1,
+        "a quoted response": 1,
+        "an attributed quotation": 1
+      }
+    },
+    {
+      "id": "cluster79",
+      "words": [
+        "a mythological narrative style",
+        "a scholarly mythology question",
+        "an ancient myth"
+      ],
+      "occurrences": {
+        "a mythological narrative style": 1,
+        "a scholarly mythology question": 1,
+        "an ancient myth": 1
+      }
+    },
+    {
+      "id": "cluster80",
+      "words": [
+        "a parenthesis",
+        "a parenthetical asterisk note",
+        "a parenthetical tag"
+      ],
+      "occurrences": {
+        "a parenthesis": 1,
+        "a parenthetical asterisk note": 1,
+        "a parenthetical tag": 1
+      }
+    },
+    {
+      "id": "cluster81",
+      "words": [
+        "a political commentary",
+        "a political dispute",
+        "a political quotation"
+      ],
+      "occurrences": {
+        "a political commentary": 1,
+        "a political dispute": 1,
+        "a political quotation": 1
+      }
+    },
+    {
+      "id": "cluster82",
+      "words": [
+        "a primary antibody",
+        "an antibody",
+        "an antibody do"
+      ],
+      "occurrences": {
+        "a primary antibody": 1,
+        "an antibody": 1,
+        "an antibody do": 1
+      }
+    },
+    {
+      "id": "cluster83",
+      "words": [
+        "a quotation",
+        "a quoted remark",
+        "a quoted objection"
+      ],
+      "occurrences": {
+        "a quotation": 3,
+        "a quoted remark": 2,
+        "a quoted objection": 1
+      }
+    },
+    {
+      "id": "cluster84",
+      "words": [
+        "a self-description list",
+        "a technical-linguistic tone",
+        "an online application"
+      ],
+      "occurrences": {
+        "a self-description list": 1,
+        "a technical-linguistic tone": 1,
+        "an online application": 1
+      }
+    },
+    {
+      "id": "cluster85",
+      "words": [
+        "a verb",
+        "a verb ending",
+        "a verb phrase"
+      ],
+      "occurrences": {
+        "a verb": 1,
+        "a verb ending": 1,
+        "a verb phrase": 1
+      }
+    },
+    {
+      "id": "cluster86",
+      "words": [
+        "acid",
+        "acidity",
+        "acidic"
+      ],
+      "occurrences": {
+        "acid": 10,
+        "acidity": 2,
+        "acidic": 1
+      }
+    },
+    {
+      "id": "cluster87",
+      "words": [
+        "anthropology",
+        "anthropological",
+        "anthropologist"
+      ],
+      "occurrences": {
+        "anthropology": 10,
+        "anthropological": 4,
+        "anthropologist": 1
+      }
+    },
+    {
+      "id": "cluster88",
+      "words": [
+        "antisemitic",
+        "anti-jewish",
+        "anti-semitic"
+      ],
+      "occurrences": {
+        "antisemitic": 2,
+        "anti-jewish": 1,
+        "anti-semitic": 1
+      }
+    },
+    {
+      "id": "cluster89",
+      "words": [
+        "example",
+        "application",
+        "weird"
+      ],
+      "occurrences": {
+        "example": 65,
+        "application": 7,
+        "weird": 4
+      }
+    },
+    {
+      "id": "cluster90",
+      "words": [
+        "astronomy",
+        "astronomical",
+        "astrophysical"
+      ],
+      "occurrences": {
+        "astronomy": 7,
+        "astronomical": 3,
+        "astrophysical": 1
+      }
+    },
+    {
+      "id": "cluster91",
+      "words": [
+        "australia",
+        "australian",
+        "aussie"
+      ],
+      "occurrences": {
+        "australia": 24,
+        "australian": 13,
+        "aussie": 1
+      }
+    },
+    {
+      "id": "cluster92",
+      "words": [
+        "auto",
+        "automatic",
+        "automatically"
+      ],
+      "occurrences": {
+        "auto": 3,
+        "automatic": 1,
+        "automatically": 1
+      }
+    },
+    {
+      "id": "cluster93",
+      "words": [
+        "begins",
+        "starts",
+        "is beginning"
+      ],
+      "occurrences": {
+        "begins": 22,
+        "starts": 14,
+        "is beginning": 1
+      }
+    },
+    {
+      "id": "cluster94",
+      "words": [
+        "behavior",
+        "behavioral",
+        "behaviour"
+      ],
+      "occurrences": {
+        "behavior": 3,
+        "behavioral": 3,
+        "behaviour": 1
+      }
+    },
+    {
+      "id": "cluster95",
+      "words": [
+        "big",
+        "large",
+        "huge"
+      ],
+      "occurrences": {
+        "big": 19,
+        "large": 14,
+        "huge": 1
+      }
+    },
+    {
+      "id": "cluster96",
+      "words": [
+        "bigger",
+        "larger",
+        "smaller"
+      ],
+      "occurrences": {
+        "bigger": 3,
+        "larger": 1,
+        "smaller": 1
+      }
+    },
+    {
+      "id": "cluster97",
+      "words": [
+        "biographical",
+        "biography",
+        "historical-biographical"
+      ],
+      "occurrences": {
+        "biographical": 11,
+        "biography": 5,
+        "historical-biographical": 1
+      }
+    },
+    {
+      "id": "cluster98",
+      "words": [
+        "bios",
+        "biologists",
+        "biosciences"
+      ],
+      "occurrences": {
+        "bios": 4,
+        "biologists": 1,
+        "biosciences": 1
+      }
+    },
+    {
+      "id": "cluster99",
+      "words": [
+        "blog",
+        "blogger",
+        "blog-style"
+      ],
+      "occurrences": {
+        "blog": 21,
+        "blogger": 2,
+        "blog-style": 1
+      }
+    },
+    {
+      "id": "cluster100",
+      "words": [
+        "brief",
+        "summary",
+        "briefly"
+      ],
+      "occurrences": {
+        "brief": 83,
+        "summary": 32,
+        "briefly": 3
+      }
+    },
+    {
+      "id": "cluster101",
+      "words": [
+        "contrast",
+        "contrastive",
+        "by-contrast"
+      ],
+      "occurrences": {
+        "contrast": 27,
+        "contrastive": 7,
+        "by-contrast": 1
+      }
+    },
+    {
+      "id": "cluster102",
+      "words": [
+        "can't",
+        "cannot",
+        "unable"
+      ],
+      "occurrences": {
+        "can't": 5,
+        "cannot": 5,
+        "unable": 1
+      }
+    },
+    {
+      "id": "cluster103",
+      "words": [
+        "catalog",
+        "catalogue",
+        "i-catalogue"
+      ],
+      "occurrences": {
+        "catalog": 2,
+        "catalogue": 2,
+        "i-catalogue": 1
+      }
+    },
+    {
+      "id": "cluster104",
+      "words": [
+        "china",
+        "chinese",
+        "mandarin"
+      ],
+      "occurrences": {
+        "china": 14,
+        "chinese": 9,
+        "mandarin": 1
+      }
+    },
+    {
+      "id": "cluster105",
+      "words": [
+        "film",
+        "movie",
+        "cinema"
+      ],
+      "occurrences": {
+        "film": 18,
+        "movie": 12,
+        "cinema": 3
+      }
+    },
+    {
+      "id": "cluster106",
+      "words": [
+        "color",
+        "colour",
+        "colorful"
+      ],
+      "occurrences": {
+        "color": 26,
+        "colour": 5,
+        "colorful": 1
+      }
+    },
+    {
+      "id": "cluster107",
+      "words": [
+        "column",
+        "columnar",
+        "single-column"
+      ],
+      "occurrences": {
+        "column": 3,
+        "columnar": 1,
+        "single-column": 1
+      }
+    },
+    {
+      "id": "cluster108",
+      "words": [
+        "commentary",
+        "disambiguate",
+        "disambiguation"
+      ],
+      "occurrences": {
+        "commentary": 23,
+        "disambiguate": 1,
+        "disambiguation": 1
+      }
+    },
+    {
+      "id": "cluster109",
+      "words": [
+        "company",
+        "corporate",
+        "corporation"
+      ],
+      "occurrences": {
+        "company": 44,
+        "corporate": 4,
+        "corporation": 2
+      }
+    },
+    {
+      "id": "cluster110",
+      "words": [
+        "comparison",
+        "comparative",
+        "compare"
+      ],
+      "occurrences": {
+        "comparison": 12,
+        "comparative": 11,
+        "compare": 3
+      }
+    },
+    {
+      "id": "cluster111",
+      "words": [
+        "fully",
+        "completely",
+        "totally"
+      ],
+      "occurrences": {
+        "fully": 5,
+        "completely": 2,
+        "totally": 1
+      }
+    },
+    {
+      "id": "cluster112",
+      "words": [
+        "consistency",
+        "consistent",
+        "consistently"
+      ],
+      "occurrences": {
+        "consistency": 3,
+        "consistent": 1,
+        "consistently": 1
+      }
+    },
+    {
+      "id": "cluster113",
+      "words": [
+        "controversy",
+        "controversial",
+        "debate"
+      ],
+      "occurrences": {
+        "controversy": 3,
+        "controversial": 2,
+        "debate": 1
+      }
+    },
+    {
+      "id": "cluster114",
+      "words": [
+        "ct",
+        "ctc",
+        "tcca"
+      ],
+      "occurrences": {
+        "ct": 2,
+        "ctc": 1,
+        "tcca": 1
+      }
+    },
+    {
+      "id": "cluster115",
+      "words": [
+        "culture",
+        "cultural",
+        "culturally"
+      ],
+      "occurrences": {
+        "culture": 12,
+        "cultural": 4,
+        "culturally": 1
+      }
+    },
+    {
+      "id": "cluster116",
+      "words": [
+        "d",
+        "investigation",
+        "notation"
+      ],
+      "occurrences": {
+        "d": 12,
+        "investigation": 8,
+        "notation": 4
+      }
+    },
+    {
+      "id": "cluster117",
+      "words": [
+        "remove",
+        "delete",
+        "removal"
+      ],
+      "occurrences": {
+        "remove": 10,
+        "delete": 5,
+        "removal": 4
+      }
+    },
+    {
+      "id": "cluster118",
+      "words": [
+        "dependent",
+        "dependence",
+        "depend"
+      ],
+      "occurrences": {
+        "dependent": 3,
+        "dependence": 2,
+        "depend": 1
+      }
+    },
+    {
+      "id": "cluster119",
+      "words": [
+        "figure",
+        "diagram",
+        "diagrammatic"
+      ],
+      "occurrences": {
+        "figure": 7,
+        "diagram": 2,
+        "diagrammatic": 1
+      }
+    },
+    {
+      "id": "cluster120",
+      "words": [
+        "directly",
+        "direct",
+        "directness"
+      ],
+      "occurrences": {
+        "directly": 3089,
+        "direct": 25,
+        "directness": 1
+      }
+    },
+    {
+      "id": "cluster121",
+      "words": [
+        "doctors",
+        "doctor's",
+        "physician's"
+      ],
+      "occurrences": {
+        "doctors": 2,
+        "doctor's": 1,
+        "physician's": 1
+      }
+    },
+    {
+      "id": "cluster122",
+      "words": [
+        "draw",
+        "drawn",
+        "drew"
+      ],
+      "occurrences": {
+        "draw": 5,
+        "drawn": 4,
+        "drew": 1
+      }
+    },
+    {
+      "id": "cluster123",
+      "words": [
+        "electric",
+        "electrical",
+        "electricity"
+      ],
+      "occurrences": {
+        "electric": 8,
+        "electrical": 8,
+        "electricity": 4
+      }
+    },
+    {
+      "id": "cluster124",
+      "words": [
+        "emotional",
+        "emotion",
+        "emotionally"
+      ],
+      "occurrences": {
+        "emotional": 2,
+        "emotion": 1,
+        "emotionally": 1
+      }
+    },
+    {
+      "id": "cluster125",
+      "words": [
+        "end",
+        "termination",
+        "sentence-end"
+      ],
+      "occurrences": {
+        "end": 18,
+        "termination": 2,
+        "sentence-end": 1
+      }
+    },
+    {
+      "id": "cluster126",
+      "words": [
+        "endless",
+        "infinite",
+        "infinity"
+      ],
+      "occurrences": {
+        "endless": 2,
+        "infinite": 2,
+        "infinity": 2
+      }
+    },
+    {
+      "id": "cluster127",
+      "words": [
+        "epithelial",
+        "epithelium",
+        "epithelialization"
+      ],
+      "occurrences": {
+        "epithelial": 2,
+        "epithelium": 2,
+        "epithelialization": 1
+      }
+    },
+    {
+      "id": "cluster128",
+      "words": [
+        "formula",
+        "equation",
+        "problem"
+      ],
+      "occurrences": {
+        "formula": 7,
+        "equation": 4,
+        "problem": 3
+      }
+    },
+    {
+      "id": "cluster129",
+      "words": [
+        "error",
+        "misconception",
+        "mistaken"
+      ],
+      "occurrences": {
+        "error": 8,
+        "misconception": 1,
+        "mistaken": 1
+      }
+    },
+    {
+      "id": "cluster130",
+      "words": [
+        "experimental",
+        "experiment",
+        "experimental-theoretical"
+      ],
+      "occurrences": {
+        "experimental": 6,
+        "experiment": 5,
+        "experimental-theoretical": 1
+      }
+    },
+    {
+      "id": "cluster131",
+      "words": [
+        "fertilization",
+        "fertilisation",
+        "fertilizer"
+      ],
+      "occurrences": {
+        "fertilization": 4,
+        "fertilisation": 1,
+        "fertilizer": 1
+      }
+    },
+    {
+      "id": "cluster132",
+      "words": [
+        "finding",
+        "searching",
+        "searching-and-finding"
+      ],
+      "occurrences": {
+        "finding": 7,
+        "searching": 2,
+        "searching-and-finding": 1
+      }
+    },
+    {
+      "id": "cluster133",
+      "words": [
+        "frozen",
+        "freeze",
+        "froze"
+      ],
+      "occurrences": {
+        "frozen": 12,
+        "freeze": 6,
+        "froze": 1
+      }
+    },
+    {
+      "id": "cluster134",
+      "words": [
+        "glossary",
+        "lexical",
+        "lexicon"
+      ],
+      "occurrences": {
+        "glossary": 4,
+        "lexical": 3,
+        "lexicon": 1
+      }
+    },
+    {
+      "id": "cluster135",
+      "words": [
+        "grammatical",
+        "grammatically",
+        "ungrammatical"
+      ],
+      "occurrences": {
+        "grammatical": 10,
+        "grammatically": 2,
+        "ungrammatical": 1
+      }
+    },
+    {
+      "id": "cluster136",
+      "words": [
+        "h",
+        "hh",
+        "hgh"
+      ],
+      "occurrences": {
+        "h": 8,
+        "hh": 3,
+        "hgh": 1
+      }
+    },
+    {
+      "id": "cluster137",
+      "words": [
+        "headline",
+        "headline-like",
+        "headline-style"
+      ],
+      "occurrences": {
+        "headline": 8,
+        "headline-like": 3,
+        "headline-style": 2
+      }
+    },
+    {
+      "id": "cluster138",
+      "words": [
+        "immediately",
+        "immediate",
+        "instantly"
+      ],
+      "occurrences": {
+        "immediately": 4,
+        "immediate": 2,
+        "instantly": 1
+      }
+    },
+    {
+      "id": "cluster139",
+      "words": [
+        "independence",
+        "independent",
+        "independently"
+      ],
+      "occurrences": {
+        "independence": 7,
+        "independent": 5,
+        "independently": 1
+      }
+    },
+    {
+      "id": "cluster140",
+      "words": [
+        "indirectly",
+        "indirect",
+        "indirectness"
+      ],
+      "occurrences": {
+        "indirectly": 3084,
+        "indirect": 1,
+        "indirectness": 1
+      }
+    },
+    {
+      "id": "cluster141",
+      "words": [
+        "vietnam",
+        "vietnamese",
+        "indochina"
+      ],
+      "occurrences": {
+        "vietnam": 4,
+        "vietnamese": 2,
+        "indochina": 1
+      }
+    },
+    {
+      "id": "cluster142",
+      "words": [
+        "information",
+        "informational",
+        "info"
+      ],
+      "occurrences": {
+        "information": 23,
+        "informational": 20,
+        "info": 2
+      }
+    },
+    {
+      "id": "cluster143",
+      "words": [
+        "joy",
+        "joyful",
+        "joyfully"
+      ],
+      "occurrences": {
+        "joy": 3,
+        "joyful": 1,
+        "joyfully": 1
+      }
+    },
+    {
+      "id": "cluster144",
+      "words": [
+        "linguistic",
+        "linguistics-style",
+        "linguistically"
+      ],
+      "occurrences": {
+        "linguistic": 20,
+        "linguistics-style": 2,
+        "linguistically": 1
+      }
+    },
+    {
+      "id": "cluster145",
+      "words": [
+        "list",
+        "list-like",
+        "list-style"
+      ],
+      "occurrences": {
+        "list": 47,
+        "list-like": 1,
+        "list-style": 1
+      }
+    },
+    {
+      "id": "cluster146",
+      "words": [
+        "literature",
+        "wikipedia-style",
+        "nonfiction"
+      ],
+      "occurrences": {
+        "literature": 5,
+        "wikipedia-style": 2,
+        "nonfiction": 1
+      }
+    },
+    {
+      "id": "cluster147",
+      "words": [
+        "loop",
+        "one-loop",
+        "two-loop"
+      ],
+      "occurrences": {
+        "loop": 4,
+        "one-loop": 2,
+        "two-loop": 2
+      }
+    },
+    {
+      "id": "cluster148",
+      "words": [
+        "magic",
+        "magical",
+        "magici"
+      ],
+      "occurrences": {
+        "magic": 5,
+        "magical": 1,
+        "magici": 1
+      }
+    },
+    {
+      "id": "cluster149",
+      "words": [
+        "positive",
+        "negative",
+        "positively"
+      ],
+      "occurrences": {
+        "positive": 11,
+        "negative": 10,
+        "positively": 1
+      }
+    },
+    {
+      "id": "cluster150",
+      "words": [
+        "position",
+        "placement",
+        "positional"
+      ],
+      "occurrences": {
+        "position": 11,
+        "placement": 1,
+        "positional": 1
+      }
+    },
+    {
+      "id": "cluster151",
+      "words": [
+        "silence",
+        "quiet",
+        "silent"
+      ],
+      "occurrences": {
+        "silence": 2,
+        "quiet": 1,
+        "silent": 1
+      }
+    },
+    {
+      "id": "cluster152",
+      "words": [
+        "quote",
+        "quotation",
+        "quotative"
+      ],
+      "occurrences": {
+        "quote": 23,
+        "quotation": 13,
+        "quotative": 1
+      }
+    },
+    {
+      "id": "cluster153",
+      "words": [
+        "random",
+        "rand",
+        "randomness"
+      ],
+      "occurrences": {
+        "random": 6,
+        "rand": 2,
+        "randomness": 1
+      }
+    },
+    {
+      "id": "cluster154",
+      "words": [
+        "rare",
+        "rarer",
+        "rarest"
+      ],
+      "occurrences": {
+        "rare": 2,
+        "rarer": 1,
+        "rarest": 1
+      }
+    },
+    {
+      "id": "cluster155",
+      "words": [
+        "relationship",
+        "relation",
+        "relate"
+      ],
+      "occurrences": {
+        "relationship": 9,
+        "relation": 6,
+        "relate": 2
+      }
+    },
+    {
+      "id": "cluster156",
+      "words": [
+        "separate",
+        "separately",
+        "separation"
+      ],
+      "occurrences": {
+        "separate": 9,
+        "separately": 2,
+        "separation": 2
+      }
+    },
+    {
+      "id": "cluster157",
+      "words": [
+        "simple",
+        "straightforward",
+        "simply"
+      ],
+      "occurrences": {
+        "simple": 18,
+        "straightforward": 11,
+        "simply": 3
+      }
+    },
+    {
+      "id": "cluster158",
+      "words": [
+        "statistics",
+        "status",
+        "stats"
+      ],
+      "occurrences": {
+        "statistics": 9,
+        "status": 8,
+        "stats": 1
+      }
+    },
+    {
+      "id": "cluster159",
+      "words": [
+        "steal",
+        "theft",
+        "stolen"
+      ],
+      "occurrences": {
+        "steal": 2,
+        "theft": 2,
+        "stolen": 1
+      }
+    },
+    {
+      "id": "cluster160",
+      "words": [
+        "strong",
+        "weak",
+        "strongly"
+      ],
+      "occurrences": {
+        "strong": 8,
+        "weak": 5,
+        "strongly": 3
+      }
+    },
+    {
+      "id": "cluster161",
+      "words": [
+        "take",
+        "taken",
+        "took"
+      ],
+      "occurrences": {
+        "take": 180,
+        "taken": 2,
+        "took": 1
+      }
+    },
+    {
+      "id": "cluster162",
+      "words": [
+        "technology",
+        "tech",
+        "technological"
+      ],
+      "occurrences": {
+        "technology": 9,
+        "tech": 5,
+        "technological": 1
+      }
+    },
+    {
+      "id": "cluster163",
+      "words": [
+        "theorem",
+        "theorem-like",
+        "theorem-statement"
+      ],
+      "occurrences": {
+        "theorem": 4,
+        "theorem-like": 1,
+        "theorem-statement": 1
+      }
+    },
+    {
+      "id": "cluster164",
+      "words": [
+        "through",
+        "thru",
+        "via"
+      ],
+      "occurrences": {
+        "through": 27,
+        "thru": 1,
+        "via": 1
+      }
+    },
+    {
+      "id": "cluster165",
+      "words": [
+        "vaccine",
+        "vaccinate",
+        "vaccination"
+      ],
+      "occurrences": {
+        "vaccine": 12,
+        "vaccinate": 1,
+        "vaccination": 1
+      }
+    },
+    {
+      "id": "cluster166",
+      "words": [
+        "a actor",
+        "an actor"
+      ],
+      "occurrences": {
+        "a actor": 1,
+        "an actor": 1
+      }
+    },
+    {
+      "id": "cluster167",
+      "words": [
+        "a basketball court",
+        "an indoor basketball court"
+      ],
+      "occurrences": {
+        "a basketball court": 1,
+        "an indoor basketball court": 1
+      }
+    },
+    {
+      "id": "cluster168",
+      "words": [
+        "a bibliographic",
+        "a scholarly"
+      ],
+      "occurrences": {
+        "a bibliographic": 1,
+        "a scholarly": 1
+      }
+    },
+    {
+      "id": "cluster169",
+      "words": [
+        "a biographical setup",
+        "a formal historical-biographical style"
+      ],
+      "occurrences": {
+        "a biographical setup": 1,
+        "a formal historical-biographical style": 1
+      }
+    },
+    {
+      "id": "cluster170",
+      "words": [
+        "a blunt report",
+        "a plain report"
+      ],
+      "occurrences": {
+        "a blunt report": 1,
+        "a plain report": 1
+      }
+    },
+    {
+      "id": "cluster171",
+      "words": [
+        "a book",
+        "a text that starts"
+      ],
+      "occurrences": {
+        "a book": 2,
+        "a text that starts": 2
+      }
+    },
+    {
+      "id": "cluster172",
+      "words": [
+        "a brief attribution tag",
+        "an attribution-like equivalence"
+      ],
+      "occurrences": {
+        "a brief attribution tag": 1,
+        "an attribution-like equivalence": 1
+      }
+    },
+    {
+      "id": "cluster173",
+      "words": [
+        "a brief biographical aside",
+        "an etymology claim"
+      ],
+      "occurrences": {
+        "a brief biographical aside": 1,
+        "an etymology claim": 1
+      }
+    },
+    {
+      "id": "cluster174",
+      "words": [
+        "a broader statistic",
+        "a statistical assumption"
+      ],
+      "occurrences": {
+        "a broader statistic": 1,
+        "a statistical assumption": 1
+      }
+    },
+    {
+      "id": "cluster175",
+      "words": [
+        "a call to action",
+        "a call-to-action"
+      ],
+      "occurrences": {
+        "a call to action": 1,
+        "a call-to-action": 1
+      }
+    },
+    {
+      "id": "cluster176",
+      "words": [
+        "a casual academic style",
+        "an academic textbook style"
+      ],
+      "occurrences": {
+        "a casual academic style": 1,
+        "an academic textbook style": 1
+      }
+    },
+    {
+      "id": "cluster177",
+      "words": [
+        "a casual accessible style",
+        "a casual typo-filled style"
+      ],
+      "occurrences": {
+        "a casual accessible style": 1,
+        "a casual typo-filled style": 1
+      }
+    },
+    {
+      "id": "cluster178",
+      "words": [
+        "a catalog style",
+        "a catalogue style"
+      ],
+      "occurrences": {
+        "a catalog style": 1,
+        "a catalogue style": 1
+      }
+    },
+    {
+      "id": "cluster179",
+      "words": [
+        "a warning",
+        "a cautious general claim"
+      ],
+      "occurrences": {
+        "a warning": 3,
+        "a cautious general claim": 1
+      }
+    },
+    {
+      "id": "cluster180",
+      "words": [
+        "a chronological list",
+        "a chronological sequence"
+      ],
+      "occurrences": {
+        "a chronological list": 1,
+        "a chronological sequence": 1
+      }
+    },
+    {
+      "id": "cluster181",
+      "words": [
+        "a cliff in hawaii",
+        "a maui cliff"
+      ],
+      "occurrences": {
+        "a cliff in hawaii": 1,
+        "a maui cliff": 1
+      }
+    },
+    {
+      "id": "cluster182",
+      "words": [
+        "an attribution tag",
+        "a closing attribution tag"
+      ],
+      "occurrences": {
+        "an attribution tag": 11,
+        "a closing attribution tag": 1
+      }
+    },
+    {
+      "id": "cluster183",
+      "words": [
+        "a closing question",
+        "a closing topic"
+      ],
+      "occurrences": {
+        "a closing question": 1,
+        "a closing topic": 1
+      }
+    },
+    {
+      "id": "cluster184",
+      "words": [
+        "a return",
+        "a closing return"
+      ],
+      "occurrences": {
+        "a return": 2,
+        "a closing return": 1
+      }
+    },
+    {
+      "id": "cluster185",
+      "words": [
+        "a common japanese phrase",
+        "a japanese-japanese dictionary"
+      ],
+      "occurrences": {
+        "a common japanese phrase": 1,
+        "a japanese-japanese dictionary": 1
+      }
+    },
+    {
+      "id": "cluster186",
+      "words": [
+        "a computational method",
+        "a few mathematical filters"
+      ],
+      "occurrences": {
+        "a computational method": 1,
+        "a few mathematical filters": 1
+      }
+    },
+    {
+      "id": "cluster187",
+      "words": [
+        "a conversational academic style",
+        "a formal conversational style"
+      ],
+      "occurrences": {
+        "a conversational academic style": 1,
+        "a formal conversational style": 1
+      }
+    },
+    {
+      "id": "cluster188",
+      "words": [
+        "a correction that begins",
+        "a first correction is"
+      ],
+      "occurrences": {
+        "a correction that begins": 1,
+        "a first correction is": 1
+      }
+    },
+    {
+      "id": "cluster189",
+      "words": [
+        "a court ruling",
+        "a supreme court ruling"
+      ],
+      "occurrences": {
+        "a court ruling": 1,
+        "a supreme court ruling": 1
+      }
+    },
+    {
+      "id": "cluster190",
+      "words": [
+        "a god",
+        "a deity"
+      ],
+      "occurrences": {
+        "a god": 2,
+        "a deity": 1
+      }
+    },
+    {
+      "id": "cluster191",
+      "words": [
+        "a distinctive feature",
+        "a long descriptive inventory"
+      ],
+      "occurrences": {
+        "a distinctive feature": 1,
+        "a long descriptive inventory": 1
+      }
+    },
+    {
+      "id": "cluster192",
+      "words": [
+        "a dominant trait",
+        "a trait is dominant"
+      ],
+      "occurrences": {
+        "a dominant trait": 1,
+        "a trait is dominant": 1
+      }
+    },
+    {
+      "id": "cluster193",
+      "words": [
+        "a doubt",
+        "a statement"
+      ],
+      "occurrences": {
+        "a doubt": 1,
+        "a statement": 1
+      }
+    },
+    {
+      "id": "cluster194",
+      "words": [
+        "a final escalation",
+        "an escalation"
+      ],
+      "occurrences": {
+        "a final escalation": 1,
+        "an escalation": 1
+      }
+    },
+    {
+      "id": "cluster195",
+      "words": [
+        "a form",
+        "a traditional form"
+      ],
+      "occurrences": {
+        "a form": 1,
+        "a traditional form": 1
+      }
+    },
+    {
+      "id": "cluster196",
+      "words": [
+        "a formal",
+        "a term"
+      ],
+      "occurrences": {
+        "a formal": 19,
+        "a term": 2
+      }
+    },
+    {
+      "id": "cluster197",
+      "words": [
+        "a formal technical style",
+        "a scientific paper"
+      ],
+      "occurrences": {
+        "a formal technical style": 1,
+        "a scientific paper": 1
+      }
+    },
+    {
+      "id": "cluster198",
+      "words": [
+        "a fridge",
+        "a fridge freezer"
+      ],
+      "occurrences": {
+        "a fridge": 1,
+        "a fridge freezer": 1
+      }
+    },
+    {
+      "id": "cluster199",
+      "words": [
+        "a friendly sign-off",
+        "a personal sign-off"
+      ],
+      "occurrences": {
+        "a friendly sign-off": 1,
+        "a personal sign-off": 1
+      }
+    },
+    {
+      "id": "cluster200",
+      "words": [
+        "a friesian horse",
+        "a friesian sport horse"
+      ],
+      "occurrences": {
+        "a friesian horse": 1,
+        "a friesian sport horse": 1
+      }
+    },
+    {
+      "id": "cluster201",
+      "words": [
+        "a function",
+        "a specific function"
+      ],
+      "occurrences": {
+        "a function": 1,
+        "a specific function": 1
+      }
+    },
+    {
+      "id": "cluster202",
+      "words": [
+        "a general noun",
+        "a noun"
+      ],
+      "occurrences": {
+        "a general noun": 1,
+        "a noun": 1
+      }
+    },
+    {
+      "id": "cluster203",
+      "words": [
+        "a general statement is",
+        "a statement is"
+      ],
+      "occurrences": {
+        "a general statement is": 1,
+        "a statement is": 1
+      }
+    },
+    {
+      "id": "cluster204",
+      "words": [
+        "a humorous proverbial saying",
+        "a proverb"
+      ],
+      "occurrences": {
+        "a humorous proverbial saying": 1,
+        "a proverb": 1
+      }
+    },
+    {
+      "id": "cluster205",
+      "words": [
+        "a journalistic",
+        "an explanatory journalistic tone"
+      ],
+      "occurrences": {
+        "a journalistic": 2,
+        "an explanatory journalistic tone": 1
+      }
+    },
+    {
+      "id": "cluster206",
+      "words": [
+        "a tree",
+        "a large tree"
+      ],
+      "occurrences": {
+        "a tree": 2,
+        "a large tree": 1
+      }
+    },
+    {
+      "id": "cluster207",
+      "words": [
+        "a list",
+        "a wikipedia-style list"
+      ],
+      "occurrences": {
+        "a list": 15,
+        "a wikipedia-style list": 1
+      }
+    },
+    {
+      "id": "cluster208",
+      "words": [
+        "a marketing strategy definition",
+        "a technical marketing style"
+      ],
+      "occurrences": {
+        "a marketing strategy definition": 1,
+        "a technical marketing style": 1
+      }
+    },
+    {
+      "id": "cluster209",
+      "words": [
+        "a master's degree",
+        "a masters degree"
+      ],
+      "occurrences": {
+        "a master's degree": 1,
+        "a masters degree": 1
+      }
+    },
+    {
+      "id": "cluster210",
+      "words": [
+        "an x-ray",
+        "a misread x-ray"
+      ],
+      "occurrences": {
+        "an x-ray": 2,
+        "a misread x-ray": 1
+      }
+    },
+    {
+      "id": "cluster211",
+      "words": [
+        "a missing form",
+        "an error"
+      ],
+      "occurrences": {
+        "a missing form": 1,
+        "an error": 1
+      }
+    },
+    {
+      "id": "cluster212",
+      "words": [
+        "a name",
+        "a name suffix"
+      ],
+      "occurrences": {
+        "a name": 3,
+        "a name suffix": 1
+      }
+    },
+    {
+      "id": "cluster213",
+      "words": [
+        "a name across languages",
+        "an interlanguage process"
+      ],
+      "occurrences": {
+        "a name across languages": 1,
+        "an interlanguage process": 1
+      }
+    },
+    {
+      "id": "cluster214",
+      "words": [
+        "a named heading",
+        "a plain heading"
+      ],
+      "occurrences": {
+        "a named heading": 1,
+        "a plain heading": 1
+      }
+    },
+    {
+      "id": "cluster215",
+      "words": [
+        "a neutral",
+        "a polite neutral way"
+      ],
+      "occurrences": {
+        "a neutral": 13,
+        "a polite neutral way": 1
+      }
+    },
+    {
+      "id": "cluster216",
+      "words": [
+        "a neutral academic tone",
+        "a neutral scholarly tone"
+      ],
+      "occurrences": {
+        "a neutral academic tone": 2,
+        "a neutral scholarly tone": 1
+      }
+    },
+    {
+      "id": "cluster217",
+      "words": [
+        "a new move",
+        "a second move"
+      ],
+      "occurrences": {
+        "a new move": 1,
+        "a second move": 1
+      }
+    },
+    {
+      "id": "cluster218",
+      "words": [
+        "a new pipeline",
+        "a pipeline"
+      ],
+      "occurrences": {
+        "a new pipeline": 1,
+        "a pipeline": 1
+      }
+    },
+    {
+      "id": "cluster219",
+      "words": [
+        "a roof",
+        "a new roof"
+      ],
+      "occurrences": {
+        "a roof": 2,
+        "a new roof": 1
+      }
+    },
+    {
+      "id": "cluster220",
+      "words": [
+        "a nucleus called",
+        "a nucleus organelle"
+      ],
+      "occurrences": {
+        "a nucleus called": 1,
+        "a nucleus organelle": 1
+      }
+    },
+    {
+      "id": "cluster221",
+      "words": [
+        "a parent",
+        "a parent a child"
+      ],
+      "occurrences": {
+        "a parent": 1,
+        "a parent a child": 1
+      }
+    },
+    {
+      "id": "cluster222",
+      "words": [
+        "a philosopher's views",
+        "an occult science"
+      ],
+      "occurrences": {
+        "a philosopher's views": 1,
+        "an occult science": 1
+      }
+    },
+    {
+      "id": "cluster223",
+      "words": [
+        "a plain question",
+        "a speculative academic aside"
+      ],
+      "occurrences": {
+        "a plain question": 1,
+        "a speculative academic aside": 1
+      }
+    },
+    {
+      "id": "cluster224",
+      "words": [
+        "a polite alternative",
+        "a polite inquiry"
+      ],
+      "occurrences": {
+        "a polite alternative": 1,
+        "a polite inquiry": 1
+      }
+    },
+    {
+      "id": "cluster225",
+      "words": [
+        "a pork loin roast",
+        "a pork roast"
+      ],
+      "occurrences": {
+        "a pork loin roast": 1,
+        "a pork roast": 1
+      }
+    },
+    {
+      "id": "cluster226",
+      "words": [
+        "a presumed connotation",
+        "a skeptical"
+      ],
+      "occurrences": {
+        "a presumed connotation": 1,
+        "a skeptical": 1
+      }
+    },
+    {
+      "id": "cluster227",
+      "words": [
+        "a problem",
+        "a request for help"
+      ],
+      "occurrences": {
+        "a problem": 1,
+        "a request for help": 1
+      }
+    },
+    {
+      "id": "cluster228",
+      "words": [
+        "a process",
+        "an active process"
+      ],
+      "occurrences": {
+        "a process": 1,
+        "an active process": 1
+      }
+    },
+    {
+      "id": "cluster229",
+      "words": [
+        "a prokaryote",
+        "a prokaryotic"
+      ],
+      "occurrences": {
+        "a prokaryote": 1,
+        "a prokaryotic": 1
+      }
+    },
+    {
+      "id": "cluster230",
+      "words": [
+        "a quick",
+        "a short"
+      ],
+      "occurrences": {
+        "a quick": 1,
+        "a short": 1
+      }
+    },
+    {
+      "id": "cluster231",
+      "words": [
+        "a quotation is",
+        "a quoted statement is"
+      ],
+      "occurrences": {
+        "a quotation is": 2,
+        "a quoted statement is": 1
+      }
+    },
+    {
+      "id": "cluster232",
+      "words": [
+        "a quoted reaction",
+        "a stronger objection"
+      ],
+      "occurrences": {
+        "a quoted reaction": 1,
+        "a stronger objection": 1
+      }
+    },
+    {
+      "id": "cluster233",
+      "words": [
+        "a real answer",
+        "a simplified form"
+      ],
+      "occurrences": {
+        "a real answer": 1,
+        "a simplified form": 1
+      }
+    },
+    {
+      "id": "cluster234",
+      "words": [
+        "a reflective",
+        "a reflective tone"
+      ],
+      "occurrences": {
+        "a reflective": 3,
+        "a reflective tone": 1
+      }
+    },
+    {
+      "id": "cluster235",
+      "words": [
+        "a refusal",
+        "a refusal is"
+      ],
+      "occurrences": {
+        "a refusal": 1,
+        "a refusal is": 1
+      }
+    },
+    {
+      "id": "cluster236",
+      "words": [
+        "a respectful tone",
+        "a respectful neutral tone"
+      ],
+      "occurrences": {
+        "a respectful tone": 2,
+        "a respectful neutral tone": 1
+      }
+    },
+    {
+      "id": "cluster237",
+      "words": [
+        "a return to warning",
+        "a technique safely"
+      ],
+      "occurrences": {
+        "a return to warning": 1,
+        "a technique safely": 1
+      }
+    },
+    {
+      "id": "cluster238",
+      "words": [
+        "a scientific explanatory paragraph",
+        "an incomplete scientific lead-in"
+      ],
+      "occurrences": {
+        "a scientific explanatory paragraph": 1,
+        "an incomplete scientific lead-in": 1
+      }
+    },
+    {
+      "id": "cluster239",
+      "words": [
+        "a setback",
+        "an initial setback"
+      ],
+      "occurrences": {
+        "a setback": 1,
+        "an initial setback": 1
+      }
+    },
+    {
+      "id": "cluster240",
+      "words": [
+        "a shakespearean sonnet",
+        "a sonnet in poetry"
+      ],
+      "occurrences": {
+        "a shakespearean sonnet": 1,
+        "a sonnet in poetry": 1
+      }
+    },
+    {
+      "id": "cluster241",
+      "words": [
+        "a shortened form",
+        "an internal alternative"
+      ],
+      "occurrences": {
+        "a shortened form": 1,
+        "an internal alternative": 1
+      }
+    },
+    {
+      "id": "cluster242",
+      "words": [
+        "a slow cooker",
+        "a slow cooker cook"
+      ],
+      "occurrences": {
+        "a slow cooker": 1,
+        "a slow cooker cook": 1
+      }
+    },
+    {
+      "id": "cluster243",
+      "words": [
+        "a stucco",
+        "a stucco wall"
+      ],
+      "occurrences": {
+        "a stucco": 1,
+        "a stucco wall": 1
+      }
+    },
+    {
+      "id": "cluster244",
+      "words": [
+        "a teacher",
+        "an elementary school teacher"
+      ],
+      "occurrences": {
+        "a teacher": 1,
+        "an elementary school teacher": 1
+      }
+    },
+    {
+      "id": "cluster245",
+      "words": [
+        "a technical announcement",
+        "a tentative announcement"
+      ],
+      "occurrences": {
+        "a technical announcement": 1,
+        "a tentative announcement": 1
+      }
+    },
+    {
+      "id": "cluster246",
+      "words": [
+        "a title",
+        "a title-like phrase"
+      ],
+      "occurrences": {
+        "a title": 1,
+        "a title-like phrase": 1
+      }
+    },
+    {
+      "id": "cluster247",
+      "words": [
+        "a ultrasound technician",
+        "an ultrasound tech"
+      ],
+      "occurrences": {
+        "a ultrasound technician": 1,
+        "an ultrasound tech": 1
+      }
+    },
+    {
+      "id": "cluster248",
+      "words": [
+        "a woman",
+        "a woman use"
+      ],
+      "occurrences": {
+        "a woman": 1,
+        "a woman use": 1
+      }
+    },
+    {
+      "id": "cluster249",
+      "words": [
+        "abrupt",
+        "abruptly"
+      ],
+      "occurrences": {
+        "abrupt": 1,
+        "abruptly": 1
+      }
+    },
+    {
+      "id": "cluster250",
+      "words": [
+        "accept",
+        "acceptance"
+      ],
+      "occurrences": {
+        "accept": 2,
+        "acceptance": 1
+      }
+    },
+    {
+      "id": "cluster251",
+      "words": [
+        "accessible",
+        "accessibly"
+      ],
+      "occurrences": {
+        "accessible": 26,
+        "accessibly": 1
+      }
+    },
+    {
+      "id": "cluster252",
+      "words": [
+        "accomplish",
+        "achieve"
+      ],
+      "occurrences": {
+        "accomplish": 2,
+        "achieve": 1
+      }
+    },
+    {
+      "id": "cluster253",
+      "words": [
+        "accurate",
+        "accurately"
+      ],
+      "occurrences": {
+        "accurate": 3,
+        "accurately": 1
+      }
+    },
+    {
+      "id": "cluster254",
+      "words": [
+        "acre",
+        "acreage"
+      ],
+      "occurrences": {
+        "acre": 5,
+        "acreage": 1
+      }
+    },
+    {
+      "id": "cluster255",
+      "words": [
+        "actual",
+        "actuality"
+      ],
+      "occurrences": {
+        "actual": 1,
+        "actuality": 1
+      }
+    },
+    {
+      "id": "cluster256",
+      "words": [
+        "adaptation",
+        "adapt"
+      ],
+      "occurrences": {
+        "adaptation": 4,
+        "adapt": 2
+      }
+    },
+    {
+      "id": "cluster257",
+      "words": [
+        "add",
+        "addition"
+      ],
+      "occurrences": {
+        "add": 7,
+        "addition": 2
+      }
+    },
+    {
+      "id": "cluster258",
+      "words": [
+        "addict",
+        "addiction"
+      ],
+      "occurrences": {
+        "addict": 1,
+        "addiction": 1
+      }
+    },
+    {
+      "id": "cluster259",
+      "words": [
+        "additional",
+        "extra"
+      ],
+      "occurrences": {
+        "additional": 8,
+        "extra": 5
+      }
+    },
+    {
+      "id": "cluster260",
+      "words": [
+        "administrator",
+        "admin"
+      ],
+      "occurrences": {
+        "administrator": 3,
+        "admin": 1
+      }
+    },
+    {
+      "id": "cluster261",
+      "words": [
+        "administration",
+        "administrative"
+      ],
+      "occurrences": {
+        "administration": 6,
+        "administrative": 2
+      }
+    },
+    {
+      "id": "cluster262",
+      "words": [
+        "advertisement",
+        "advert"
+      ],
+      "occurrences": {
+        "advertisement": 3,
+        "advert": 1
+      }
+    },
+    {
+      "id": "cluster263",
+      "words": [
+        "after",
+        "before-and-after"
+      ],
+      "occurrences": {
+        "after": 110,
+        "before-and-after": 1
+      }
+    },
+    {
+      "id": "cluster264",
+      "words": [
+        "agreement",
+        "agree"
+      ],
+      "occurrences": {
+        "agreement": 6,
+        "agree": 3
+      }
+    },
+    {
+      "id": "cluster265",
+      "words": [
+        "agricultural",
+        "agriculture"
+      ],
+      "occurrences": {
+        "agricultural": 2,
+        "agriculture": 2
+      }
+    },
+    {
+      "id": "cluster266",
+      "words": [
+        "aircraft",
+        "airplane"
+      ],
+      "occurrences": {
+        "aircraft": 5,
+        "airplane": 1
+      }
+    },
+    {
+      "id": "cluster267",
+      "words": [
+        "aki",
+        "akni"
+      ],
+      "occurrences": {
+        "aki": 2,
+        "akni": 1
+      }
+    },
+    {
+      "id": "cluster268",
+      "words": [
+        "albedo",
+        "lower-albedo"
+      ],
+      "occurrences": {
+        "albedo": 10,
+        "lower-albedo": 1
+      }
+    },
+    {
+      "id": "cluster269",
+      "words": [
+        "alkali",
+        "alkaline"
+      ],
+      "occurrences": {
+        "alkali": 7,
+        "alkaline": 3
+      }
+    },
+    {
+      "id": "cluster270",
+      "words": [
+        "nearly",
+        "almost"
+      ],
+      "occurrences": {
+        "nearly": 3,
+        "almost": 1
+      }
+    },
+    {
+      "id": "cluster271",
+      "words": [
+        "aluminium",
+        "aluminum"
+      ],
+      "occurrences": {
+        "aluminium": 3,
+        "aluminum": 1
+      }
+    },
+    {
+      "id": "cluster272",
+      "words": [
+        "usa",
+        "america"
+      ],
+      "occurrences": {
+        "usa": 5,
+        "america": 3
+      }
+    },
+    {
+      "id": "cluster273",
+      "words": [
+        "an acre",
+        "an acre inch"
+      ],
+      "occurrences": {
+        "an acre": 2,
+        "an acre inch": 1
+      }
+    },
+    {
+      "id": "cluster274",
+      "words": [
+        "an organism",
+        "an organisms"
+      ],
+      "occurrences": {
+        "an organism": 1,
+        "an organisms": 1
+      }
+    },
+    {
+      "id": "cluster275",
+      "words": [
+        "anaemia",
+        "anemia"
+      ],
+      "occurrences": {
+        "anaemia": 1,
+        "anemia": 1
+      }
+    },
+    {
+      "id": "cluster276",
+      "words": [
+        "analog",
+        "analogue"
+      ],
+      "occurrences": {
+        "analog": 1,
+        "analogue": 1
+      }
+    },
+    {
+      "id": "cluster277",
+      "words": [
+        "anecdotal",
+        "anecdote"
+      ],
+      "occurrences": {
+        "anecdotal": 1,
+        "anecdote": 1
+      }
+    },
+    {
+      "id": "cluster278",
+      "words": [
+        "anesthesiologist",
+        "anesthetist"
+      ],
+      "occurrences": {
+        "anesthesiologist": 1,
+        "anesthetist": 1
+      }
+    },
+    {
+      "id": "cluster279",
+      "words": [
+        "angola",
+        "angolan"
+      ],
+      "occurrences": {
+        "angola": 5,
+        "angolan": 2
+      }
+    },
+    {
+      "id": "cluster280",
+      "words": [
+        "announcement",
+        "announce"
+      ],
+      "occurrences": {
+        "announcement": 36,
+        "announce": 1
+      }
+    },
+    {
+      "id": "cluster281",
+      "words": [
+        "announcements",
+        "announces"
+      ],
+      "occurrences": {
+        "announcements": 3,
+        "announces": 3
+      }
+    },
+    {
+      "id": "cluster282",
+      "words": [
+        "annual",
+        "yearly"
+      ],
+      "occurrences": {
+        "annual": 11,
+        "yearly": 5
+      }
+    },
+    {
+      "id": "cluster283",
+      "words": [
+        "another",
+        "other"
+      ],
+      "occurrences": {
+        "another": 55,
+        "other": 40
+      }
+    },
+    {
+      "id": "cluster284",
+      "words": [
+        "antagonist",
+        "antagonistic"
+      ],
+      "occurrences": {
+        "antagonist": 1,
+        "antagonistic": 1
+      }
+    },
+    {
+      "id": "cluster285",
+      "words": [
+        "aorta",
+        "aortic"
+      ],
+      "occurrences": {
+        "aorta": 3,
+        "aortic": 1
+      }
+    },
+    {
+      "id": "cluster286",
+      "words": [
+        "appreciate",
+        "appreciation"
+      ],
+      "occurrences": {
+        "appreciate": 1,
+        "appreciation": 1
+      }
+    },
+    {
+      "id": "cluster287",
+      "words": [
+        "appropriate",
+        "appropriateness"
+      ],
+      "occurrences": {
+        "appropriate": 4,
+        "appropriateness": 1
+      }
+    },
+    {
+      "id": "cluster288",
+      "words": [
+        "approval",
+        "approve"
+      ],
+      "occurrences": {
+        "approval": 5,
+        "approve": 3
+      }
+    },
+    {
+      "id": "cluster289",
+      "words": [
+        "approximate",
+        "approximation"
+      ],
+      "occurrences": {
+        "approximate": 3,
+        "approximation": 2
+      }
+    },
+    {
+      "id": "cluster290",
+      "words": [
+        "art",
+        "artwork"
+      ],
+      "occurrences": {
+        "art": 19,
+        "artwork": 1
+      }
+    },
+    {
+      "id": "cluster291",
+      "words": [
+        "artery",
+        "arterial"
+      ],
+      "occurrences": {
+        "artery": 8,
+        "arterial": 3
+      }
+    },
+    {
+      "id": "cluster292",
+      "words": [
+        "asphalt",
+        "asphalte"
+      ],
+      "occurrences": {
+        "asphalt": 4,
+        "asphalte": 1
+      }
+    },
+    {
+      "id": "cluster293",
+      "words": [
+        "assess",
+        "assessment"
+      ],
+      "occurrences": {
+        "assess": 1,
+        "assessment": 1
+      }
+    },
+    {
+      "id": "cluster294",
+      "words": [
+        "assignment",
+        "assign"
+      ],
+      "occurrences": {
+        "assignment": 2,
+        "assign": 1
+      }
+    },
+    {
+      "id": "cluster295",
+      "words": [
+        "assist",
+        "assistance"
+      ],
+      "occurrences": {
+        "assist": 1,
+        "assistance": 1
+      }
+    },
+    {
+      "id": "cluster296",
+      "words": [
+        "atmosphere",
+        "atmospheric"
+      ],
+      "occurrences": {
+        "atmosphere": 6,
+        "atmospheric": 1
+      }
+    },
+    {
+      "id": "cluster297",
+      "words": [
+        "try",
+        "attempt"
+      ],
+      "occurrences": {
+        "try": 3,
+        "attempt": 1
+      }
+    },
+    {
+      "id": "cluster298",
+      "words": [
+        "attribution",
+        "attribution-like"
+      ],
+      "occurrences": {
+        "attribution": 26,
+        "attribution-like": 3
+      }
+    },
+    {
+      "id": "cluster299",
+      "words": [
+        "authors",
+        "author's"
+      ],
+      "occurrences": {
+        "authors": 5,
+        "author's": 3
+      }
+    },
+    {
+      "id": "cluster300",
+      "words": [
+        "bachelor's",
+        "bachelors"
+      ],
+      "occurrences": {
+        "bachelor's": 1,
+        "bachelors": 1
+      }
+    },
+    {
+      "id": "cluster301",
+      "words": [
+        "obama",
+        "barack"
+      ],
+      "occurrences": {
+        "obama": 6,
+        "barack": 3
+      }
+    },
+    {
+      "id": "cluster302",
+      "words": [
+        "basa",
+        "basara"
+      ],
+      "occurrences": {
+        "basa": 1,
+        "basara": 1
+      }
+    },
+    {
+      "id": "cluster303",
+      "words": [
+        "basically",
+        "essentially"
+      ],
+      "occurrences": {
+        "basically": 3,
+        "essentially": 2
+      }
+    },
+    {
+      "id": "cluster304",
+      "words": [
+        "english",
+        "bbc"
+      ],
+      "occurrences": {
+        "english": 25,
+        "bbc": 3
+      }
+    },
+    {
+      "id": "cluster305",
+      "words": [
+        "start",
+        "begin"
+      ],
+      "occurrences": {
+        "start": 32,
+        "begin": 6
+      }
+    },
+    {
+      "id": "cluster306",
+      "words": [
+        "beginning",
+        "starting"
+      ],
+      "occurrences": {
+        "beginning": 81,
+        "starting": 16
+      }
+    },
+    {
+      "id": "cluster307",
+      "words": [
+        "beings",
+        "is being"
+      ],
+      "occurrences": {
+        "beings": 1,
+        "is being": 1
+      }
+    },
+    {
+      "id": "cluster308",
+      "words": [
+        "belgium",
+        "belgian"
+      ],
+      "occurrences": {
+        "belgium": 2,
+        "belgian": 1
+      }
+    },
+    {
+      "id": "cluster309",
+      "words": [
+        "benjamin",
+        "ben"
+      ],
+      "occurrences": {
+        "benjamin": 4,
+        "ben": 3
+      }
+    },
+    {
+      "id": "cluster310",
+      "words": [
+        "bibliography",
+        "reference-note"
+      ],
+      "occurrences": {
+        "bibliography": 5,
+        "reference-note": 1
+      }
+    },
+    {
+      "id": "cluster311",
+      "words": [
+        "bike",
+        "bicycle"
+      ],
+      "occurrences": {
+        "bike": 3,
+        "bicycle": 2
+      }
+    },
+    {
+      "id": "cluster312",
+      "words": [
+        "empty",
+        "blank"
+      ],
+      "occurrences": {
+        "empty": 6,
+        "blank": 3
+      }
+    },
+    {
+      "id": "cluster313",
+      "words": [
+        "breath",
+        "breathe"
+      ],
+      "occurrences": {
+        "breath": 4,
+        "breathe": 1
+      }
+    },
+    {
+      "id": "cluster314",
+      "words": [
+        "calculate",
+        "calculational"
+      ],
+      "occurrences": {
+        "calculate": 6,
+        "calculational": 1
+      }
+    },
+    {
+      "id": "cluster315",
+      "words": [
+        "calorie",
+        "calorimeter"
+      ],
+      "occurrences": {
+        "calorie": 1,
+        "calorimeter": 1
+      }
+    },
+    {
+      "id": "cluster316",
+      "words": [
+        "cancer",
+        "tumor"
+      ],
+      "occurrences": {
+        "cancer": 10,
+        "tumor": 2
+      }
+    },
+    {
+      "id": "cluster317",
+      "words": [
+        "capital",
+        "capitalize"
+      ],
+      "occurrences": {
+        "capital": 3,
+        "capitalize": 1
+      }
+    },
+    {
+      "id": "cluster318",
+      "words": [
+        "heart",
+        "cardiac"
+      ],
+      "occurrences": {
+        "heart": 21,
+        "cardiac": 1
+      }
+    },
+    {
+      "id": "cluster319",
+      "words": [
+        "caries",
+        "carys"
+      ],
+      "occurrences": {
+        "caries": 1,
+        "carys": 1
+      }
+    },
+    {
+      "id": "cluster320",
+      "words": [
+        "carotene",
+        "carotenoid"
+      ],
+      "occurrences": {
+        "carotene": 1,
+        "carotenoid": 1
+      }
+    },
+    {
+      "id": "cluster321",
+      "words": [
+        "cassia",
+        "cassiopeia"
+      ],
+      "occurrences": {
+        "cassia": 1,
+        "cassiopeia": 1
+      }
+    },
+    {
+      "id": "cluster322",
+      "words": [
+        "catalan",
+        "catalan-language"
+      ],
+      "occurrences": {
+        "catalan": 3,
+        "catalan-language": 1
+      }
+    },
+    {
+      "id": "cluster323",
+      "words": [
+        "catalogs",
+        "catalogues"
+      ],
+      "occurrences": {
+        "catalogs": 2,
+        "catalogues": 1
+      }
+    },
+    {
+      "id": "cluster324",
+      "words": [
+        "causal",
+        "causality"
+      ],
+      "occurrences": {
+        "causal": 3,
+        "causality": 1
+      }
+    },
+    {
+      "id": "cluster325",
+      "words": [
+        "cell",
+        "cellular"
+      ],
+      "occurrences": {
+        "cell": 29,
+        "cellular": 10
+      }
+    },
+    {
+      "id": "cluster326",
+      "words": [
+        "cellulose",
+        "celluloid"
+      ],
+      "occurrences": {
+        "cellulose": 2,
+        "celluloid": 1
+      }
+    },
+    {
+      "id": "cluster327",
+      "words": [
+        "center",
+        "centre"
+      ],
+      "occurrences": {
+        "center": 10,
+        "centre": 1
+      }
+    },
+    {
+      "id": "cluster328",
+      "words": [
+        "chaotic",
+        "chaoticity"
+      ],
+      "occurrences": {
+        "chaotic": 1,
+        "chaoticity": 1
+      }
+    },
+    {
+      "id": "cluster329",
+      "words": [
+        "chevrolet",
+        "chevy"
+      ],
+      "occurrences": {
+        "chevrolet": 1,
+        "chevy": 1
+      }
+    },
+    {
+      "id": "cluster330",
+      "words": [
+        "child",
+        "children"
+      ],
+      "occurrences": {
+        "child": 35,
+        "children": 8
+      }
+    },
+    {
+      "id": "cluster331",
+      "words": [
+        "chromatin",
+        "heterochromatin"
+      ],
+      "occurrences": {
+        "chromatin": 1,
+        "heterochromatin": 1
+      }
+    },
+    {
+      "id": "cluster332",
+      "words": [
+        "cineraria",
+        "cinerea"
+      ],
+      "occurrences": {
+        "cineraria": 1,
+        "cinerea": 1
+      }
+    },
+    {
+      "id": "cluster333",
+      "words": [
+        "citation",
+        "cite"
+      ],
+      "occurrences": {
+        "citation": 4,
+        "cite": 1
+      }
+    },
+    {
+      "id": "cluster334",
+      "words": [
+        "citations",
+        "cites"
+      ],
+      "occurrences": {
+        "citations": 3,
+        "cites": 2
+      }
+    },
+    {
+      "id": "cluster335",
+      "words": [
+        "clean",
+        "cleanse"
+      ],
+      "occurrences": {
+        "clean": 6,
+        "cleanse": 1
+      }
+    },
+    {
+      "id": "cluster336",
+      "words": [
+        "medical",
+        "clinical"
+      ],
+      "occurrences": {
+        "medical": 24,
+        "clinical": 3
+      }
+    },
+    {
+      "id": "cluster337",
+      "words": [
+        "near",
+        "closer"
+      ],
+      "occurrences": {
+        "near": 11,
+        "closer": 2
+      }
+    },
+    {
+      "id": "cluster338",
+      "words": [
+        "coli",
+        "coliform"
+      ],
+      "occurrences": {
+        "coli": 2,
+        "coliform": 1
+      }
+    },
+    {
+      "id": "cluster339",
+      "words": [
+        "colors",
+        "colours"
+      ],
+      "occurrences": {
+        "colors": 9,
+        "colours": 2
+      }
+    },
+    {
+      "id": "cluster340",
+      "words": [
+        "comma",
+        "comma-heavy"
+      ],
+      "occurrences": {
+        "comma": 1,
+        "comma-heavy": 1
+      }
+    },
+    {
+      "id": "cluster341",
+      "words": [
+        "companies",
+        "company's"
+      ],
+      "occurrences": {
+        "companies": 8,
+        "company's": 1
+      }
+    },
+    {
+      "id": "cluster342",
+      "words": [
+        "compares",
+        "comparisons"
+      ],
+      "occurrences": {
+        "compares": 4,
+        "comparisons": 1
+      }
+    },
+    {
+      "id": "cluster343",
+      "words": [
+        "complete",
+        "completion"
+      ],
+      "occurrences": {
+        "complete": 5,
+        "completion": 1
+      }
+    },
+    {
+      "id": "cluster344",
+      "words": [
+        "concept",
+        "conceptual"
+      ],
+      "occurrences": {
+        "concept": 9,
+        "conceptual": 1
+      }
+    },
+    {
+      "id": "cluster345",
+      "words": [
+        "conclusions",
+        "concludes"
+      ],
+      "occurrences": {
+        "conclusions": 4,
+        "concludes": 1
+      }
+    },
+    {
+      "id": "cluster346",
+      "words": [
+        "condensation",
+        "condensate"
+      ],
+      "occurrences": {
+        "condensation": 3,
+        "condensate": 2
+      }
+    },
+    {
+      "id": "cluster347",
+      "words": [
+        "conductance",
+        "conduction"
+      ],
+      "occurrences": {
+        "conductance": 1,
+        "conduction": 1
+      }
+    },
+    {
+      "id": "cluster348",
+      "words": [
+        "conjugates",
+        "conjugations"
+      ],
+      "occurrences": {
+        "conjugates": 1,
+        "conjugations": 1
+      }
+    },
+    {
+      "id": "cluster349",
+      "words": [
+        "connect",
+        "connection"
+      ],
+      "occurrences": {
+        "connect": 3,
+        "connection": 3
+      }
+    },
+    {
+      "id": "cluster350",
+      "words": [
+        "contribute",
+        "contribution"
+      ],
+      "occurrences": {
+        "contribute": 3,
+        "contribution": 3
+      }
+    },
+    {
+      "id": "cluster351",
+      "words": [
+        "conversion",
+        "convert"
+      ],
+      "occurrences": {
+        "conversion": 2,
+        "convert": 2
+      }
+    },
+    {
+      "id": "cluster352",
+      "words": [
+        "cornea",
+        "corneal"
+      ],
+      "occurrences": {
+        "cornea": 1,
+        "corneal": 1
+      }
+    },
+    {
+      "id": "cluster353",
+      "words": [
+        "corrected",
+        "helped"
+      ],
+      "occurrences": {
+        "corrected": 5,
+        "helped": 3
+      }
+    },
+    {
+      "id": "cluster354",
+      "words": [
+        "cosmological",
+        "cosmology"
+      ],
+      "occurrences": {
+        "cosmological": 2,
+        "cosmology": 1
+      }
+    },
+    {
+      "id": "cluster355",
+      "words": [
+        "countries",
+        "country's"
+      ],
+      "occurrences": {
+        "countries": 10,
+        "country's": 1
+      }
+    },
+    {
+      "id": "cluster356",
+      "words": [
+        "cremate",
+        "cremation"
+      ],
+      "occurrences": {
+        "cremate": 1,
+        "cremation": 1
+      }
+    },
+    {
+      "id": "cluster357",
+      "words": [
+        "crisis",
+        "critias"
+      ],
+      "occurrences": {
+        "crisis": 5,
+        "critias": 1
+      }
+    },
+    {
+      "id": "cluster358",
+      "words": [
+        "crossfit",
+        "crossfit-style"
+      ],
+      "occurrences": {
+        "crossfit": 10,
+        "crossfit-style": 1
+      }
+    },
+    {
+      "id": "cluster359",
+      "words": [
+        "cuts",
+        "is cutting"
+      ],
+      "occurrences": {
+        "cuts": 1,
+        "is cutting": 1
+      }
+    },
+    {
+      "id": "cluster360",
+      "words": [
+        "cytologist",
+        "cytology"
+      ],
+      "occurrences": {
+        "cytologist": 1,
+        "cytology": 1
+      }
+    },
+    {
+      "id": "cluster361",
+      "words": [
+        "daily",
+        "everyday"
+      ],
+      "occurrences": {
+        "daily": 14,
+        "everyday": 5
+      }
+    },
+    {
+      "id": "cluster362",
+      "words": [
+        "denmark",
+        "danish"
+      ],
+      "occurrences": {
+        "denmark": 3,
+        "danish": 1
+      }
+    },
+    {
+      "id": "cluster363",
+      "words": [
+        "dark",
+        "darker"
+      ],
+      "occurrences": {
+        "dark": 7,
+        "darker": 1
+      }
+    },
+    {
+      "id": "cluster364",
+      "words": [
+        "david",
+        "davidstow"
+      ],
+      "occurrences": {
+        "david": 6,
+        "davidstow": 1
+      }
+    },
+    {
+      "id": "cluster365",
+      "words": [
+        "de",
+        "dede"
+      ],
+      "occurrences": {
+        "de": 2,
+        "dede": 1
+      }
+    },
+    {
+      "id": "cluster366",
+      "words": [
+        "defense",
+        "defend"
+      ],
+      "occurrences": {
+        "defense": 7,
+        "defend": 1
+      }
+    },
+    {
+      "id": "cluster367",
+      "words": [
+        "define",
+        "definitional"
+      ],
+      "occurrences": {
+        "define": 1,
+        "definitional": 1
+      }
+    },
+    {
+      "id": "cluster368",
+      "words": [
+        "show",
+        "demonstration"
+      ],
+      "occurrences": {
+        "show": 19,
+        "demonstration": 1
+      }
+    },
+    {
+      "id": "cluster369",
+      "words": [
+        "dental",
+        "dentist"
+      ],
+      "occurrences": {
+        "dental": 9,
+        "dentist": 1
+      }
+    },
+    {
+      "id": "cluster370",
+      "words": [
+        "depression",
+        "depressive"
+      ],
+      "occurrences": {
+        "depression": 3,
+        "depressive": 1
+      }
+    },
+    {
+      "id": "cluster371",
+      "words": [
+        "derivational",
+        "derive"
+      ],
+      "occurrences": {
+        "derivational": 1,
+        "derive": 1
+      }
+    },
+    {
+      "id": "cluster372",
+      "words": [
+        "derivatives",
+        "differentiates"
+      ],
+      "occurrences": {
+        "derivatives": 1,
+        "differentiates": 1
+      }
+    },
+    {
+      "id": "cluster373",
+      "words": [
+        "detect",
+        "detection"
+      ],
+      "occurrences": {
+        "detect": 5,
+        "detection": 1
+      }
+    },
+    {
+      "id": "cluster374",
+      "words": [
+        "development",
+        "develop"
+      ],
+      "occurrences": {
+        "development": 12,
+        "develop": 4
+      }
+    },
+    {
+      "id": "cluster375",
+      "words": [
+        "develops",
+        "is developing"
+      ],
+      "occurrences": {
+        "develops": 1,
+        "is developing": 1
+      }
+    },
+    {
+      "id": "cluster376",
+      "words": [
+        "devils",
+        "devil's"
+      ],
+      "occurrences": {
+        "devils": 4,
+        "devil's": 2
+      }
+    },
+    {
+      "id": "cluster377",
+      "words": [
+        "figures",
+        "diagrams"
+      ],
+      "occurrences": {
+        "figures": 2,
+        "diagrams": 1
+      }
+    },
+    {
+      "id": "cluster378",
+      "words": [
+        "dieticians",
+        "dietitians"
+      ],
+      "occurrences": {
+        "dieticians": 1,
+        "dietitians": 1
+      }
+    },
+    {
+      "id": "cluster379",
+      "words": [
+        "dietitian",
+        "nutritionist"
+      ],
+      "occurrences": {
+        "dietitian": 2,
+        "nutritionist": 1
+      }
+    },
+    {
+      "id": "cluster380",
+      "words": [
+        "digestion",
+        "digestive"
+      ],
+      "occurrences": {
+        "digestion": 5,
+        "digestive": 2
+      }
+    },
+    {
+      "id": "cluster381",
+      "words": [
+        "dishonesty",
+        "dishonest"
+      ],
+      "occurrences": {
+        "dishonesty": 2,
+        "dishonest": 1
+      }
+    },
+    {
+      "id": "cluster382",
+      "words": [
+        "distinction",
+        "distinguish"
+      ],
+      "occurrences": {
+        "distinction": 8,
+        "distinguish": 3
+      }
+    },
+    {
+      "id": "cluster383",
+      "words": [
+        "divider",
+        "divide"
+      ],
+      "occurrences": {
+        "divider": 3,
+        "divide": 1
+      }
+    },
+    {
+      "id": "cluster384",
+      "words": [
+        "divides",
+        "divisions"
+      ],
+      "occurrences": {
+        "divides": 1,
+        "divisions": 1
+      }
+    },
+    {
+      "id": "cluster385",
+      "words": [
+        "doctor",
+        "physician"
+      ],
+      "occurrences": {
+        "doctor": 12,
+        "physician": 5
+      }
+    },
+    {
+      "id": "cluster386",
+      "words": [
+        "doctorate",
+        "phd"
+      ],
+      "occurrences": {
+        "doctorate": 1,
+        "phd": 1
+      }
+    },
+    {
+      "id": "cluster387",
+      "words": [
+        "doesn't",
+        "doesn"
+      ],
+      "occurrences": {
+        "doesn't": 4,
+        "doesn": 1
+      }
+    },
+    {
+      "id": "cluster388",
+      "words": [
+        "dogs",
+        "dog's"
+      ],
+      "occurrences": {
+        "dogs": 14,
+        "dog's": 1
+      }
+    },
+    {
+      "id": "cluster389",
+      "words": [
+        "dominant",
+        "dominance"
+      ],
+      "occurrences": {
+        "dominant": 5,
+        "dominance": 2
+      }
+    },
+    {
+      "id": "cluster390",
+      "words": [
+        "donate",
+        "donation"
+      ],
+      "occurrences": {
+        "donate": 2,
+        "donation": 1
+      }
+    },
+    {
+      "id": "cluster391",
+      "words": [
+        "drops",
+        "droppings"
+      ],
+      "occurrences": {
+        "drops": 3,
+        "droppings": 2
+      }
+    },
+    {
+      "id": "cluster392",
+      "words": [
+        "dynamic",
+        "dynamical"
+      ],
+      "occurrences": {
+        "dynamic": 1,
+        "dynamical": 1
+      }
+    },
+    {
+      "id": "cluster393",
+      "words": [
+        "e-commerce",
+        "ecommerce"
+      ],
+      "occurrences": {
+        "e-commerce": 2,
+        "ecommerce": 1
+      }
+    },
+    {
+      "id": "cluster394",
+      "words": [
+        "education",
+        "educational"
+      ],
+      "occurrences": {
+        "education": 13,
+        "educational": 8
+      }
+    },
+    {
+      "id": "cluster395",
+      "words": [
+        "efficiency",
+        "efficient"
+      ],
+      "occurrences": {
+        "efficiency": 3,
+        "efficient": 2
+      }
+    },
+    {
+      "id": "cluster396",
+      "words": [
+        "eighth",
+        "eight"
+      ],
+      "occurrences": {
+        "eighth": 2,
+        "eight": 1
+      }
+    },
+    {
+      "id": "cluster397",
+      "words": [
+        "elections",
+        "election's"
+      ],
+      "occurrences": {
+        "elections": 2,
+        "election's": 1
+      }
+    },
+    {
+      "id": "cluster398",
+      "words": [
+        "eligibility",
+        "eligible"
+      ],
+      "occurrences": {
+        "eligibility": 2,
+        "eligible": 2
+      }
+    },
+    {
+      "id": "cluster399",
+      "words": [
+        "em-dash",
+        "em-dash-free"
+      ],
+      "occurrences": {
+        "em-dash": 1,
+        "em-dash-free": 1
+      }
+    },
+    {
+      "id": "cluster400",
+      "words": [
+        "embolism",
+        "embolization"
+      ],
+      "occurrences": {
+        "embolism": 1,
+        "embolization": 1
+      }
+    },
+    {
+      "id": "cluster401",
+      "words": [
+        "emirate's",
+        "emirates"
+      ],
+      "occurrences": {
+        "emirate's": 1,
+        "emirates": 1
+      }
+    },
+    {
+      "id": "cluster402",
+      "words": [
+        "encyclopedia",
+        "reference-book"
+      ],
+      "occurrences": {
+        "encyclopedia": 4,
+        "reference-book": 1
+      }
+    },
+    {
+      "id": "cluster403",
+      "words": [
+        "encyclopedia-style",
+        "encyclopedia-like"
+      ],
+      "occurrences": {
+        "encyclopedia-style": 16,
+        "encyclopedia-like": 2
+      }
+    },
+    {
+      "id": "cluster404",
+      "words": [
+        "ends",
+        "endings"
+      ],
+      "occurrences": {
+        "ends": 63,
+        "endings": 1
+      }
+    },
+    {
+      "id": "cluster405",
+      "words": [
+        "endo",
+        "endone"
+      ],
+      "occurrences": {
+        "endo": 1,
+        "endone": 1
+      }
+    },
+    {
+      "id": "cluster406",
+      "words": [
+        "environmental",
+        "environment"
+      ],
+      "occurrences": {
+        "environmental": 12,
+        "environment": 5
+      }
+    },
+    {
+      "id": "cluster407",
+      "words": [
+        "ep",
+        "epp"
+      ],
+      "occurrences": {
+        "ep": 1,
+        "epp": 1
+      }
+    },
+    {
+      "id": "cluster408",
+      "words": [
+        "epistemological",
+        "epistemology"
+      ],
+      "occurrences": {
+        "epistemological": 1,
+        "epistemology": 1
+      }
+    },
+    {
+      "id": "cluster409",
+      "words": [
+        "ethane",
+        "ethanoate"
+      ],
+      "occurrences": {
+        "ethane": 1,
+        "ethanoate": 1
+      }
+    },
+    {
+      "id": "cluster410",
+      "words": [
+        "ethnic",
+        "ethnicity"
+      ],
+      "occurrences": {
+        "ethnic": 1,
+        "ethnicity": 1
+      }
+    },
+    {
+      "id": "cluster411",
+      "words": [
+        "eukaryotic",
+        "eukaryote"
+      ],
+      "occurrences": {
+        "eukaryotic": 4,
+        "eukaryote": 2
+      }
+    },
+    {
+      "id": "cluster412",
+      "words": [
+        "europe",
+        "european"
+      ],
+      "occurrences": {
+        "europe": 12,
+        "european": 7
+      }
+    },
+    {
+      "id": "cluster413",
+      "words": [
+        "examination",
+        "examine"
+      ],
+      "occurrences": {
+        "examination": 1,
+        "examine": 1
+      }
+    },
+    {
+      "id": "cluster414",
+      "words": [
+        "examples",
+        "references"
+      ],
+      "occurrences": {
+        "examples": 37,
+        "references": 11
+      }
+    },
+    {
+      "id": "cluster415",
+      "words": [
+        "exception",
+        "exception-like"
+      ],
+      "occurrences": {
+        "exception": 17,
+        "exception-like": 1
+      }
+    },
+    {
+      "id": "cluster416",
+      "words": [
+        "exempt",
+        "exemption"
+      ],
+      "occurrences": {
+        "exempt": 3,
+        "exemption": 1
+      }
+    },
+    {
+      "id": "cluster417",
+      "words": [
+        "exotic",
+        "exoticism"
+      ],
+      "occurrences": {
+        "exotic": 2,
+        "exoticism": 1
+      }
+    },
+    {
+      "id": "cluster418",
+      "words": [
+        "explanatory",
+        "exploratory"
+      ],
+      "occurrences": {
+        "explanatory": 122,
+        "exploratory": 2
+      }
+    },
+    {
+      "id": "cluster419",
+      "words": [
+        "explicit",
+        "explicit-use"
+      ],
+      "occurrences": {
+        "explicit": 3,
+        "explicit-use": 1
+      }
+    },
+    {
+      "id": "cluster420",
+      "words": [
+        "expression",
+        "express"
+      ],
+      "occurrences": {
+        "expression": 7,
+        "express": 1
+      }
+    },
+    {
+      "id": "cluster421",
+      "words": [
+        "extension",
+        "extend"
+      ],
+      "occurrences": {
+        "extension": 5,
+        "extend": 2
+      }
+    },
+    {
+      "id": "cluster422",
+      "words": [
+        "extensions",
+        "extends"
+      ],
+      "occurrences": {
+        "extensions": 4,
+        "extends": 2
+      }
+    },
+    {
+      "id": "cluster423",
+      "words": [
+        "extract",
+        "extraction"
+      ],
+      "occurrences": {
+        "extract": 2,
+        "extraction": 1
+      }
+    },
+    {
+      "id": "cluster424",
+      "words": [
+        "face",
+        "facial"
+      ],
+      "occurrences": {
+        "face": 5,
+        "facial": 1
+      }
+    },
+    {
+      "id": "cluster425",
+      "words": [
+        "factual",
+        "factually"
+      ],
+      "occurrences": {
+        "factual": 141,
+        "factually": 1
+      }
+    },
+    {
+      "id": "cluster426",
+      "words": [
+        "failure",
+        "fail"
+      ],
+      "occurrences": {
+        "failure": 5,
+        "fail": 2
+      }
+    },
+    {
+      "id": "cluster427",
+      "words": [
+        "false",
+        "true"
+      ],
+      "occurrences": {
+        "false": 6,
+        "true": 4
+      }
+    },
+    {
+      "id": "cluster428",
+      "words": [
+        "families",
+        "family's"
+      ],
+      "occurrences": {
+        "families": 2,
+        "family's": 1
+      }
+    },
+    {
+      "id": "cluster429",
+      "words": [
+        "faster",
+        "fastest"
+      ],
+      "occurrences": {
+        "faster": 4,
+        "fastest": 2
+      }
+    },
+    {
+      "id": "cluster430",
+      "words": [
+        "slowing",
+        "fasting"
+      ],
+      "occurrences": {
+        "slowing": 2,
+        "fasting": 1
+      }
+    },
+    {
+      "id": "cluster431",
+      "words": [
+        "fat",
+        "fatty"
+      ],
+      "occurrences": {
+        "fat": 2,
+        "fatty": 1
+      }
+    },
+    {
+      "id": "cluster432",
+      "words": [
+        "feels",
+        "feelings"
+      ],
+      "occurrences": {
+        "feels": 5,
+        "feelings": 1
+      }
+    },
+    {
+      "id": "cluster433",
+      "words": [
+        "foot",
+        "feet"
+      ],
+      "occurrences": {
+        "foot": 31,
+        "feet": 5
+      }
+    },
+    {
+      "id": "cluster434",
+      "words": [
+        "female",
+        "gender"
+      ],
+      "occurrences": {
+        "female": 8,
+        "gender": 1
+      }
+    },
+    {
+      "id": "cluster435",
+      "words": [
+        "fiber",
+        "fibre"
+      ],
+      "occurrences": {
+        "fiber": 7,
+        "fibre": 2
+      }
+    },
+    {
+      "id": "cluster436",
+      "words": [
+        "figurative",
+        "metaphorical"
+      ],
+      "occurrences": {
+        "figurative": 1,
+        "metaphorical": 1
+      }
+    },
+    {
+      "id": "cluster437",
+      "words": [
+        "financial",
+        "finance"
+      ],
+      "occurrences": {
+        "financial": 16,
+        "finance": 2
+      }
+    },
+    {
+      "id": "cluster438",
+      "words": [
+        "fined",
+        "finned"
+      ],
+      "occurrences": {
+        "fined": 1,
+        "finned": 1
+      }
+    },
+    {
+      "id": "cluster439",
+      "words": [
+        "finite",
+        "finite-size"
+      ],
+      "occurrences": {
+        "finite": 6,
+        "finite-size": 1
+      }
+    },
+    {
+      "id": "cluster440",
+      "words": [
+        "firefighter",
+        "fireman"
+      ],
+      "occurrences": {
+        "firefighter": 1,
+        "fireman": 1
+      }
+    },
+    {
+      "id": "cluster441",
+      "words": [
+        "first-person",
+        "third-person"
+      ],
+      "occurrences": {
+        "first-person": 16,
+        "third-person": 4
+      }
+    },
+    {
+      "id": "cluster442",
+      "words": [
+        "flap",
+        "flap-over"
+      ],
+      "occurrences": {
+        "flap": 1,
+        "flap-over": 1
+      }
+    },
+    {
+      "id": "cluster443",
+      "words": [
+        "flower",
+        "floral"
+      ],
+      "occurrences": {
+        "flower": 5,
+        "floral": 3
+      }
+    },
+    {
+      "id": "cluster444",
+      "words": [
+        "fog",
+        "foggy"
+      ],
+      "occurrences": {
+        "fog": 1,
+        "foggy": 1
+      }
+    },
+    {
+      "id": "cluster445",
+      "words": [
+        "formal",
+        "semi-formal"
+      ],
+      "occurrences": {
+        "formal": 135,
+        "semi-formal": 1
+      }
+    },
+    {
+      "id": "cluster446",
+      "words": [
+        "four",
+        "fourth"
+      ],
+      "occurrences": {
+        "four": 11,
+        "fourth": 1
+      }
+    },
+    {
+      "id": "cluster447",
+      "words": [
+        "fragmentary",
+        "fragment"
+      ],
+      "occurrences": {
+        "fragmentary": 8,
+        "fragment": 3
+      }
+    },
+    {
+      "id": "cluster448",
+      "words": [
+        "free",
+        "freely"
+      ],
+      "occurrences": {
+        "free": 26,
+        "freely": 1
+      }
+    },
+    {
+      "id": "cluster449",
+      "words": [
+        "fridge",
+        "refrigerator"
+      ],
+      "occurrences": {
+        "fridge": 14,
+        "refrigerator": 6
+      }
+    },
+    {
+      "id": "cluster450",
+      "words": [
+        "friend",
+        "friendship"
+      ],
+      "occurrences": {
+        "friend": 2,
+        "friendship": 1
+      }
+    },
+    {
+      "id": "cluster451",
+      "words": [
+        "front",
+        "frontage"
+      ],
+      "occurrences": {
+        "front": 7,
+        "frontage": 3
+      }
+    },
+    {
+      "id": "cluster452",
+      "words": [
+        "fungi",
+        "fungal"
+      ],
+      "occurrences": {
+        "fungi": 3,
+        "fungal": 1
+      }
+    },
+    {
+      "id": "cluster453",
+      "words": [
+        "humor",
+        "funny"
+      ],
+      "occurrences": {
+        "humor": 2,
+        "funny": 1
+      }
+    },
+    {
+      "id": "cluster454",
+      "words": [
+        "gap",
+        "gape"
+      ],
+      "occurrences": {
+        "gap": 4,
+        "gape": 1
+      }
+    },
+    {
+      "id": "cluster455",
+      "words": [
+        "gastric",
+        "gastro"
+      ],
+      "occurrences": {
+        "gastric": 1,
+        "gastro": 1
+      }
+    },
+    {
+      "id": "cluster456",
+      "words": [
+        "gastroenterologist",
+        "gastrologist"
+      ],
+      "occurrences": {
+        "gastroenterologist": 3,
+        "gastrologist": 1
+      }
+    },
+    {
+      "id": "cluster457",
+      "words": [
+        "general",
+        "generalization"
+      ],
+      "occurrences": {
+        "general": 53,
+        "generalization": 1
+      }
+    },
+    {
+      "id": "cluster458",
+      "words": [
+        "generally",
+        "typically"
+      ],
+      "occurrences": {
+        "generally": 3,
+        "typically": 1
+      }
+    },
+    {
+      "id": "cluster459",
+      "words": [
+        "genes",
+        "genetics"
+      ],
+      "occurrences": {
+        "genes": 3,
+        "genetics": 1
+      }
+    },
+    {
+      "id": "cluster460",
+      "words": [
+        "geography",
+        "geographic"
+      ],
+      "occurrences": {
+        "geography": 7,
+        "geographic": 6
+      }
+    },
+    {
+      "id": "cluster461",
+      "words": [
+        "germinate",
+        "germination"
+      ],
+      "occurrences": {
+        "germinate": 6,
+        "germination": 1
+      }
+    },
+    {
+      "id": "cluster462",
+      "words": [
+        "gets",
+        "is getting"
+      ],
+      "occurrences": {
+        "gets": 3,
+        "is getting": 1
+      }
+    },
+    {
+      "id": "cluster463",
+      "words": [
+        "gland",
+        "glandular"
+      ],
+      "occurrences": {
+        "gland": 8,
+        "glandular": 1
+      }
+    },
+    {
+      "id": "cluster464",
+      "words": [
+        "global",
+        "globally"
+      ],
+      "occurrences": {
+        "global": 9,
+        "globally": 1
+      }
+    },
+    {
+      "id": "cluster465",
+      "words": [
+        "gloss",
+        "glossi"
+      ],
+      "occurrences": {
+        "gloss": 4,
+        "glossi": 1
+      }
+    },
+    {
+      "id": "cluster466",
+      "words": [
+        "glycerol",
+        "glyceryl"
+      ],
+      "occurrences": {
+        "glycerol": 1,
+        "glyceryl": 1
+      }
+    },
+    {
+      "id": "cluster467",
+      "words": [
+        "gnostic",
+        "gnosticism"
+      ],
+      "occurrences": {
+        "gnostic": 1,
+        "gnosticism": 1
+      }
+    },
+    {
+      "id": "cluster468",
+      "words": [
+        "gravity",
+        "gravitational"
+      ],
+      "occurrences": {
+        "gravity": 2,
+        "gravitational": 1
+      }
+    },
+    {
+      "id": "cluster469",
+      "words": [
+        "grow",
+        "growth"
+      ],
+      "occurrences": {
+        "grow": 36,
+        "growth": 11
+      }
+    },
+    {
+      "id": "cluster470",
+      "words": [
+        "habit",
+        "habitual"
+      ],
+      "occurrences": {
+        "habit": 2,
+        "habitual": 1
+      }
+    },
+    {
+      "id": "cluster471",
+      "words": [
+        "hadron",
+        "hadronic"
+      ],
+      "occurrences": {
+        "hadron": 2,
+        "hadronic": 1
+      }
+    },
+    {
+      "id": "cluster472",
+      "words": [
+        "happens",
+        "is happening"
+      ],
+      "occurrences": {
+        "happens": 12,
+        "is happening": 1
+      }
+    },
+    {
+      "id": "cluster473",
+      "words": [
+        "haven't",
+        "hasn't"
+      ],
+      "occurrences": {
+        "haven't": 2,
+        "hasn't": 1
+      }
+    },
+    {
+      "id": "cluster474",
+      "words": [
+        "hold",
+        "held"
+      ],
+      "occurrences": {
+        "hold": 5,
+        "held": 3
+      }
+    },
+    {
+      "id": "cluster475",
+      "words": [
+        "her",
+        "herself"
+      ],
+      "occurrences": {
+        "her": 23,
+        "herself": 1
+      }
+    },
+    {
+      "id": "cluster476",
+      "words": [
+        "heterogeneous",
+        "homogeneous"
+      ],
+      "occurrences": {
+        "heterogeneous": 1,
+        "homogeneous": 1
+      }
+    },
+    {
+      "id": "cluster477",
+      "words": [
+        "hidden",
+        "hide"
+      ],
+      "occurrences": {
+        "hidden": 3,
+        "hide": 1
+      }
+    },
+    {
+      "id": "cluster478",
+      "words": [
+        "highlights",
+        "is highlighting"
+      ],
+      "occurrences": {
+        "highlights": 1,
+        "is highlighting": 1
+      }
+    },
+    {
+      "id": "cluster479",
+      "words": [
+        "historical",
+        "historic"
+      ],
+      "occurrences": {
+        "historical": 36,
+        "historic": 3
+      }
+    },
+    {
+      "id": "cluster480",
+      "words": [
+        "honesty",
+        "honest"
+      ],
+      "occurrences": {
+        "honesty": 3,
+        "honest": 1
+      }
+    },
+    {
+      "id": "cluster481",
+      "words": [
+        "honors",
+        "honours"
+      ],
+      "occurrences": {
+        "honors": 1,
+        "honours": 1
+      }
+    },
+    {
+      "id": "cluster482",
+      "words": [
+        "horrible",
+        "terrible"
+      ],
+      "occurrences": {
+        "horrible": 1,
+        "terrible": 1
+      }
+    },
+    {
+      "id": "cluster483",
+      "words": [
+        "horses",
+        "horse's"
+      ],
+      "occurrences": {
+        "horses": 10,
+        "horse's": 1
+      }
+    },
+    {
+      "id": "cluster484",
+      "words": [
+        "hypersensitivity",
+        "hypersensitive"
+      ],
+      "occurrences": {
+        "hypersensitivity": 2,
+        "hypersensitive": 1
+      }
+    },
+    {
+      "id": "cluster485",
+      "words": [
+        "you've",
+        "i've"
+      ],
+      "occurrences": {
+        "you've": 3,
+        "i've": 1
+      }
+    },
+    {
+      "id": "cluster486",
+      "words": [
+        "same",
+        "identically"
+      ],
+      "occurrences": {
+        "same": 25,
+        "identically": 1
+      }
+    },
+    {
+      "id": "cluster487",
+      "words": [
+        "identify",
+        "identification"
+      ],
+      "occurrences": {
+        "identify": 5,
+        "identification": 2
+      }
+    },
+    {
+      "id": "cluster488",
+      "words": [
+        "idiom",
+        "idiomatic"
+      ],
+      "occurrences": {
+        "idiom": 4,
+        "idiomatic": 1
+      }
+    },
+    {
+      "id": "cluster489",
+      "words": [
+        "if",
+        "iff"
+      ],
+      "occurrences": {
+        "if": 43,
+        "iff": 1
+      }
+    },
+    {
+      "id": "cluster490",
+      "words": [
+        "igm",
+        "igmp"
+      ],
+      "occurrences": {
+        "igm": 1,
+        "igmp": 1
+      }
+    },
+    {
+      "id": "cluster491",
+      "words": [
+        "illness",
+        "sickness"
+      ],
+      "occurrences": {
+        "illness": 3,
+        "sickness": 1
+      }
+    },
+    {
+      "id": "cluster492",
+      "words": [
+        "picture",
+        "image"
+      ],
+      "occurrences": {
+        "picture": 5,
+        "image": 4
+      }
+    },
+    {
+      "id": "cluster493",
+      "words": [
+        "images",
+        "pictures"
+      ],
+      "occurrences": {
+        "images": 3,
+        "pictures": 3
+      }
+    },
+    {
+      "id": "cluster494",
+      "words": [
+        "implant",
+        "implantation"
+      ],
+      "occurrences": {
+        "implant": 3,
+        "implantation": 1
+      }
+    },
+    {
+      "id": "cluster495",
+      "words": [
+        "implication",
+        "imply"
+      ],
+      "occurrences": {
+        "implication": 3,
+        "imply": 2
+      }
+    },
+    {
+      "id": "cluster496",
+      "words": [
+        "implications",
+        "interprets"
+      ],
+      "occurrences": {
+        "implications": 2,
+        "interprets": 1
+      }
+    },
+    {
+      "id": "cluster497",
+      "words": [
+        "important",
+        "importance"
+      ],
+      "occurrences": {
+        "important": 25,
+        "importance": 3
+      }
+    },
+    {
+      "id": "cluster498",
+      "words": [
+        "impossibility",
+        "impossible"
+      ],
+      "occurrences": {
+        "impossibility": 1,
+        "impossible": 1
+      }
+    },
+    {
+      "id": "cluster499",
+      "words": [
+        "impressionism",
+        "impressionist"
+      ],
+      "occurrences": {
+        "impressionism": 1,
+        "impressionist": 1
+      }
+    },
+    {
+      "id": "cluster500",
+      "words": [
+        "improve",
+        "improvement"
+      ],
+      "occurrences": {
+        "improve": 4,
+        "improvement": 3
+      }
+    },
+    {
+      "id": "cluster501",
+      "words": [
+        "incubation",
+        "incubate"
+      ],
+      "occurrences": {
+        "incubation": 5,
+        "incubate": 2
+      }
+    },
+    {
+      "id": "cluster502",
+      "words": [
+        "index",
+        "index-style"
+      ],
+      "occurrences": {
+        "index": 2,
+        "index-style": 1
+      }
+    },
+    {
+      "id": "cluster503",
+      "words": [
+        "inflammation",
+        "inflammatory"
+      ],
+      "occurrences": {
+        "inflammation": 3,
+        "inflammatory": 2
+      }
+    },
+    {
+      "id": "cluster504",
+      "words": [
+        "informal",
+        "informally"
+      ],
+      "occurrences": {
+        "informal": 84,
+        "informally": 1
+      }
+    },
+    {
+      "id": "cluster505",
+      "words": [
+        "informative",
+        "informatively"
+      ],
+      "occurrences": {
+        "informative": 22,
+        "informatively": 1
+      }
+    },
+    {
+      "id": "cluster506",
+      "words": [
+        "inhalation",
+        "inhale"
+      ],
+      "occurrences": {
+        "inhalation": 2,
+        "inhale": 1
+      }
+    },
+    {
+      "id": "cluster507",
+      "words": [
+        "inquiry",
+        "interrogative"
+      ],
+      "occurrences": {
+        "inquiry": 2,
+        "interrogative": 1
+      }
+    },
+    {
+      "id": "cluster508",
+      "words": [
+        "install",
+        "installation"
+      ],
+      "occurrences": {
+        "install": 27,
+        "installation": 5
+      }
+    },
+    {
+      "id": "cluster509",
+      "words": [
+        "int",
+        "integer"
+      ],
+      "occurrences": {
+        "int": 1,
+        "integer": 1
+      }
+    },
+    {
+      "id": "cluster510",
+      "words": [
+        "integration",
+        "integral"
+      ],
+      "occurrences": {
+        "integration": 2,
+        "integral": 1
+      }
+    },
+    {
+      "id": "cluster511",
+      "words": [
+        "investment",
+        "invest"
+      ],
+      "occurrences": {
+        "investment": 3,
+        "invest": 1
+      }
+    },
+    {
+      "id": "cluster512",
+      "words": [
+        "invitation",
+        "invite"
+      ],
+      "occurrences": {
+        "invitation": 14,
+        "invite": 1
+      }
+    },
+    {
+      "id": "cluster513",
+      "words": [
+        "iran",
+        "iranian"
+      ],
+      "occurrences": {
+        "iran": 2,
+        "iranian": 1
+      }
+    },
+    {
+      "id": "cluster514",
+      "words": [
+        "is jumping",
+        "jumps"
+      ],
+      "occurrences": {
+        "is jumping": 1,
+        "jumps": 1
+      }
+    },
+    {
+      "id": "cluster515",
+      "words": [
+        "means",
+        "is meaning"
+      ],
+      "occurrences": {
+        "means": 42,
+        "is meaning": 3
+      }
+    },
+    {
+      "id": "cluster516",
+      "words": [
+        "says",
+        "is saying"
+      ],
+      "occurrences": {
+        "says": 45,
+        "is saying": 1
+      }
+    },
+    {
+      "id": "cluster517",
+      "words": [
+        "tests",
+        "is testing"
+      ],
+      "occurrences": {
+        "tests": 7,
+        "is testing": 1
+      }
+    },
+    {
+      "id": "cluster518",
+      "words": [
+        "is throwing",
+        "throws"
+      ],
+      "occurrences": {
+        "is throwing": 1,
+        "throws": 1
+      }
+    },
+    {
+      "id": "cluster519",
+      "words": [
+        "watches",
+        "is watching"
+      ],
+      "occurrences": {
+        "watches": 2,
+        "is watching": 1
+      }
+    },
+    {
+      "id": "cluster520",
+      "words": [
+        "islam",
+        "islamic"
+      ],
+      "occurrences": {
+        "islam": 4,
+        "islamic": 3
+      }
+    },
+    {
+      "id": "cluster521",
+      "words": [
+        "israel",
+        "israeli"
+      ],
+      "occurrences": {
+        "israel": 5,
+        "israeli": 1
+      }
+    },
+    {
+      "id": "cluster522",
+      "words": [
+        "itch",
+        "itchy"
+      ],
+      "occurrences": {
+        "itch": 2,
+        "itchy": 1
+      }
+    },
+    {
+      "id": "cluster523",
+      "words": [
+        "item",
+        "itemization"
+      ],
+      "occurrences": {
+        "item": 9,
+        "itemization": 1
+      }
+    },
+    {
+      "id": "cluster524",
+      "words": [
+        "jackson's",
+        "jacksonians"
+      ],
+      "occurrences": {
+        "jackson's": 1,
+        "jacksonians": 1
+      }
+    },
+    {
+      "id": "cluster525",
+      "words": [
+        "jaguares",
+        "jaguars"
+      ],
+      "occurrences": {
+        "jaguares": 1,
+        "jaguars": 1
+      }
+    },
+    {
+      "id": "cluster526",
+      "words": [
+        "jail",
+        "prison"
+      ],
+      "occurrences": {
+        "jail": 4,
+        "prison": 3
+      }
+    },
+    {
+      "id": "cluster527",
+      "words": [
+        "jargon",
+        "jargon-heavy"
+      ],
+      "occurrences": {
+        "jargon": 6,
+        "jargon-heavy": 1
+      }
+    },
+    {
+      "id": "cluster528",
+      "words": [
+        "joseph",
+        "josephson"
+      ],
+      "occurrences": {
+        "joseph": 3,
+        "josephson": 2
+      }
+    },
+    {
+      "id": "cluster529",
+      "words": [
+        "josh",
+        "joshanda"
+      ],
+      "occurrences": {
+        "josh": 1,
+        "joshanda": 1
+      }
+    },
+    {
+      "id": "cluster530",
+      "words": [
+        "journalistic",
+        "journalism"
+      ],
+      "occurrences": {
+        "journalistic": 46,
+        "journalism": 2
+      }
+    },
+    {
+      "id": "cluster531",
+      "words": [
+        "judgment",
+        "judgement"
+      ],
+      "occurrences": {
+        "judgment": 4,
+        "judgement": 1
+      }
+    },
+    {
+      "id": "cluster532",
+      "words": [
+        "jurisdiction",
+        "jurisdictional"
+      ],
+      "occurrences": {
+        "jurisdiction": 4,
+        "jurisdictional": 1
+      }
+    },
+    {
+      "id": "cluster533",
+      "words": [
+        "katakana",
+        "katakan"
+      ],
+      "occurrences": {
+        "katakana": 10,
+        "katakan": 1
+      }
+    },
+    {
+      "id": "cluster534",
+      "words": [
+        "kidney",
+        "renal"
+      ],
+      "occurrences": {
+        "kidney": 10,
+        "renal": 2
+      }
+    },
+    {
+      "id": "cluster535",
+      "words": [
+        "king's",
+        "kings"
+      ],
+      "occurrences": {
+        "king's": 1,
+        "kings": 1
+      }
+    },
+    {
+      "id": "cluster536",
+      "words": [
+        "korea",
+        "korean"
+      ],
+      "occurrences": {
+        "korea": 6,
+        "korean": 5
+      }
+    },
+    {
+      "id": "cluster537",
+      "words": [
+        "lab",
+        "laboratory"
+      ],
+      "occurrences": {
+        "lab": 7,
+        "laboratory": 1
+      }
+    },
+    {
+      "id": "cluster538",
+      "words": [
+        "last-update",
+        "latest-update"
+      ],
+      "occurrences": {
+        "last-update": 1,
+        "latest-update": 1
+      }
+    },
+    {
+      "id": "cluster539",
+      "words": [
+        "leader",
+        "leadership"
+      ],
+      "occurrences": {
+        "leader": 5,
+        "leadership": 1
+      }
+    },
+    {
+      "id": "cluster540",
+      "words": [
+        "leaders",
+        "leader's"
+      ],
+      "occurrences": {
+        "leaders": 4,
+        "leader's": 1
+      }
+    },
+    {
+      "id": "cluster541",
+      "words": [
+        "right",
+        "left"
+      ],
+      "occurrences": {
+        "right": 11,
+        "left": 6
+      }
+    },
+    {
+      "id": "cluster542",
+      "words": [
+        "lefty",
+        "righty"
+      ],
+      "occurrences": {
+        "lefty": 1,
+        "righty": 1
+      }
+    },
+    {
+      "id": "cluster543",
+      "words": [
+        "legal",
+        "legally"
+      ],
+      "occurrences": {
+        "legal": 14,
+        "legally": 1
+      }
+    },
+    {
+      "id": "cluster544",
+      "words": [
+        "letter",
+        "single-letter"
+      ],
+      "occurrences": {
+        "letter": 14,
+        "single-letter": 1
+      }
+    },
+    {
+      "id": "cluster545",
+      "words": [
+        "lez",
+        "lezgin"
+      ],
+      "occurrences": {
+        "lez": 2,
+        "lezgin": 1
+      }
+    },
+    {
+      "id": "cluster546",
+      "words": [
+        "ligament",
+        "ligamentum"
+      ],
+      "occurrences": {
+        "ligament": 2,
+        "ligamentum": 1
+      }
+    },
+    {
+      "id": "cluster547",
+      "words": [
+        "likely",
+        "probably"
+      ],
+      "occurrences": {
+        "likely": 9,
+        "probably": 6
+      }
+    },
+    {
+      "id": "cluster548",
+      "words": [
+        "lingua",
+        "lingual"
+      ],
+      "occurrences": {
+        "lingua": 1,
+        "lingual": 1
+      }
+    },
+    {
+      "id": "cluster549",
+      "words": [
+        "literary",
+        "literary-reference"
+      ],
+      "occurrences": {
+        "literary": 6,
+        "literary-reference": 1
+      }
+    },
+    {
+      "id": "cluster550",
+      "words": [
+        "location",
+        "locational"
+      ],
+      "occurrences": {
+        "location": 12,
+        "locational": 1
+      }
+    },
+    {
+      "id": "cluster551",
+      "words": [
+        "long",
+        "longer"
+      ],
+      "occurrences": {
+        "long": 424,
+        "longer": 5
+      }
+    },
+    {
+      "id": "cluster552",
+      "words": [
+        "lose",
+        "loss"
+      ],
+      "occurrences": {
+        "lose": 6,
+        "loss": 6
+      }
+    },
+    {
+      "id": "cluster553",
+      "words": [
+        "moon",
+        "lunar"
+      ],
+      "occurrences": {
+        "moon": 9,
+        "lunar": 3
+      }
+    },
+    {
+      "id": "cluster554",
+      "words": [
+        "pulmonary",
+        "lung"
+      ],
+      "occurrences": {
+        "pulmonary": 3,
+        "lung": 1
+      }
+    },
+    {
+      "id": "cluster555",
+      "words": [
+        "lymph",
+        "lymphatic"
+      ],
+      "occurrences": {
+        "lymph": 5,
+        "lymphatic": 1
+      }
+    },
+    {
+      "id": "cluster556",
+      "words": [
+        "mainly",
+        "primarily"
+      ],
+      "occurrences": {
+        "mainly": 4,
+        "primarily": 3
+      }
+    },
+    {
+      "id": "cluster557",
+      "words": [
+        "malaysia",
+        "malaysian"
+      ],
+      "occurrences": {
+        "malaysia": 1,
+        "malaysian": 1
+      }
+    },
+    {
+      "id": "cluster558",
+      "words": [
+        "men's",
+        "man's"
+      ],
+      "occurrences": {
+        "men's": 4,
+        "man's": 1
+      }
+    },
+    {
+      "id": "cluster559",
+      "words": [
+        "marketing",
+        "marketting"
+      ],
+      "occurrences": {
+        "marketing": 20,
+        "marketting": 1
+      }
+    },
+    {
+      "id": "cluster560",
+      "words": [
+        "marks",
+        "markings"
+      ],
+      "occurrences": {
+        "marks": 11,
+        "markings": 1
+      }
+    },
+    {
+      "id": "cluster561",
+      "words": [
+        "marriage",
+        "marry"
+      ],
+      "occurrences": {
+        "marriage": 5,
+        "marry": 3
+      }
+    },
+    {
+      "id": "cluster562",
+      "words": [
+        "marx",
+        "marxxx"
+      ],
+      "occurrences": {
+        "marx": 1,
+        "marxxx": 1
+      }
+    },
+    {
+      "id": "cluster563",
+      "words": [
+        "masters",
+        "master's"
+      ],
+      "occurrences": {
+        "masters": 7,
+        "master's": 1
+      }
+    },
+    {
+      "id": "cluster564",
+      "words": [
+        "match-fixing",
+        "matching"
+      ],
+      "occurrences": {
+        "match-fixing": 1,
+        "matching": 1
+      }
+    },
+    {
+      "id": "cluster565",
+      "words": [
+        "mcdonald's",
+        "mcdonalds"
+      ],
+      "occurrences": {
+        "mcdonald's": 1,
+        "mcdonalds": 1
+      }
+    },
+    {
+      "id": "cluster566",
+      "words": [
+        "mentioning",
+        "mentionning"
+      ],
+      "occurrences": {
+        "mentioning": 163,
+        "mentionning": 2
+      }
+    },
+    {
+      "id": "cluster567",
+      "words": [
+        "merle",
+        "meryl"
+      ],
+      "occurrences": {
+        "merle": 1,
+        "meryl": 1
+      }
+    },
+    {
+      "id": "cluster568",
+      "words": [
+        "metabolism",
+        "metabolic"
+      ],
+      "occurrences": {
+        "metabolism": 4,
+        "metabolic": 3
+      }
+    },
+    {
+      "id": "cluster569",
+      "words": [
+        "metal",
+        "metallic"
+      ],
+      "occurrences": {
+        "metal": 7,
+        "metallic": 1
+      }
+    },
+    {
+      "id": "cluster570",
+      "words": [
+        "metamorphism",
+        "metamorphic"
+      ],
+      "occurrences": {
+        "metamorphism": 2,
+        "metamorphic": 1
+      }
+    },
+    {
+      "id": "cluster571",
+      "words": [
+        "meter",
+        "metre"
+      ],
+      "occurrences": {
+        "meter": 6,
+        "metre": 1
+      }
+    },
+    {
+      "id": "cluster572",
+      "words": [
+        "meters",
+        "metres"
+      ],
+      "occurrences": {
+        "meters": 1,
+        "metres": 1
+      }
+    },
+    {
+      "id": "cluster573",
+      "words": [
+        "theory",
+        "methodology"
+      ],
+      "occurrences": {
+        "theory": 23,
+        "methodology": 2
+      }
+    },
+    {
+      "id": "cluster574",
+      "words": [
+        "middle",
+        "mid"
+      ],
+      "occurrences": {
+        "middle": 12,
+        "mid": 1
+      }
+    },
+    {
+      "id": "cluster575",
+      "words": [
+        "my",
+        "mine"
+      ],
+      "occurrences": {
+        "my": 56,
+        "mine": 1
+      }
+    },
+    {
+      "id": "cluster576",
+      "words": [
+        "mj",
+        "mjy"
+      ],
+      "occurrences": {
+        "mj": 1,
+        "mjy": 1
+      }
+    },
+    {
+      "id": "cluster577",
+      "words": [
+        "modelling",
+        "modeling"
+      ],
+      "occurrences": {
+        "modelling": 4,
+        "modeling": 1
+      }
+    },
+    {
+      "id": "cluster578",
+      "words": [
+        "tuesday",
+        "monday"
+      ],
+      "occurrences": {
+        "tuesday": 5,
+        "monday": 4
+      }
+    },
+    {
+      "id": "cluster579",
+      "words": [
+        "monotonicity",
+        "monotone"
+      ],
+      "occurrences": {
+        "monotonicity": 2,
+        "monotone": 1
+      }
+    },
+    {
+      "id": "cluster580",
+      "words": [
+        "monster's",
+        "monsters"
+      ],
+      "occurrences": {
+        "monster's": 3,
+        "monsters": 1
+      }
+    },
+    {
+      "id": "cluster581",
+      "words": [
+        "month",
+        "monthly"
+      ],
+      "occurrences": {
+        "month": 22,
+        "monthly": 3
+      }
+    },
+    {
+      "id": "cluster582",
+      "words": [
+        "movement",
+        "motion"
+      ],
+      "occurrences": {
+        "movement": 15,
+        "motion": 3
+      }
+    },
+    {
+      "id": "cluster583",
+      "words": [
+        "rna",
+        "mrna"
+      ],
+      "occurrences": {
+        "rna": 5,
+        "mrna": 2
+      }
+    },
+    {
+      "id": "cluster584",
+      "words": [
+        "mucus",
+        "mucous"
+      ],
+      "occurrences": {
+        "mucus": 3,
+        "mucous": 2
+      }
+    },
+    {
+      "id": "cluster585",
+      "words": [
+        "several",
+        "multiple"
+      ],
+      "occurrences": {
+        "several": 17,
+        "multiple": 16
+      }
+    },
+    {
+      "id": "cluster586",
+      "words": [
+        "music",
+        "musical"
+      ],
+      "occurrences": {
+        "music": 29,
+        "musical": 3
+      }
+    },
+    {
+      "id": "cluster587",
+      "words": [
+        "yourself",
+        "myself"
+      ],
+      "occurrences": {
+        "yourself": 2,
+        "myself": 1
+      }
+    },
+    {
+      "id": "cluster588",
+      "words": [
+        "mythology",
+        "mythological"
+      ],
+      "occurrences": {
+        "mythology": 15,
+        "mythological": 14
+      }
+    },
+    {
+      "id": "cluster589",
+      "words": [
+        "naam",
+        "naim"
+      ],
+      "occurrences": {
+        "naam": 1,
+        "naim": 1
+      }
+    },
+    {
+      "id": "cluster590",
+      "words": [
+        "national",
+        "nationally"
+      ],
+      "occurrences": {
+        "national": 11,
+        "nationally": 1
+      }
+    },
+    {
+      "id": "cluster591",
+      "words": [
+        "nato",
+        "non-nato"
+      ],
+      "occurrences": {
+        "nato": 4,
+        "non-nato": 1
+      }
+    },
+    {
+      "id": "cluster592",
+      "words": [
+        "necessary",
+        "necessity"
+      ],
+      "occurrences": {
+        "necessary": 6,
+        "necessity": 1
+      }
+    },
+    {
+      "id": "cluster593",
+      "words": [
+        "need",
+        "needed"
+      ],
+      "occurrences": {
+        "need": 47,
+        "needed": 21
+      }
+    },
+    {
+      "id": "cluster594",
+      "words": [
+        "neurological",
+        "neurologically"
+      ],
+      "occurrences": {
+        "neurological": 1,
+        "neurologically": 1
+      }
+    },
+    {
+      "id": "cluster595",
+      "words": [
+        "neuron",
+        "neuronal"
+      ],
+      "occurrences": {
+        "neuron": 7,
+        "neuronal": 1
+      }
+    },
+    {
+      "id": "cluster596",
+      "words": [
+        "older",
+        "newer"
+      ],
+      "occurrences": {
+        "older": 3,
+        "newer": 1
+      }
+    },
+    {
+      "id": "cluster597",
+      "words": [
+        "next",
+        "thisnext"
+      ],
+      "occurrences": {
+        "next": 8,
+        "thisnext": 1
+      }
+    },
+    {
+      "id": "cluster598",
+      "words": [
+        "nine",
+        "ninth"
+      ],
+      "occurrences": {
+        "nine": 2,
+        "ninth": 1
+      }
+    },
+    {
+      "id": "cluster599",
+      "words": [
+        "nitride",
+        "nitrite"
+      ],
+      "occurrences": {
+        "nitride": 1,
+        "nitrite": 1
+      }
+    },
+    {
+      "id": "cluster600",
+      "words": [
+        "nominee",
+        "nomination"
+      ],
+      "occurrences": {
+        "nominee": 4,
+        "nomination": 1
+      }
+    },
+    {
+      "id": "cluster601",
+      "words": [
+        "nominees",
+        "nominations"
+      ],
+      "occurrences": {
+        "nominees": 3,
+        "nominations": 1
+      }
+    },
+    {
+      "id": "cluster602",
+      "words": [
+        "non-zero",
+        "zero"
+      ],
+      "occurrences": {
+        "non-zero": 1,
+        "zero": 1
+      }
+    },
+    {
+      "id": "cluster603",
+      "words": [
+        "nonlinear",
+        "nonlinearity"
+      ],
+      "occurrences": {
+        "nonlinear": 1,
+        "nonlinearity": 1
+      }
+    },
+    {
+      "id": "cluster604",
+      "words": [
+        "normal",
+        "normally"
+      ],
+      "occurrences": {
+        "normal": 46,
+        "normally": 1
+      }
+    },
+    {
+      "id": "cluster605",
+      "words": [
+        "numbers",
+        "numerals"
+      ],
+      "occurrences": {
+        "numbers": 10,
+        "numerals": 1
+      }
+    },
+    {
+      "id": "cluster606",
+      "words": [
+        "numerical",
+        "numeric"
+      ],
+      "occurrences": {
+        "numerical": 3,
+        "numeric": 1
+      }
+    },
+    {
+      "id": "cluster607",
+      "words": [
+        "observational",
+        "observation"
+      ],
+      "occurrences": {
+        "observational": 4,
+        "observation": 2
+      }
+    },
+    {
+      "id": "cluster608",
+      "words": [
+        "occasional",
+        "occasionally"
+      ],
+      "occurrences": {
+        "occasional": 2,
+        "occasionally": 2
+      }
+    },
+    {
+      "id": "cluster609",
+      "words": [
+        "off-season",
+        "offseason"
+      ],
+      "occurrences": {
+        "off-season": 1,
+        "offseason": 1
+      }
+    },
+    {
+      "id": "cluster610",
+      "words": [
+        "official",
+        "officially"
+      ],
+      "occurrences": {
+        "official": 10,
+        "officially": 1
+      }
+    },
+    {
+      "id": "cluster611",
+      "words": [
+        "opthamologist",
+        "optometrist"
+      ],
+      "occurrences": {
+        "opthamologist": 1,
+        "optometrist": 1
+      }
+    },
+    {
+      "id": "cluster612",
+      "words": [
+        "optical",
+        "optically"
+      ],
+      "occurrences": {
+        "optical": 4,
+        "optically": 1
+      }
+    },
+    {
+      "id": "cluster613",
+      "words": [
+        "optimal",
+        "optimum"
+      ],
+      "occurrences": {
+        "optimal": 1,
+        "optimum": 1
+      }
+    },
+    {
+      "id": "cluster614",
+      "words": [
+        "organization",
+        "organizational"
+      ],
+      "occurrences": {
+        "organization": 8,
+        "organizational": 4
+      }
+    },
+    {
+      "id": "cluster615",
+      "words": [
+        "organizations",
+        "organization's"
+      ],
+      "occurrences": {
+        "organizations": 2,
+        "organization's": 1
+      }
+    },
+    {
+      "id": "cluster616",
+      "words": [
+        "oscillation",
+        "oscillatory"
+      ],
+      "occurrences": {
+        "oscillation": 2,
+        "oscillatory": 1
+      }
+    },
+    {
+      "id": "cluster617",
+      "words": [
+        "osteopath",
+        "osteopathic"
+      ],
+      "occurrences": {
+        "osteopath": 1,
+        "osteopathic": 1
+      }
+    },
+    {
+      "id": "cluster618",
+      "words": [
+        "ot",
+        "ota"
+      ],
+      "occurrences": {
+        "ot": 1,
+        "ota": 1
+      }
+    },
+    {
+      "id": "cluster619",
+      "words": [
+        "results",
+        "outcomes"
+      ],
+      "occurrences": {
+        "results": 24,
+        "outcomes": 1
+      }
+    },
+    {
+      "id": "cluster620",
+      "words": [
+        "result",
+        "output"
+      ],
+      "occurrences": {
+        "result": 12,
+        "output": 8
+      }
+    },
+    {
+      "id": "cluster621",
+      "words": [
+        "ownership",
+        "owner"
+      ],
+      "occurrences": {
+        "ownership": 4,
+        "owner": 3
+      }
+    },
+    {
+      "id": "cluster622",
+      "words": [
+        "panda",
+        "pandan"
+      ],
+      "occurrences": {
+        "panda": 1,
+        "pandan": 1
+      }
+    },
+    {
+      "id": "cluster623",
+      "words": [
+        "parentheses",
+        "parenthesis"
+      ],
+      "occurrences": {
+        "parentheses": 7,
+        "parenthesis": 1
+      }
+    },
+    {
+      "id": "cluster624",
+      "words": [
+        "parenthetical",
+        "parenthetically"
+      ],
+      "occurrences": {
+        "parenthetical": 45,
+        "parenthetically": 1
+      }
+    },
+    {
+      "id": "cluster625",
+      "words": [
+        "participate",
+        "participation"
+      ],
+      "occurrences": {
+        "participate": 3,
+        "participation": 1
+      }
+    },
+    {
+      "id": "cluster626",
+      "words": [
+        "specific",
+        "particular"
+      ],
+      "occurrences": {
+        "specific": 18,
+        "particular": 4
+      }
+    },
+    {
+      "id": "cluster627",
+      "words": [
+        "patellae",
+        "patellar"
+      ],
+      "occurrences": {
+        "patellae": 1,
+        "patellar": 1
+      }
+    },
+    {
+      "id": "cluster628",
+      "words": [
+        "pb",
+        "pbx"
+      ],
+      "occurrences": {
+        "pb": 1,
+        "pbx": 1
+      }
+    },
+    {
+      "id": "cluster629",
+      "words": [
+        "pepper",
+        "peppercorn"
+      ],
+      "occurrences": {
+        "pepper": 2,
+        "peppercorn": 1
+      }
+    },
+    {
+      "id": "cluster630",
+      "words": [
+        "percent",
+        "percentage"
+      ],
+      "occurrences": {
+        "percent": 10,
+        "percentage": 4
+      }
+    },
+    {
+      "id": "cluster631",
+      "words": [
+        "person's",
+        "persons"
+      ],
+      "occurrences": {
+        "person's": 4,
+        "persons": 1
+      }
+    },
+    {
+      "id": "cluster632",
+      "words": [
+        "personification",
+        "personify"
+      ],
+      "occurrences": {
+        "personification": 1,
+        "personify": 1
+      }
+    },
+    {
+      "id": "cluster633",
+      "words": [
+        "peru",
+        "peruvian"
+      ],
+      "occurrences": {
+        "peru": 3,
+        "peruvian": 1
+      }
+    },
+    {
+      "id": "cluster634",
+      "words": [
+        "phenomena",
+        "phenomenon"
+      ],
+      "occurrences": {
+        "phenomena": 2,
+        "phenomenon": 2
+      }
+    },
+    {
+      "id": "cluster635",
+      "words": [
+        "philadelphia",
+        "philly"
+      ],
+      "occurrences": {
+        "philadelphia": 9,
+        "philly": 1
+      }
+    },
+    {
+      "id": "cluster636",
+      "words": [
+        "philosophers",
+        "philosopher's"
+      ],
+      "occurrences": {
+        "philosophers": 2,
+        "philosopher's": 1
+      }
+    },
+    {
+      "id": "cluster637",
+      "words": [
+        "philosophy",
+        "philosophical"
+      ],
+      "occurrences": {
+        "philosophy": 5,
+        "philosophical": 1
+      }
+    },
+    {
+      "id": "cluster638",
+      "words": [
+        "pion",
+        "pion-pion"
+      ],
+      "occurrences": {
+        "pion": 5,
+        "pion-pion": 2
+      }
+    },
+    {
+      "id": "cluster639",
+      "words": [
+        "piping",
+        "pipping"
+      ],
+      "occurrences": {
+        "piping": 1,
+        "pipping": 1
+      }
+    },
+    {
+      "id": "cluster640",
+      "words": [
+        "place-name",
+        "place-and-name"
+      ],
+      "occurrences": {
+        "place-name": 2,
+        "place-and-name": 1
+      }
+    },
+    {
+      "id": "cluster641",
+      "words": [
+        "players",
+        "player's"
+      ],
+      "occurrences": {
+        "players": 7,
+        "player's": 2
+      }
+    },
+    {
+      "id": "cluster642",
+      "words": [
+        "pneumonia",
+        "pneumoniae"
+      ],
+      "occurrences": {
+        "pneumonia": 2,
+        "pneumoniae": 1
+      }
+    },
+    {
+      "id": "cluster643",
+      "words": [
+        "poem",
+        "poetry"
+      ],
+      "occurrences": {
+        "poem": 6,
+        "poetry": 4
+      }
+    },
+    {
+      "id": "cluster644",
+      "words": [
+        "polite",
+        "politeness"
+      ],
+      "occurrences": {
+        "polite": 12,
+        "politeness": 2
+      }
+    },
+    {
+      "id": "cluster645",
+      "words": [
+        "pollinate",
+        "pollination"
+      ],
+      "occurrences": {
+        "pollinate": 1,
+        "pollination": 1
+      }
+    },
+    {
+      "id": "cluster646",
+      "words": [
+        "polyphosphates",
+        "triphosphates"
+      ],
+      "occurrences": {
+        "polyphosphates": 1,
+        "triphosphates": 1
+      }
+    },
+    {
+      "id": "cluster647",
+      "words": [
+        "possible",
+        "possibility"
+      ],
+      "occurrences": {
+        "possible": 16,
+        "possibility": 3
+      }
+    },
+    {
+      "id": "cluster648",
+      "words": [
+        "potential",
+        "potentiality"
+      ],
+      "occurrences": {
+        "potential": 7,
+        "potentiality": 1
+      }
+    },
+    {
+      "id": "cluster649",
+      "words": [
+        "pregnancy",
+        "pregnant"
+      ],
+      "occurrences": {
+        "pregnancy": 11,
+        "pregnant": 6
+      }
+    },
+    {
+      "id": "cluster650",
+      "words": [
+        "preparation",
+        "prepare"
+      ],
+      "occurrences": {
+        "preparation": 4,
+        "prepare": 4
+      }
+    },
+    {
+      "id": "cluster651",
+      "words": [
+        "president",
+        "presidential"
+      ],
+      "occurrences": {
+        "president": 15,
+        "presidential": 3
+      }
+    },
+    {
+      "id": "cluster652",
+      "words": [
+        "private",
+        "privately"
+      ],
+      "occurrences": {
+        "private": 9,
+        "privately": 1
+      }
+    },
+    {
+      "id": "cluster653",
+      "words": [
+        "production",
+        "produce"
+      ],
+      "occurrences": {
+        "production": 18,
+        "produce": 12
+      }
+    },
+    {
+      "id": "cluster654",
+      "words": [
+        "produces",
+        "productions"
+      ],
+      "occurrences": {
+        "produces": 2,
+        "productions": 1
+      }
+    },
+    {
+      "id": "cluster655",
+      "words": [
+        "program",
+        "programme"
+      ],
+      "occurrences": {
+        "program": 13,
+        "programme": 1
+      }
+    },
+    {
+      "id": "cluster656",
+      "words": [
+        "prokaryote",
+        "prokaryotic"
+      ],
+      "occurrences": {
+        "prokaryote": 1,
+        "prokaryotic": 1
+      }
+    },
+    {
+      "id": "cluster657",
+      "words": [
+        "proof",
+        "prove"
+      ],
+      "occurrences": {
+        "proof": 4,
+        "prove": 4
+      }
+    },
+    {
+      "id": "cluster658",
+      "words": [
+        "protect",
+        "protection"
+      ],
+      "occurrences": {
+        "protect": 4,
+        "protection": 3
+      }
+    },
+    {
+      "id": "cluster659",
+      "words": [
+        "proton",
+        "protonation"
+      ],
+      "occurrences": {
+        "proton": 8,
+        "protonation": 1
+      }
+    },
+    {
+      "id": "cluster660",
+      "words": [
+        "proverb",
+        "proverbial"
+      ],
+      "occurrences": {
+        "proverb": 1,
+        "proverbial": 1
+      }
+    },
+    {
+      "id": "cluster661",
+      "words": [
+        "tentative",
+        "provisional"
+      ],
+      "occurrences": {
+        "tentative": 8,
+        "provisional": 1
+      }
+    },
+    {
+      "id": "cluster662",
+      "words": [
+        "public",
+        "publicly"
+      ],
+      "occurrences": {
+        "public": 20,
+        "publicly": 1
+      }
+    },
+    {
+      "id": "cluster663",
+      "words": [
+        "punchline",
+        "punchline-like"
+      ],
+      "occurrences": {
+        "punchline": 1,
+        "punchline-like": 1
+      }
+    },
+    {
+      "id": "cluster664",
+      "words": [
+        "quintessence",
+        "quintessential"
+      ],
+      "occurrences": {
+        "quintessence": 4,
+        "quintessential": 2
+      }
+    },
+    {
+      "id": "cluster665",
+      "words": [
+        "quotes",
+        "quotations"
+      ],
+      "occurrences": {
+        "quotes": 17,
+        "quotations": 4
+      }
+    },
+    {
+      "id": "cluster666",
+      "words": [
+        "radiographer",
+        "radiologist"
+      ],
+      "occurrences": {
+        "radiographer": 2,
+        "radiologist": 2
+      }
+    },
+    {
+      "id": "cluster667",
+      "words": [
+        "railroad",
+        "railway"
+      ],
+      "occurrences": {
+        "railroad": 1,
+        "railway": 1
+      }
+    },
+    {
+      "id": "cluster668",
+      "words": [
+        "rand's",
+        "rands"
+      ],
+      "occurrences": {
+        "rand's": 3,
+        "rands": 1
+      }
+    },
+    {
+      "id": "cluster669",
+      "words": [
+        "rank",
+        "rank-style"
+      ],
+      "occurrences": {
+        "rank": 4,
+        "rank-style": 1
+      }
+    },
+    {
+      "id": "cluster670",
+      "words": [
+        "reason",
+        "rationale"
+      ],
+      "occurrences": {
+        "reason": 11,
+        "rationale": 1
+      }
+    },
+    {
+      "id": "cluster671",
+      "words": [
+        "rd",
+        "rdw"
+      ],
+      "occurrences": {
+        "rd": 3,
+        "rdw": 1
+      }
+    },
+    {
+      "id": "cluster672",
+      "words": [
+        "reactions",
+        "reactants"
+      ],
+      "occurrences": {
+        "reactions": 6,
+        "reactants": 1
+      }
+    },
+    {
+      "id": "cluster673",
+      "words": [
+        "readers",
+        "reader's"
+      ],
+      "occurrences": {
+        "readers": 3,
+        "reader's": 1
+      }
+    },
+    {
+      "id": "cluster674",
+      "words": [
+        "real-life",
+        "real-world"
+      ],
+      "occurrences": {
+        "real-life": 1,
+        "real-world": 1
+      }
+    },
+    {
+      "id": "cluster675",
+      "words": [
+        "recent",
+        "recently"
+      ],
+      "occurrences": {
+        "recent": 6,
+        "recently": 2
+      }
+    },
+    {
+      "id": "cluster676",
+      "words": [
+        "recovery",
+        "recover"
+      ],
+      "occurrences": {
+        "recovery": 8,
+        "recover": 4
+      }
+    },
+    {
+      "id": "cluster677",
+      "words": [
+        "recovering",
+        "regaining"
+      ],
+      "occurrences": {
+        "recovering": 2,
+        "regaining": 1
+      }
+    },
+    {
+      "id": "cluster678",
+      "words": [
+        "recruitment",
+        "recruit"
+      ],
+      "occurrences": {
+        "recruitment": 2,
+        "recruit": 1
+      }
+    },
+    {
+      "id": "cluster679",
+      "words": [
+        "reduce",
+        "reducer"
+      ],
+      "occurrences": {
+        "reduce": 2,
+        "reducer": 1
+      }
+    },
+    {
+      "id": "cluster680",
+      "words": [
+        "refer",
+        "referent"
+      ],
+      "occurrences": {
+        "refer": 3,
+        "referent": 1
+      }
+    },
+    {
+      "id": "cluster681",
+      "words": [
+        "refusal",
+        "refuse"
+      ],
+      "occurrences": {
+        "refusal": 5,
+        "refuse": 1
+      }
+    },
+    {
+      "id": "cluster682",
+      "words": [
+        "relations",
+        "relationships"
+      ],
+      "occurrences": {
+        "relations": 3,
+        "relationships": 2
+      }
+    },
+    {
+      "id": "cluster683",
+      "words": [
+        "relocate",
+        "relocation"
+      ],
+      "occurrences": {
+        "relocate": 1,
+        "relocation": 1
+      }
+    },
+    {
+      "id": "cluster684",
+      "words": [
+        "rent",
+        "rental"
+      ],
+      "occurrences": {
+        "rent": 9,
+        "rental": 5
+      }
+    },
+    {
+      "id": "cluster685",
+      "words": [
+        "repeatedly",
+        "repetitive"
+      ],
+      "occurrences": {
+        "repeatedly": 5,
+        "repetitive": 1
+      }
+    },
+    {
+      "id": "cluster686",
+      "words": [
+        "sentences",
+        "rephrases"
+      ],
+      "occurrences": {
+        "sentences": 16,
+        "rephrases": 1
+      }
+    },
+    {
+      "id": "cluster687",
+      "words": [
+        "replicate",
+        "replication"
+      ],
+      "occurrences": {
+        "replicate": 1,
+        "replication": 1
+      }
+    },
+    {
+      "id": "cluster688",
+      "words": [
+        "republican",
+        "republicanism"
+      ],
+      "occurrences": {
+        "republican": 3,
+        "republicanism": 1
+      }
+    },
+    {
+      "id": "cluster689",
+      "words": [
+        "require",
+        "requirement"
+      ],
+      "occurrences": {
+        "require": 3,
+        "requirement": 1
+      }
+    },
+    {
+      "id": "cluster690",
+      "words": [
+        "resign",
+        "resignation"
+      ],
+      "occurrences": {
+        "resign": 2,
+        "resignation": 2
+      }
+    },
+    {
+      "id": "cluster691",
+      "words": [
+        "response",
+        "respond"
+      ],
+      "occurrences": {
+        "response": 14,
+        "respond": 2
+      }
+    },
+    {
+      "id": "cluster692",
+      "words": [
+        "restatements",
+        "restates"
+      ],
+      "occurrences": {
+        "restatements": 1,
+        "restates": 1
+      }
+    },
+    {
+      "id": "cluster693",
+      "words": [
+        "retriever",
+        "retrieve"
+      ],
+      "occurrences": {
+        "retriever": 3,
+        "retrieve": 2
+      }
+    },
+    {
+      "id": "cluster694",
+      "words": [
+        "reversals",
+        "reverses"
+      ],
+      "occurrences": {
+        "reversals": 1,
+        "reverses": 1
+      }
+    },
+    {
+      "id": "cluster695",
+      "words": [
+        "rolls",
+        "rollins"
+      ],
+      "occurrences": {
+        "rolls": 2,
+        "rollins": 1
+      }
+    },
+    {
+      "id": "cluster696",
+      "words": [
+        "rose",
+        "rosea"
+      ],
+      "occurrences": {
+        "rose": 5,
+        "rosea": 1
+      }
+    },
+    {
+      "id": "cluster697",
+      "words": [
+        "rotation",
+        "rotate"
+      ],
+      "occurrences": {
+        "rotation": 3,
+        "rotate": 1
+      }
+    },
+    {
+      "id": "cluster698",
+      "words": [
+        "rt",
+        "rtr"
+      ],
+      "occurrences": {
+        "rt": 2,
+        "rtr": 1
+      }
+    },
+    {
+      "id": "cluster699",
+      "words": [
+        "rural",
+        "rural-urban"
+      ],
+      "occurrences": {
+        "rural": 3,
+        "rural-urban": 1
+      }
+    },
+    {
+      "id": "cluster700",
+      "words": [
+        "sam's",
+        "sams"
+      ],
+      "occurrences": {
+        "sam's": 2,
+        "sams": 1
+      }
+    },
+    {
+      "id": "cluster701",
+      "words": [
+        "saves",
+        "savings"
+      ],
+      "occurrences": {
+        "saves": 1,
+        "savings": 1
+      }
+    },
+    {
+      "id": "cluster702",
+      "words": [
+        "scan",
+        "scanner"
+      ],
+      "occurrences": {
+        "scan": 5,
+        "scanner": 3
+      }
+    },
+    {
+      "id": "cluster703",
+      "words": [
+        "scents",
+        "smells"
+      ],
+      "occurrences": {
+        "scents": 1,
+        "smells": 1
+      }
+    },
+    {
+      "id": "cluster704",
+      "words": [
+        "schedule",
+        "schedule-like"
+      ],
+      "occurrences": {
+        "schedule": 6,
+        "schedule-like": 1
+      }
+    },
+    {
+      "id": "cluster705",
+      "words": [
+        "scientific",
+        "science"
+      ],
+      "occurrences": {
+        "scientific": 38,
+        "science": 26
+      }
+    },
+    {
+      "id": "cluster706",
+      "words": [
+        "science-news",
+        "sciences"
+      ],
+      "occurrences": {
+        "science-news": 1,
+        "sciences": 1
+      }
+    },
+    {
+      "id": "cluster707",
+      "words": [
+        "sclerosis",
+        "scleritis"
+      ],
+      "occurrences": {
+        "sclerosis": 2,
+        "scleritis": 1
+      }
+    },
+    {
+      "id": "cluster708",
+      "words": [
+        "scotland",
+        "scottish"
+      ],
+      "occurrences": {
+        "scotland": 3,
+        "scottish": 2
+      }
+    },
+    {
+      "id": "cluster709",
+      "words": [
+        "scott",
+        "scotty"
+      ],
+      "occurrences": {
+        "scott": 2,
+        "scotty": 1
+      }
+    },
+    {
+      "id": "cluster710",
+      "words": [
+        "sdss",
+        "sd"
+      ],
+      "occurrences": {
+        "sdss": 2,
+        "sd": 1
+      }
+    },
+    {
+      "id": "cluster711",
+      "words": [
+        "sea",
+        "seawater"
+      ],
+      "occurrences": {
+        "sea": 17,
+        "seawater": 1
+      }
+    },
+    {
+      "id": "cluster712",
+      "words": [
+        "send",
+        "sent"
+      ],
+      "occurrences": {
+        "send": 4,
+        "sent": 2
+      }
+    },
+    {
+      "id": "cluster713",
+      "words": [
+        "separates",
+        "separations"
+      ],
+      "occurrences": {
+        "separates": 1,
+        "separations": 1
+      }
+    },
+    {
+      "id": "cluster714",
+      "words": [
+        "serbian",
+        "serbia"
+      ],
+      "occurrences": {
+        "serbian": 2,
+        "serbia": 1
+      }
+    },
+    {
+      "id": "cluster715",
+      "words": [
+        "shakespeare",
+        "shakespearean"
+      ],
+      "occurrences": {
+        "shakespeare": 5,
+        "shakespearean": 1
+      }
+    },
+    {
+      "id": "cluster716",
+      "words": [
+        "short",
+        "shorten"
+      ],
+      "occurrences": {
+        "short": 2814,
+        "shorten": 2
+      }
+    },
+    {
+      "id": "cluster717",
+      "words": [
+        "should",
+        "shouldn"
+      ],
+      "occurrences": {
+        "should": 110,
+        "shouldn": 1
+      }
+    },
+    {
+      "id": "cluster718",
+      "words": [
+        "silica",
+        "silicate"
+      ],
+      "occurrences": {
+        "silica": 3,
+        "silicate": 2
+      }
+    },
+    {
+      "id": "cluster719",
+      "words": [
+        "similar",
+        "similarity"
+      ],
+      "occurrences": {
+        "similar": 24,
+        "similarity": 3
+      }
+    },
+    {
+      "id": "cluster720",
+      "words": [
+        "simpler",
+        "simplification"
+      ],
+      "occurrences": {
+        "simpler": 1,
+        "simplification": 1
+      }
+    },
+    {
+      "id": "cluster721",
+      "words": [
+        "sing",
+        "singing"
+      ],
+      "occurrences": {
+        "sing": 2,
+        "singing": 2
+      }
+    },
+    {
+      "id": "cluster722",
+      "words": [
+        "six",
+        "sixth"
+      ],
+      "occurrences": {
+        "six": 1,
+        "sixth": 1
+      }
+    },
+    {
+      "id": "cluster723",
+      "words": [
+        "slang",
+        "slang-definition"
+      ],
+      "occurrences": {
+        "slang": 2,
+        "slang-definition": 1
+      }
+    },
+    {
+      "id": "cluster724",
+      "words": [
+        "small",
+        "tiny"
+      ],
+      "occurrences": {
+        "small": 16,
+        "tiny": 4
+      }
+    },
+    {
+      "id": "cluster725",
+      "words": [
+        "snow",
+        "snowfall"
+      ],
+      "occurrences": {
+        "snow": 3,
+        "snowfall": 1
+      }
+    },
+    {
+      "id": "cluster726",
+      "words": [
+        "soai",
+        "soi"
+      ],
+      "occurrences": {
+        "soai": 1,
+        "soi": 1
+      }
+    },
+    {
+      "id": "cluster727",
+      "words": [
+        "sociology",
+        "sociocultural"
+      ],
+      "occurrences": {
+        "sociology": 4,
+        "sociocultural": 3
+      }
+    },
+    {
+      "id": "cluster728",
+      "words": [
+        "solution",
+        "solve"
+      ],
+      "occurrences": {
+        "solution": 3,
+        "solve": 1
+      }
+    },
+    {
+      "id": "cluster729",
+      "words": [
+        "sore",
+        "soreness"
+      ],
+      "occurrences": {
+        "sore": 5,
+        "soreness": 1
+      }
+    },
+    {
+      "id": "cluster730",
+      "words": [
+        "sorrowful",
+        "sorrowfully"
+      ],
+      "occurrences": {
+        "sorrowful": 1,
+        "sorrowfully": 1
+      }
+    },
+    {
+      "id": "cluster731",
+      "words": [
+        "spatial",
+        "spatially"
+      ],
+      "occurrences": {
+        "spatial": 1,
+        "spatially": 1
+      }
+    },
+    {
+      "id": "cluster732",
+      "words": [
+        "speaker's",
+        "speakers"
+      ],
+      "occurrences": {
+        "speaker's": 1,
+        "speakers": 1
+      }
+    },
+    {
+      "id": "cluster733",
+      "words": [
+        "spectra",
+        "spectrum"
+      ],
+      "occurrences": {
+        "spectra": 3,
+        "spectrum": 3
+      }
+    },
+    {
+      "id": "cluster734",
+      "words": [
+        "spiritual",
+        "spiritually"
+      ],
+      "occurrences": {
+        "spiritual": 3,
+        "spiritually": 1
+      }
+    },
+    {
+      "id": "cluster735",
+      "words": [
+        "stable",
+        "stability"
+      ],
+      "occurrences": {
+        "stable": 8,
+        "stability": 2
+      }
+    },
+    {
+      "id": "cluster736",
+      "words": [
+        "state",
+        "stateful"
+      ],
+      "occurrences": {
+        "state": 43,
+        "stateful": 1
+      }
+    },
+    {
+      "id": "cluster737",
+      "words": [
+        "stoma",
+        "stomata"
+      ],
+      "occurrences": {
+        "stoma": 1,
+        "stomata": 1
+      }
+    },
+    {
+      "id": "cluster738",
+      "words": [
+        "stormwind",
+        "storm"
+      ],
+      "occurrences": {
+        "stormwind": 2,
+        "storm": 1
+      }
+    },
+    {
+      "id": "cluster739",
+      "words": [
+        "striped",
+        "stripped"
+      ],
+      "occurrences": {
+        "striped": 2,
+        "stripped": 1
+      }
+    },
+    {
+      "id": "cluster740",
+      "words": [
+        "structural",
+        "structuralist"
+      ],
+      "occurrences": {
+        "structural": 2,
+        "structuralist": 1
+      }
+    },
+    {
+      "id": "cluster741",
+      "words": [
+        "successful",
+        "success"
+      ],
+      "occurrences": {
+        "successful": 2,
+        "success": 1
+      }
+    },
+    {
+      "id": "cluster742",
+      "words": [
+        "sufficiency",
+        "sufficient"
+      ],
+      "occurrences": {
+        "sufficiency": 1,
+        "sufficient": 1
+      }
+    },
+    {
+      "id": "cluster743",
+      "words": [
+        "suggests",
+        "suggestions"
+      ],
+      "occurrences": {
+        "suggests": 5,
+        "suggestions": 1
+      }
+    },
+    {
+      "id": "cluster744",
+      "words": [
+        "sulfuric",
+        "sulfur"
+      ],
+      "occurrences": {
+        "sulfuric": 4,
+        "sulfur": 2
+      }
+    },
+    {
+      "id": "cluster745",
+      "words": [
+        "suppression",
+        "suppressor"
+      ],
+      "occurrences": {
+        "suppression": 1,
+        "suppressor": 1
+      }
+    },
+    {
+      "id": "cluster746",
+      "words": [
+        "surgery",
+        "surgical"
+      ],
+      "occurrences": {
+        "surgery": 13,
+        "surgical": 1
+      }
+    },
+    {
+      "id": "cluster747",
+      "words": [
+        "sustainable",
+        "sustainability"
+      ],
+      "occurrences": {
+        "sustainable": 3,
+        "sustainability": 1
+      }
+    },
+    {
+      "id": "cluster748",
+      "words": [
+        "switzerland",
+        "swiss"
+      ],
+      "occurrences": {
+        "switzerland": 3,
+        "swiss": 1
+      }
+    },
+    {
+      "id": "cluster749",
+      "words": [
+        "symmetry",
+        "symmetric"
+      ],
+      "occurrences": {
+        "symmetry": 11,
+        "symmetric": 2
+      }
+    },
+    {
+      "id": "cluster750",
+      "words": [
+        "table",
+        "table-like"
+      ],
+      "occurrences": {
+        "table": 10,
+        "table-like": 1
+      }
+    },
+    {
+      "id": "cluster751",
+      "words": [
+        "te",
+        "tet"
+      ],
+      "occurrences": {
+        "te": 2,
+        "tet": 1
+      }
+    },
+    {
+      "id": "cluster752",
+      "words": [
+        "technologies",
+        "techs"
+      ],
+      "occurrences": {
+        "technologies": 4,
+        "techs": 2
+      }
+    },
+    {
+      "id": "cluster753",
+      "words": [
+        "teenagers",
+        "teens"
+      ],
+      "occurrences": {
+        "teenagers": 2,
+        "teens": 1
+      }
+    },
+    {
+      "id": "cluster754",
+      "words": [
+        "tooth",
+        "teeth"
+      ],
+      "occurrences": {
+        "tooth": 7,
+        "teeth": 2
+      }
+    },
+    {
+      "id": "cluster755",
+      "words": [
+        "telecommunications",
+        "telecoms"
+      ],
+      "occurrences": {
+        "telecommunications": 1,
+        "telecoms": 1
+      }
+    },
+    {
+      "id": "cluster756",
+      "words": [
+        "tv",
+        "television"
+      ],
+      "occurrences": {
+        "tv": 14,
+        "television": 8
+      }
+    },
+    {
+      "id": "cluster757",
+      "words": [
+        "temperature",
+        "temp"
+      ],
+      "occurrences": {
+        "temperature": 79,
+        "temp": 14
+      }
+    },
+    {
+      "id": "cluster758",
+      "words": [
+        "temperatures",
+        "temps"
+      ],
+      "occurrences": {
+        "temperatures": 6,
+        "temps": 1
+      }
+    },
+    {
+      "id": "cluster759",
+      "words": [
+        "territory",
+        "territorial"
+      ],
+      "occurrences": {
+        "territory": 3,
+        "territorial": 2
+      }
+    },
+    {
+      "id": "cluster760",
+      "words": [
+        "tetrahedral",
+        "tetrahedron"
+      ],
+      "occurrences": {
+        "tetrahedral": 1,
+        "tetrahedron": 1
+      }
+    },
+    {
+      "id": "cluster761",
+      "words": [
+        "theatre",
+        "theater"
+      ],
+      "occurrences": {
+        "theatre": 5,
+        "theater": 3
+      }
+    },
+    {
+      "id": "cluster762",
+      "words": [
+        "until",
+        "till"
+      ],
+      "occurrences": {
+        "until": 7,
+        "till": 1
+      }
+    },
+    {
+      "id": "cluster763",
+      "words": [
+        "time-stamped",
+        "timestamped"
+      ],
+      "occurrences": {
+        "time-stamped": 3,
+        "timestamped": 2
+      }
+    },
+    {
+      "id": "cluster764",
+      "words": [
+        "toplessness",
+        "topless"
+      ],
+      "occurrences": {
+        "toplessness": 4,
+        "topless": 3
+      }
+    },
+    {
+      "id": "cluster765",
+      "words": [
+        "topological",
+        "topology"
+      ],
+      "occurrences": {
+        "topological": 2,
+        "topology": 1
+      }
+    },
+    {
+      "id": "cluster766",
+      "words": [
+        "transcript",
+        "transcription"
+      ],
+      "occurrences": {
+        "transcript": 1,
+        "transcription": 1
+      }
+    },
+    {
+      "id": "cluster767",
+      "words": [
+        "transformation",
+        "transform"
+      ],
+      "occurrences": {
+        "transformation": 3,
+        "transform": 1
+      }
+    },
+    {
+      "id": "cluster768",
+      "words": [
+        "transport",
+        "transportation"
+      ],
+      "occurrences": {
+        "transport": 6,
+        "transportation": 3
+      }
+    },
+    {
+      "id": "cluster769",
+      "words": [
+        "tree",
+        "tree-graph"
+      ],
+      "occurrences": {
+        "tree": 16,
+        "tree-graph": 1
+      }
+    },
+    {
+      "id": "cluster770",
+      "words": [
+        "triple",
+        "triplet"
+      ],
+      "occurrences": {
+        "triple": 2,
+        "triplet": 1
+      }
+    },
+    {
+      "id": "cluster771",
+      "words": [
+        "turtles",
+        "turtle's"
+      ],
+      "occurrences": {
+        "turtles": 2,
+        "turtle's": 1
+      }
+    },
+    {
+      "id": "cluster772",
+      "words": [
+        "tweet",
+        "twitter"
+      ],
+      "occurrences": {
+        "tweet": 2,
+        "twitter": 1
+      }
+    },
+    {
+      "id": "cluster773",
+      "words": [
+        "typical",
+        "usual"
+      ],
+      "occurrences": {
+        "typical": 8,
+        "usual": 4
+      }
+    },
+    {
+      "id": "cluster774",
+      "words": [
+        "u",
+        "ut"
+      ],
+      "occurrences": {
+        "u": 16,
+        "ut": 1
+      }
+    },
+    {
+      "id": "cluster775",
+      "words": [
+        "uc",
+        "ucm"
+      ],
+      "occurrences": {
+        "uc": 1,
+        "ucm": 1
+      }
+    },
+    {
+      "id": "cluster776",
+      "words": [
+        "uncertainty",
+        "uncertain"
+      ],
+      "occurrences": {
+        "uncertainty": 5,
+        "uncertain": 1
+      }
+    },
+    {
+      "id": "cluster777",
+      "words": [
+        "unique",
+        "uniqueness"
+      ],
+      "occurrences": {
+        "unique": 5,
+        "uniqueness": 1
+      }
+    },
+    {
+      "id": "cluster778",
+      "words": [
+        "unusual",
+        "unusually"
+      ],
+      "occurrences": {
+        "unusual": 3,
+        "unusually": 2
+      }
+    },
+    {
+      "id": "cluster779",
+      "words": [
+        "urbanisation",
+        "urbanization"
+      ],
+      "occurrences": {
+        "urbanisation": 1,
+        "urbanization": 1
+      }
+    },
+    {
+      "id": "cluster780",
+      "words": [
+        "va",
+        "v"
+      ],
+      "occurrences": {
+        "va": 3,
+        "v": 1
+      }
+    },
+    {
+      "id": "cluster781",
+      "words": [
+        "vaccinations",
+        "vaccines"
+      ],
+      "occurrences": {
+        "vaccinations": 2,
+        "vaccines": 2
+      }
+    },
+    {
+      "id": "cluster782",
+      "words": [
+        "variation",
+        "vary"
+      ],
+      "occurrences": {
+        "variation": 3,
+        "vary": 1
+      }
+    },
+    {
+      "id": "cluster783",
+      "words": [
+        "vegan",
+        "vegan-friendly"
+      ],
+      "occurrences": {
+        "vegan": 1,
+        "vegan-friendly": 1
+      }
+    },
+    {
+      "id": "cluster784",
+      "words": [
+        "velocity",
+        "velocity-dependent"
+      ],
+      "occurrences": {
+        "velocity": 2,
+        "velocity-dependent": 1
+      }
+    },
+    {
+      "id": "cluster785",
+      "words": [
+        "violent",
+        "violence"
+      ],
+      "occurrences": {
+        "violent": 2,
+        "violence": 1
+      }
+    },
+    {
+      "id": "cluster786",
+      "words": [
+        "volcanic",
+        "volcano"
+      ],
+      "occurrences": {
+        "volcanic": 5,
+        "volcano": 4
+      }
+    },
+    {
+      "id": "cluster787",
+      "words": [
+        "warm",
+        "warmer"
+      ],
+      "occurrences": {
+        "warm": 2,
+        "warmer": 2
+      }
+    },
+    {
+      "id": "cluster788",
+      "words": [
+        "warnings",
+        "warns"
+      ],
+      "occurrences": {
+        "warnings": 2,
+        "warns": 1
+      }
+    },
+    {
+      "id": "cluster789",
+      "words": [
+        "watt",
+        "wattage"
+      ],
+      "occurrences": {
+        "watt": 1,
+        "wattage": 1
+      }
+    },
+    {
+      "id": "cluster790",
+      "words": [
+        "week",
+        "weekly"
+      ],
+      "occurrences": {
+        "week": 4,
+        "weekly": 3
+      }
+    },
+    {
+      "id": "cluster791",
+      "words": [
+        "weeks",
+        "week's"
+      ],
+      "occurrences": {
+        "weeks": 3,
+        "week's": 1
+      }
+    },
+    {
+      "id": "cluster792",
+      "words": [
+        "weight",
+        "weigh"
+      ],
+      "occurrences": {
+        "weight": 16,
+        "weigh": 11
+      }
+    },
+    {
+      "id": "cluster793",
+      "words": [
+        "withdrawal",
+        "withdrawn"
+      ],
+      "occurrences": {
+        "withdrawal": 2,
+        "withdrawn": 1
+      }
+    },
+    {
+      "id": "cluster794",
+      "words": [
+        "woman",
+        "women"
+      ],
+      "occurrences": {
+        "woman": 14,
+        "women": 7
+      }
+    },
+    {
+      "id": "cluster795",
+      "words": [
+        "wood",
+        "wooden"
+      ],
+      "occurrences": {
+        "wood": 4,
+        "wooden": 1
+      }
+    },
+    {
+      "id": "cluster796",
+      "words": [
+        "written",
+        "wrote"
+      ],
+      "occurrences": {
+        "written": 30,
+        "wrote": 2
+      }
+    },
+    {
+      "id": "cluster797",
+      "words": [
+        "x",
+        "xxx"
+      ],
+      "occurrences": {
+        "x": 5,
+        "xxx": 1
+      }
+    },
+    {
+      "id": "cluster798",
+      "words": [
+        "z",
+        "zx"
+      ],
+      "occurrences": {
+        "z": 3,
+        "zx": 1
+      }
+    },
+    {
+      "id": "cluster799",
+      "words": [
+        "zip",
+        "zipsor"
+      ],
+      "occurrences": {
+        "zip": 1,
+        "zipsor": 1
+      }
+    }
+  ]
+}

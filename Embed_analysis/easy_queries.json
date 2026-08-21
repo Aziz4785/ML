@@ -1,0 +1,57 @@
+[
+  {
+    "id": "wiki-004323_hard3",
+    "query": "approximately 65-word encyclopedic statistical summary, one long sentence followed by a brief source-attributed update",
+    "rank": 1
+  },
+  {
+    "id": "web-002991_hard1",
+    "query": "informal online creative-portfolio entry combining a terse provenance caption, comma-separated tags, enthusiastic reader remarks, and subscription promotion",
+    "rank": 1
+  },
+  {
+    "id": "web-002991_hard3",
+    "query": "short promotional gallery-page copy with fragmentary metadata, mixed capitalization and emoticon feedback, ending in an email-newsletter invitation",
+    "rank": 1
+  },
+  {
+    "id": "web-002910_hard3",
+    "query": "news-style technology brief moving from release timing and physical details to security features, deployment services, and a brief future-product note",
+    "rank": 1
+  },
+  {
+    "id": "qa-001934_hard1",
+    "query": "very short informal conversational clarification, contrasting one quoted response with several alternative quoted acknowledgments",
+    "rank": 1
+  },
+  {
+    "id": "wiki-002288_hard3",
+    "query": "approximately 110-word encyclopedic summary that moves from broad hazard characterization through statistics to prevention-oriented institutional guidance",
+    "rank": 1
+  },
+  {
+    "id": "qa-000821_hard3",
+    "query": "compact second-person guidance sentence, moving from tentative conclusion to a whether-based criterion and ending with an involved-party distinction",
+    "rank": 1
+  },
+  {
+    "id": "web-000526_hard1",
+    "query": "informal first-person bargain-hunting blog post, enthusiastic conversational register, mixing personal anecdote, price detail, and an emphatic call to action",
+    "rank": 1
+  },
+  {
+    "id": "news-000076_hard1",
+    "query": "informal entertainment-blog commentary of roughly 250 words, with parenthetical asides, repeated ad markers, and linked-source attribution",
+    "rank": 1
+  },
+  {
+    "id": "news-000076_hard2",
+    "query": "passage opening with an aside about a social-media photo roundup, then pivoting to skeptical tabloid commentary and a surprising reported detail",
+    "rank": 1
+  },
+  {
+    "id": "news-000076_hard3",
+    "query": "chatty first-person celebrity-news column that enumerates examples, contrasts trivial coverage with genuine curiosity, and closes on an isolated humorous quotation",
+    "rank": 1
+  }
+]

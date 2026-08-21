@@ -1,0 +1,6 @@
+lightgbm
+matplotlib
+numpy
+scikit-learn
+shap>=0.45
+stylo_metrix==0.1.9.1

@@ -1,0 +1,8 @@
+# Full topic-modeling pipeline. Use Python 3.11 or newer.
+-r requirements.txt
+
+bertopic>=0.17.4,<0.18
+sentence-transformers>=5.6,<6
+umap-learn>=0.5.8,<0.6
+hdbscan>=0.8.44,<0.9
+scikit-learn>=1.7,<2
